@@ -98,11 +98,10 @@
       {AI Engineer}{05/2025 - Present}
       {Volkswagen Group of America}{Belmont, CA}
       \resumeItemListStart
-        \resumeItem{Designing and deploying multi‑agent systems for human–machine interface (HMI) task automation using LangChain/LangGraph and multimodal foundation models.}
-        \resumeItem{Fine-tuning the Qwen2.5-VL-7B model using LoRA and mixed precision training (bf16) with supervised fine-tuning (SFT) followed by reinforcement learning with GRPO for domain-specific grounding and planning in Volkswagen HMI, increasing the success rate of end-to-end task automation.}
-
-        \resumeItem{Performing distillation of the Qwen2.5‑VL‑72B model into smaller variants optimized for latency and resource utilization, deploying with vLLM for high-throughput inference.}
-        \resumeItem{Optimized inference latency and throughput using NVIDIA Nsight Systems for GPU profiling, identifying memory and compute bottlenecks to improve model deployment efficiency.}
+        \resumeItem{Designing and deploying multi‑agent systems with LLM-based reasoning for voice/text-driven HMI task automation using LangChain/LangGraph, developing evaluation frameworks with benchmarks for step completion, end-to-end execution, and grounding accuracy on real devices.}
+        \resumeItem{Fine-tuning multimodal foundation models (Qwen3-VL-8B) using quantization-aware fine-tuning for agentic reasoning and grounding, performing model distillation from larger variants to optimize efficiency.}
+        \resumeItem{Implemented agentic RAG system managing dynamic UI tree hierarchy for agent-based task planning.}
+        \resumeItem{Deployed production LLM systems using vLLM for online model serving with continuous batching to improve throughput and latency.}
       \resumeItemListEnd
       \vspace{0.1cm}
 
@@ -110,11 +109,13 @@
       {Artificial Intelligence Research Assistant}{08/2022 - 06/2025}
       {Case Western Reserve University}{Cleveland, Ohio}
             \resumeItemListStart
+
+\resumeItem{Improved LLM KV-cache quantization by analyzing key/value norm imbalance; providing a theory-backed scheme that achieves 2$\times$ memory savings with more than 94\% accuracy across models up to 70B \href{https://arxiv.org/pdf/2502.15075}{\textcolor{blue}{[paper link]}}}
+
 \resumeItem{Developed LIT-LVM using latent variable models with structured regularization and GNN-based higher-order interactions for biomedical data, outperforming GNN, Factorization Machine, and elastic net baselines \href{https://arxiv.org/pdf/2506.15492}{\textcolor{blue}{[paper link]}}}
 
 \resumeItem{Developed DEASurv, a deep survival model leveraging entity-specific embeddings, attention mechanisms, and contrastive loss to improve multi-modal biological survival prediction on large-scale medical datasets}
 
-\resumeItem{Improved LLM KV-cache quantization by analyzing key/value norm imbalance; providing a theory-backed scheme that achieves 2$\times$ memory savings with more than 94\% accuracy across models up to 70B \href{https://arxiv.org/pdf/2502.15075}{\textcolor{blue}{[paper link]}}}
 
         \resumeItemListEnd
         \vspace{0.1cm}
@@ -123,8 +124,8 @@
     {Software Engineer - AI/ML Intern}{02/2024 - 07/2024}
       {Sherwin-Williams}{Cleveland, Ohio}
         \resumeItemListStart
-\resumeItem{Integrated the Segment Anything Model (SAM) Vision transformer into the Color Expert App with a dedicated image processing endpoint, achieving a 7\% IoU improvement over previous segmentation models.}
-\resumeItem{Integrated a VLM (LLaVA) to interpret user text prompts, generating precise anchor points on the wall as input for SAM, enabling targeted object-specific segmentation}
+\resumeItem{Integrated vision transformers (SAM) into production mobile application with client-backend architecture, enabling real-time inference and achieving 7\% IoU improvement through model optimization.}
+\resumeItem{Built multimodal system integrating vision-language models (LLaVA) with vision transformers for natural language-driven visual grounding and object segmentation.}
 
       \resumeItemListEnd
     \vspace{0.1cm} 
@@ -133,20 +134,11 @@
       {Data Science Research Intern}{05/2023 - 09/2023}
       {Beyond Limits AI}{Glendale, California}
             \resumeItemListStart
-        \resumeItem{Developed and deployed Graph Neural Network models (GCN, GAT, GraphSAGE) using PyTorch Geometric (PyG) for geometric deep learning on graph-structured data, achieving 10\% accuracy improvement over conventional ML approaches}
-        \resumeItem{Fine-tuned Llama-2 Large Language Model (LLM) for oil refinery texts, optimizing parameters with Fully Sharded Data Parallel (FSDP) for multi-GPU setups and quantization for single GPU tasks}
+        \resumeItem{Developed and deployed Graph Neural Network models (GCN, GAT, GraphSAGE) using PyTorch Geometric for graph-structured data, achieving 10\% accuracy improvement over baseline approaches}
+        \resumeItem{Fine-tuned Llama-2 LLM for domain-specific applications using distributed training (FSDP) for multi-GPU setups and quantization for efficient deployment.}
         \resumeItemListEnd
 \vspace{0.1cm}
 
-        \vspace{0.1cm}
-\resumeSubheading
-      {Software Intern}{04/2020 - 07/2020}
-      {Nexteer Automotive}{Auburn Hills, Michigan}
-      \resumeItemListStart
-
-    \resumeItem{Created an API endpoint to pre-process and format real-time electric power steering sensor data.}
-
-      \resumeItemListEnd
     \resumeSubheading
       {Machine Learning Research Assistant}{08/2018 - 07/2022}
       {University of Toledo}{Toledo, Ohio}
@@ -160,9 +152,10 @@
 \section{Skills}
 \vspace{0.1cm}
 - \textbf{Programming Languages}: Python, C++ \\
-- \textbf{Machine Learning}: Vision Transformers, LLM/VLM fine-tuning, Graph Neural Networks, Geometric Deep Learning \\
-- \textbf{Frameworks \& Libraries}: PyTorch, PyTorch Geometric (PyG), LangChain/Graph, TensorFlow, sklearn  \\
-- \textbf{Inference Optimization}: vLLM, onnx, Quantization, Distillation, CUDA C++, NVIDIA Nsight Systems \\
+- \textbf{Machine Learning}: Agent-based Systems, LLM-based Reasoning \& Planning, Reinforcement Learning, LLM/VLM Fine-tuning, Vision Transformers, Graph Neural Networks \\
+- \textbf{ML Infrastructure}: Model Deployment, Distributed Training (FSDP), Distributed Inference \\
+- \textbf{Frameworks \& Libraries}: PyTorch, LangChain/LangGraph, PyTorch Geometric (PyG), TensorFlow, sklearn  \\
+- \textbf{Inference Optimization}: vLLM, Quantization, Model Distillation \\
 - \textbf{DevOps \& Tools}: Docker, Flask, Redis, SQL, Git
 
 

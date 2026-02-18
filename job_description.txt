@@ -1,0 +1,45 @@
+Hi Mohammadreza!
+
+My name is Janelle, and I’m a Tech Recruiter at Apple. I was impressed by your background and wanted to see if you might be open to exploring new opportunities.
+
+I’m partnering with several Siri senior leaders on hiring for one of the company’s top priorities and most exciting AI initiatives. We’re seeking a few exceptional ML Research Engineer (Seattle & Cupertino) with deep expertise in large language models and agent-based systems to help build the core reasoning and simulation capabilities powering the next-generation platform for agentic voice experiences—Siri’s Brain. You’d be joining a pioneering team shaping the future of voice-first, agentic platforms.
+
+If you’re interested in this opportunity, please use the link below to apply directly and send me a copy of your resume. I’ll work to connect you with my leaders.
+
+https://jobs.apple.com/en-us/details/200631038/machine-learning-engineer-llms-agent-systems-and-simulation-tooling-siri-core-modeling
+
+Looking forward to hearing back from you!
+
+
+Best,
+Janelle
+
+
+Summary
+Posted:
+Nov 12, 2025
+Weekly Hours:
+40
+Role Number:
+200631038
+Join a pioneering team shaping the future of voice-first, agentic platforms. As a Senior Machine Learning Engineer, you’ll help define how next-generation intelligent agents reason, plan, and interact with people through natural voice and multimodal experiences. You will develop the foundations of scalable LLM reasoning systems that will power the next wave of human–AI interaction.
+Description
+We’re seeking a senior ML engineer with strong expertise in large language models and agent-based systems to build the core reasoning and simulation capabilities behind a future platform for agentic voice experiences. You will work on advancing how LLMs plan, adapt, and evaluate actions in realistic environments, contributing to the development of reliable and trustworthy AI agents. Your work will focus on developing robust infrastructure and tooling for training, simulation, and evaluation of agentic LLMs. You’ll design and run experiments in simulated environments, build scalable evaluation pipelines, and help integrate agent behaviors across client and backend systems. This role is an opportunity to push the boundaries of reasoning, adaptive behavior, and platform architecture for agent-based intelligence. You will collaborate closely with ML scientists, applied researchers, and product engineers to transform early research into deployable systems. Together, we will shape a platform that empowers developers and end-users to build rich, voice-driven AI experiences.
+Responsibilities
+Design and implement scalable simulation and evaluation frameworks for LLM-based agents
+Collaborate with ML researchers to translate novel reasoning approaches into production-grade systems
+Develop infrastructure for training and experimentation with agentic behaviors
+Integrate agent reasoning capabilities into client-side and backend environments
+Drive iteration speed by creating reliable tooling for experimentation, prototyping, and deployment
+Minimum Qualifications
+Bachelor’s degree in Computer Science, Machine Learning, or related quantitative field, with 3+ years of relevant industry experience
+Strong skills in Python (preferred) and at least one other programming language
+Proven experience in ML engineering, including system design, training pipelines, and deployment workflows
+Deep understanding of agent-based simulation, agentic RAG systems, and LLM evaluation methodologies
+Ability to balance long-term platform vision with pragmatic short-term delivery in fast-paced environments
+Preferred Qualifications
+Experience deploying LLM models in research or production contexts
+Knowledge of adaptive feedback loops, reinforcement learning, or interactive agent design
+Familiarity with client-backend integration for AI-driven applications
+MS or PhD in Computer Science, Machine Learning, or a related field
+
