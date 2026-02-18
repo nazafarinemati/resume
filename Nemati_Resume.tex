@@ -1,0 +1,186 @@
+
+
+\documentclass[letterpaper,13pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage[absolute,overlay]{textpos}
+\usepackage{xcolor}
+\input{glyphtounicode}
+
+
+\pagestyle{fancy}
+\fancyhf{} 
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+\pdfgentounicode=1
+
+
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+\begin{document}
+
+\begin{center}
+    \textbf{\Huge \scshape Mohammadreza Nemati} \\ \vspace{1pt}
+    \small  Santa Clara, CA 95054 $|$ 
+    \small Mobile: 567-204-7520 $|$ 
+    \href{mailto:x@x.com}{mrnemati747@gmail.com} $|$ 
+    \small \href{https://www.linkedin.com/in/mnemati/}{\textcolor{blue}{\underline{www.linkedin.com/in/mnemati}}}
+\end{center}
+
+\section{Experience}
+\vspace{0.1cm}
+  \resumeSubHeadingListStart
+
+\resumeSubheading
+      {AI Engineer}{05/2025 - Present}
+      {Volkswagen Group of America}{Belmont, CA}
+      \resumeItemListStart
+        \resumeItem{Designing and deploying multi‑agent systems for human–machine interface (HMI) task automation using LangChain/LangGraph and multimodal foundation models.}
+        \resumeItem{Fine-tuning the Qwen2.5-VL-7B model using LoRA and mixed precision training (bf16) with supervised fine-tuning (SFT) followed by reinforcement learning with GRPO for domain-specific grounding and planning in Volkswagen HMI, increasing the success rate of end-to-end task automation.}
+
+        \resumeItem{Performing distillation of the Qwen2.5‑VL‑72B model into smaller variants optimized for latency and resource utilization, deploying with vLLM for high-throughput inference.}
+        \resumeItem{Optimized inference latency and throughput using NVIDIA Nsight Systems for GPU profiling, identifying memory and compute bottlenecks to improve model deployment efficiency.}
+      \resumeItemListEnd
+      \vspace{0.1cm}
+
+\resumeSubheading
+      {Artificial Intelligence Research Assistant}{08/2022 - 06/2025}
+      {Case Western Reserve University}{Cleveland, Ohio}
+            \resumeItemListStart
+\resumeItem{Developed LIT-LVM using latent variable models with structured regularization and GNN-based higher-order interactions for biomedical data, outperforming GNN, Factorization Machine, and elastic net baselines \href{https://arxiv.org/pdf/2506.15492}{\textcolor{blue}{[paper link]}}}
+
+\resumeItem{Developed DEASurv, a deep survival model leveraging entity-specific embeddings, attention mechanisms, and contrastive loss to improve multi-modal biological survival prediction on large-scale medical datasets}
+
+\resumeItem{Improved LLM KV-cache quantization by analyzing key/value norm imbalance; providing a theory-backed scheme that achieves 2$\times$ memory savings with more than 94\% accuracy across models up to 70B \href{https://arxiv.org/pdf/2502.15075}{\textcolor{blue}{[paper link]}}}
+
+        \resumeItemListEnd
+        \vspace{0.1cm}
+
+\resumeSubheading
+    {Software Engineer - AI/ML Intern}{02/2024 - 07/2024}
+      {Sherwin-Williams}{Cleveland, Ohio}
+        \resumeItemListStart
+\resumeItem{Integrated the Segment Anything Model (SAM) Vision transformer into the Color Expert App with a dedicated image processing endpoint, achieving a 7\% IoU improvement over previous segmentation models.}
+\resumeItem{Integrated a VLM (LLaVA) to interpret user text prompts, generating precise anchor points on the wall as input for SAM, enabling targeted object-specific segmentation}
+
+      \resumeItemListEnd
+    \vspace{0.1cm} 
+
+    \resumeSubheading
+      {Data Science Research Intern}{05/2023 - 09/2023}
+      {Beyond Limits AI}{Glendale, California}
+            \resumeItemListStart
+        \resumeItem{Developed and deployed Graph Neural Network models (GCN, GAT, GraphSAGE) using PyTorch Geometric (PyG) for geometric deep learning on graph-structured data, achieving 10\% accuracy improvement over conventional ML approaches}
+        \resumeItem{Fine-tuned Llama-2 Large Language Model (LLM) for oil refinery texts, optimizing parameters with Fully Sharded Data Parallel (FSDP) for multi-GPU setups and quantization for single GPU tasks}
+        \resumeItemListEnd
+\vspace{0.1cm}
+
+        \vspace{0.1cm}
+\resumeSubheading
+      {Software Intern}{04/2020 - 07/2020}
+      {Nexteer Automotive}{Auburn Hills, Michigan}
+      \resumeItemListStart
+
+    \resumeItem{Created an API endpoint to pre-process and format real-time electric power steering sensor data.}
+
+      \resumeItemListEnd
+    \resumeSubheading
+      {Machine Learning Research Assistant}{08/2018 - 07/2022}
+      {University of Toledo}{Toledo, Ohio}
+    
+      \resumeItemListStart
+        \resumeItem{Developed machine learning survival models for biological systems using over 500,000 patient records, applying advanced feature engineering and statistical modeling to predict clinical outcomes}
+        
+    \resumeItemListEnd
+\resumeSubHeadingListEnd
+
+\section{Skills}
+\vspace{0.1cm}
+- \textbf{Programming Languages}: Python, C++ \\
+- \textbf{Machine Learning}: Vision Transformers, LLM/VLM fine-tuning, Graph Neural Networks, Geometric Deep Learning \\
+- \textbf{Frameworks \& Libraries}: PyTorch, PyTorch Geometric (PyG), LangChain/Graph, TensorFlow, sklearn  \\
+- \textbf{Inference Optimization}: vLLM, onnx, Quantization, Distillation, CUDA C++, NVIDIA Nsight Systems \\
+- \textbf{DevOps \& Tools}: Docker, Flask, Redis, SQL, Git
+
+
+
+
+\section{Education}
+\resumeSubHeadingListStart
+  \resumeSubheading
+  {Case Western Reserve University}{Cleveland, Ohio}
+  {Doctorate (PhD), Computer Science}{08/2022 - 05/2025}
+  \vspace{-5pt} 
+  \resumeSubheading
+  {University of Toledo}{Toledo, Ohio}
+  {Masters (MS), Computer Science}{08/2018 - 08/2020}
+  \vspace{-5pt} 
+  \resumeSubheading
+  {Shiraz University}{Shiraz, Fars}
+  {Bachelors (BS), Electrical Engineering}{08/2012 - 05/2017}
+\resumeSubHeadingListEnd
+ 
+\end{document}
