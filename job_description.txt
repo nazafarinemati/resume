@@ -1,39 +1,33 @@
-Staff Software Engineer, ML Training and Inference Infrastructure
-Palo Alto, California
-Autonomous Driving
-About Rivian
-
-Rivian is on a mission to keep the world adventurous forever. This goes for the emissions-free Electric Adventure Vehicles we build, and the curious, courageous souls we seek to attract. 
- 
-As a company, we constantly challenge what’s possible, never simply accepting what has always been done. We reframe old problems, seek new solutions and operate comfortably in areas that are unknown. Our backgrounds are diverse, but our team shares a love of the outdoors and a desire to protect it for future generations. 
-
-Role Summary
-
-As a Staff Software Engineer, ML training and inference infrastructure, you will be a member of the Perception team at Rivian, which develops advanced machine learning algorithms that directly impact safety critical self-driving features of our category defining vehicles.
-
-We are looking for candidates with deep knowledge and strong enthusiasm towards establishing a state-of-art ML infrastructure for training and inference of large autonomous driving models; and optimizing the training and inference performance. 
-
-
-Responsibilities
-
- 
-
-Optimize the performance of Deep Learning training workload on NVIDIA GPU systems on a large scale
-Optimize the latency of model inference and model pre- and post-processing on onboard systems
-Design, train, and deploy large deep learning models that can leverage the vast amount of labeled and unlabeled data
-
-Qualifications
-
-PhD in CS/CE/EE, or equivalent, in industry experience
-Deep knowledge of PyTorch
-Knowledge of model training framework (e.g. PyTorch Lightning, ray, etc.)
-In-depth knowledge of transformer architecture and ways to accelerate the training and inference of transformer models
-Experience of performing large scale distributed training of models
-A track record of profiling models and doing detective work to improve model training and inference speed
- 
-Preferred Skill Requirements:
-Experience with CUDA or Triton language for writing custom ops
-Knowledge of Nvidia TensorRT
-Knowledge of NCCL
-Experience with edge computing systems
-A track record of efficiently solving complex problems collaboratively on larger teams
+Senior Machine Learning Engineer, End‑to‑End Autonomous Driving
+Apply
+locations
+US, CA, Santa Clara
+time type
+Full time
+posted on
+Posted 7 Days Ago
+job requisition id
+JR2016052
+We are seeking a Senior Machine Learning Engineer to join our end‑to‑end autonomous driving team! You will help build, train, and deploy large‑scale E2E driving models that leverage VLM/VLA architectures, and build a data flywheel that continuously improves our systems in the real world! Today, we’re tapping into the unlimited potential of AI to define the next era of computing. An era in which our GPU acts as the brains of computers, robots, and self-driving cars that can understand the world. Doing what’s never been done before takes vision, innovation, and the world’s best talent. As an NVIDIAN, you’ll be immersed in a diverse, supportive environment where everyone is inspired to do their best work. Come join the team and see how you can make a lasting impact on the world.
+What you’ll be doing:
+Designing, implementing, and training large‑scale end‑to‑end driving models.
+Driving the data flywheel: identifying failure cases, specifying data collection and labeling needs, and iterating models to close real‑world performance gaps.
+Building, curating, and maintaining high‑quality multimodal datasets (e.g., video, sensor, language/action traces) tailored for end‑to‑end autonomous driving.
+Developing and applying data‑centric learning algorithms such as active learning, curriculum learning, automated hard‑example mining, outlier and novelty detection, and semi/self‑supervised methods.
+Exploring and productizing new data sources including simulation, synthetic data, and world‑model‑based generation/augmentation to improve coverage and robustness.
+Designing and implementing agentic data workflows that automate data discovery, labeling, evaluation, and retraining to maximize development velocity.
+Foster collaborative partnerships with our researchers and engineers, transforming innovative research into robust, industrial-strength machine learning models.
+What we need to see:
+PhD with 4+ years, MS with 6+ years, or BS (or equivalent experience) with 8+ years of relevant experience in Computer Science, Computer Engineering, or a related technical field
+Strong background in modern deep learning, including transformer‑based architectures, video modeling, and multimodal VLM/VLA or foundation models.
+Hands‑on experience training and deploying deep learning models on real‑world datasets: data preprocessing, distributed training, evaluation, debugging, and iterative improvement.
+Practical experience with at least some data‑centric methods such as active learning, curriculum learning, outlier/novelty detection, or large‑scale sample mining.
+Proficiency in Python and at least one major deep learning framework (PyTorch, TensorFlow, or JAX), plus solid software engineering practices (testing, code review, CI/CD).
+Demonstrated ability to collaborate effectively across teams, drive designs from prototype to production, and communicate clearly with technical and non‑technical partners.
+Track record of leading complex cross‑team projects, setting technical direction, and making critical technical decisions that impact multiple teams or products.
+Ways to stand out from the crowd:
+Experience building and operating data flywheels or large‑scale data pipelines for ML, including data quality monitoring and continuous retraining loops.
+Direct experience with end‑to‑end driving models, large‑scale behavior cloning, or reinforcement/imitation learning for driving or robotics.
+Experience leveraging simulation, synthetic data, or world models to generate training and evaluation data for autonomous systems.
+Contributions to sophisticated methods in data‑centric ML, VLM/VLA, or autonomous driving, such as impactful publications, open‑source projects, or widely used internal tools.
+Background with safety, reliability, and validation requirements for autonomous driving or other safety‑critical applications.
