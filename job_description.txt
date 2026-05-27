@@ -1,33 +1,19 @@
-Senior Machine Learning Engineer, End‑to‑End Autonomous Driving
-Apply
-locations
-US, CA, Santa Clara
-time type
-Full time
-posted on
-Posted 7 Days Ago
-job requisition id
-JR2016052
-We are seeking a Senior Machine Learning Engineer to join our end‑to‑end autonomous driving team! You will help build, train, and deploy large‑scale E2E driving models that leverage VLM/VLA architectures, and build a data flywheel that continuously improves our systems in the real world! Today, we’re tapping into the unlimited potential of AI to define the next era of computing. An era in which our GPU acts as the brains of computers, robots, and self-driving cars that can understand the world. Doing what’s never been done before takes vision, innovation, and the world’s best talent. As an NVIDIAN, you’ll be immersed in a diverse, supportive environment where everyone is inspired to do their best work. Come join the team and see how you can make a lasting impact on the world.
-What you’ll be doing:
-Designing, implementing, and training large‑scale end‑to‑end driving models.
-Driving the data flywheel: identifying failure cases, specifying data collection and labeling needs, and iterating models to close real‑world performance gaps.
-Building, curating, and maintaining high‑quality multimodal datasets (e.g., video, sensor, language/action traces) tailored for end‑to‑end autonomous driving.
-Developing and applying data‑centric learning algorithms such as active learning, curriculum learning, automated hard‑example mining, outlier and novelty detection, and semi/self‑supervised methods.
-Exploring and productizing new data sources including simulation, synthetic data, and world‑model‑based generation/augmentation to improve coverage and robustness.
-Designing and implementing agentic data workflows that automate data discovery, labeling, evaluation, and retraining to maximize development velocity.
-Foster collaborative partnerships with our researchers and engineers, transforming innovative research into robust, industrial-strength machine learning models.
-What we need to see:
-PhD with 4+ years, MS with 6+ years, or BS (or equivalent experience) with 8+ years of relevant experience in Computer Science, Computer Engineering, or a related technical field
-Strong background in modern deep learning, including transformer‑based architectures, video modeling, and multimodal VLM/VLA or foundation models.
-Hands‑on experience training and deploying deep learning models on real‑world datasets: data preprocessing, distributed training, evaluation, debugging, and iterative improvement.
-Practical experience with at least some data‑centric methods such as active learning, curriculum learning, outlier/novelty detection, or large‑scale sample mining.
-Proficiency in Python and at least one major deep learning framework (PyTorch, TensorFlow, or JAX), plus solid software engineering practices (testing, code review, CI/CD).
-Demonstrated ability to collaborate effectively across teams, drive designs from prototype to production, and communicate clearly with technical and non‑technical partners.
-Track record of leading complex cross‑team projects, setting technical direction, and making critical technical decisions that impact multiple teams or products.
-Ways to stand out from the crowd:
-Experience building and operating data flywheels or large‑scale data pipelines for ML, including data quality monitoring and continuous retraining loops.
-Direct experience with end‑to‑end driving models, large‑scale behavior cloning, or reinforcement/imitation learning for driving or robotics.
-Experience leveraging simulation, synthetic data, or world models to generate training and evaluation data for autonomous systems.
-Contributions to sophisticated methods in data‑centric ML, VLM/VLA, or autonomous driving, such as impactful publications, open‑source projects, or widely used internal tools.
-Background with safety, reliability, and validation requirements for autonomous driving or other safety‑critical applications.
+Meta is seeking a strong Senior Machine Learning Engineer to join our Fundamental AI Research (FAIR) team, an organization focused on making research breakthroughs in AI
+Responsibilities include developing deep learning libraries that support large-scale distributed training, open sourcing high quality code and reproducible results.
+
+Responsibilities
+Engineer, design, implement, and improve highly-scalable machine learning systems and tools for enabling research 
+Apply knowledge of relevant research domains, along with expert coding skills, to platform and framework development projects 
+Write clean and robust machine learning code 
+
+Minimum Qualifications
+Experience with deep learning 
+Experience developing machine learning algorithms or machine learning infrastructure in Python or C/C++ 
+Experience with machine learning frameworks such as PyTorch and distributed optimization techniques such as FSDP/DDP 
+Experience working with large datasets and data pipelines 
+Solid understanding of algorithms, data structures, and software engineering best practices. 
+Demonstrated ability to work collaboratively in a fast-paced, team-oriented environment. 
+Excellent problem-solving and communication skills. 
+Preferred Qualifications 
+Demonstrated software engineering experience via work experience, or widely used contributions in open source repositories (e.g. GitHub) 
+Prior contributions to open-source AI/ML projects 
