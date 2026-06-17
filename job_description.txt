@@ -1,19 +1,76 @@
-Meta is seeking a strong Senior Machine Learning Engineer to join our Fundamental AI Research (FAIR) team, an organization focused on making research breakthroughs in AI
-Responsibilities include developing deep learning libraries that support large-scale distributed training, open sourcing high quality code and reproducible results.
+At Apple, new ideas have a way of becoming extraordinary products and experiences very
+quickly. Bring your passion and dedication to your job and there's no telling what you could
+accomplish.
 
+Apple's Camera & Photos Tools & AI team is a tight-knit engineering team building the
+internal tools that power how the Camera, Photos, and Image Quality teams measure,
+evaluate, and improve the imaging experience on Apple products. Our software sits at the
+center of some of Apple's most demanding imaging workflows: it captures and catalogs
+enormous volumes of images and videos, orchestrates long-running analyses that
+characterize camera performance, and surfaces the results to the engineers and scientists
+who tune the hardware and software behind every photo our customers take.
+
+We move quickly, care deeply about the craft, and thrive on turning ambiguous problems into
+reliable, well-designed tools. As a member of this team, you will ship software across the full
+stack, from native Swift applications and modern web frontends to Python service backends,
+and you will partner with a wide range of engineering, science, and quality teams to
+understand their workflows and build what they need.
+
+As AI capabilities advance rapidly, our team is actively building AI-native tooling, from
+integrating multimodal and vision models into image quality workflows to designing LLM-
+powered interfaces that let engineers query and interpret large datasets in natural language.
+We're looking for someone who doesn't just use AI as a productivity aid, but who thinks
+critically about where and how to embed it into reliable, maintainable engineering systems.
+
+If you enjoy owning problems end-to-end, writing code that people rely on, and collaborating
+with partners across multiple disciplines, we would love to talk to you.
+Description
+We are seeking a versatile and technically strong Software Engineer to help design, build,
+and own end-to-end development of the internal tooling that supports imaging engineering
+and quality workflows across Camera, Photos, and Image Quality. You will contribute to
+multiple Swift applications, React-based web frontends, and Python REST API services, and
+leverage Apple infrastructure to run asynchronous compute jobs.
+
+The ideal candidate is an experienced generalist who is comfortable moving between client,
+web, and backend code; has a solid grasp of distributed-systems fundamentals; and writes
+code with an eye toward maintainability, correctness, and long-term operability. You are
+equally at home designing a new service, debugging a tricky async job, polishing a UI
+workflow, and sitting down with a partner team to understand what they actually need before
+writing a line of code. You bring informed opinions about where AI genuinely improves a
+system, and where it adds unnecessary complexity, and you hold AI-powered features to the
+same engineering standards as any other production code. Above all, you are a strong
+communicator who treats cross-functional collaboration as a core part of the job.
 Responsibilities
-Engineer, design, implement, and improve highly-scalable machine learning systems and tools for enabling research 
-Apply knowledge of relevant research domains, along with expert coding skills, to platform and framework development projects 
-Write clean and robust machine learning code 
-
+Design and build AI-powered features within internal tools, including LLM integrations, agentic workflows, and vision model pipelines for automated image quality analysis.
+Evaluate, integrate, and maintain AI/ML models in production: monitoring for quality regression, managing model versions, and balancing cost, latency, and accuracy tradeoffs across the service lifecycle.
+Develop prompt engineering strategies and retrieval-augmented systems (RAG) that make internal image and metadata corpora accessible and actionable to partner teams.
+Leverage AI coding assistants and productivity tooling to accelerate development cycles and raise overall team velocity.
+Plan, design, implement, and own Swift applications used by imaging engineers and quality teams.
+Build and evolve React/JavaScript web frontends that surface data, tooling, and workflows to a broad internal audience.
+Develop and maintain Python REST API backends, including endpoints that kick off and monitor long-running asynchronous jobs.
+Partner with engineers, scientists, and quality leads across Camera, Photos, and Image Quality to understand their workflows and translate them into reliable tools.
+Drive the reliability, performance, and observability of services that other teams depend on daily.
+Contribute to technical design discussions, code review, and cross-team planning; raise the bar for the engineers around you.
 Minimum Qualifications
-Experience with deep learning 
-Experience developing machine learning algorithms or machine learning infrastructure in Python or C/C++ 
-Experience with machine learning frameworks such as PyTorch and distributed optimization techniques such as FSDP/DDP 
-Experience working with large datasets and data pipelines 
-Solid understanding of algorithms, data structures, and software engineering best practices. 
-Demonstrated ability to work collaboratively in a fast-paced, team-oriented environment. 
-Excellent problem-solving and communication skills. 
-Preferred Qualifications 
-Demonstrated software engineering experience via work experience, or widely used contributions in open source repositories (e.g. GitHub) 
-Prior contributions to open-source AI/ML projects 
+BS in Computer Science, Computer Engineering, or equivalent experience.
+4+ years of professional software engineering experience shipping production software.
+Proficiency in at least two of: Swift, Python, and JavaScript/TypeScript, with a track record of contributing meaningfully in both client and server code.
+Strong understanding of REST API design and experience building production REST services.
+Experience building web frontends with React or a similar framework.
+Demonstrated experience integrating AI/ML models (LLMs, vision models, or similar) into production software systems, not just as a user but as a builder responsible for reliability and maintainability.
+Working knowledge of asynchronous job execution patterns (background workers, task queues, or similar) for long-running computations.
+Solid understanding of software engineering fundamentals: data modeling, API design, testing, debugging, and code review.
+Strong written and verbal communication skills, with a demonstrated ability to work effectively with partners outside of engineering.
+Preferred Qualifications
+Experience building production features with LLM APIs (e.g., OpenAI, Anthropic, or on- device models), including prompt design, context window management, output validation, and graceful degradation.
+Familiarity with multimodal or computer vision models applied to image analysis, quality assessment, or visual data retrieval, with an understanding of where these models succeed and fail in practice.
+Experience with vector databases or semantic search (e.g., pgvector, Pinecone, Weaviate) for unstructured or high-dimensional data retrieval pipelines.
+Understanding of MLOps principles: model deployment pipelines, versioning strategies, evaluation frameworks, A/B testing for AI features, and production monitoring for model quality and cost.
+Awareness of bias and fairness considerations in AI systems, particularly in visual domains, including diverse evaluation datasets, inclusive quality benchmarks, and responsible deployment practices.
+Experience developing native macOS or iOS applications in Swift, including familiarity with Xcode.
+Experience designing and operating distributed systems, including awareness of the tradeoffs involved in consistency, coordination, and failure handling.
+Familiarity with Solr (or other search platforms such as Elasticsearch) for indexing and querying large datasets.
+Familiarity with Redis, whether as a cache, message broker, or coordination primitive.
+Comfort working with image data, metadata pipelines, or scientific/engineering workflows.
+Exceptional cross-functional collaboration skills: stakeholder alignment, documentation, and presenting technical work to non-engineering partners.
+Comfortable and adaptable in a fast-paced environment with shifting priorities and multiple stakeholders.
