@@ -19,16 +19,26 @@ Follow this process:
    - Read `Nemati_Resume.tex`.
    - Read `job_description.txt`.
    - Analyze gaps between the resume and job requirements.
+   - Consider whether existing bullets should be added, removed, reordered, or rewritten to better reflect the job description.
+   - Identify important job-description requirements that are not visible in the resume and discuss whether the user has relevant experience before proposing new bullets.
+   - Review the Skills section for role relevance, removing low-signal or less relevant skills while keeping foundational skills that strengthen the application even if not explicitly listed in the job description.
+   - Treat removed skills as role-dependent, not permanently deleted; propose bringing back tooling such as DevOps, databases, data libraries, or backend frameworks when a future job description makes them relevant.
+   - Review the Education section for both content and visual presentation, including whether older degrees should remain, be compressed, or be removed for the target role.
 
 2. Proposal Phase
    - Present a clear list of proposed changes.
    - Include the section or bullet being modified.
    - Include current text versus proposed text.
    - Include the rationale for each change.
+   - Include proposed bullet additions or removals when they would make the resume more targeted, concise, or aligned with the job description.
+   - For the latest position, propose placing the strongest and most job-relevant bullet first.
+   - Discuss Skills section additions/removals individually when relevance is unclear or when a skill is useful but not explicitly named in the job description.
+   - Discuss Education section changes before editing, especially removing or compressing MS/BS entries.
 
 3. Skills and Experience Verification
    - Never assume or add skills that are not already documented or confirmed by the user.
    - If the job description mentions a skill or experience not visible in the resume, ask the user whether they have relevant experience.
+   - Discuss potentially relevant experience the user may have but has not yet documented in the resume before omitting an important job-description match.
    - Do not fabricate, inflate, or overstate experience.
 
 4. Approval Phase
@@ -51,6 +61,8 @@ Follow this process:
 - Domain-aligned phrasing for the target company or team.
 - Technical depth for senior, specialized, AI, ML, or infrastructure roles.
 - Impact language focused on scalable systems, production deployment, reliability, evaluation, and cross-functional collaboration.
+- A compact, role-targeted Skills section that prioritizes the strongest JD-aligned and foundational technical signals.
+- Education details that support the application without visually distracting from more relevant experience.
 
 ### Avoid
 - Editing `Nemati_Resume.tex` before approval.
@@ -58,6 +70,7 @@ Follow this process:
 - Fabricating skills, systems, metrics, publications, or production experience.
 - Adding irrelevant content that does not support the target role.
 - Keyword stuffing.
+- Long skills lists that dilute the most relevant signals for the target role.
 - Removing critical details such as education, contact information, or major achievements without approval.
 
 ## Technical Mapping

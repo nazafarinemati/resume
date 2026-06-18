@@ -37,15 +37,15 @@
 \setlength{\tabcolsep}{0in}
 
 \titleformat{\section}{
-  \vspace{-4pt}\scshape\raggedright\large
-}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+  \vspace{0pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-2pt}]
 
 \pdfgentounicode=1
 
 
 \newcommand{\resumeItem}[1]{
   \item\small{
-    {#1 \vspace{-2pt}}
+    {#1 \vspace{0pt}}
   }
 }
 
@@ -54,21 +54,21 @@
     \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
       \textbf{#1} & #2 \\
       \textit{\small#3} & \textit{\small #4} \\
-    \end{tabular*}\vspace{-7pt}
+    \end{tabular*}\vspace{-4pt}
 }
 
 \newcommand{\resumeSubSubheading}[2]{
     \item
     \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
       \textit{\small#1} & \textit{\small #2} \\
-    \end{tabular*}\vspace{-7pt}
+    \end{tabular*}\vspace{-5pt}
 }
 
 \newcommand{\resumeProjectHeading}[2]{
     \item
     \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
       \small#1 & #2 \\
-    \end{tabular*}\vspace{-7pt}
+    \end{tabular*}\vspace{-4pt}
 }
 
 \newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
@@ -77,8 +77,8 @@
 
 \newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
 \newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
-\newcommand{\resumeItemListStart}{\begin{itemize}}
-\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+\newcommand{\resumeItemListStart}{\begin{itemize}[itemsep=2pt]}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-1pt}}
 
 \begin{document}
 
@@ -98,12 +98,13 @@
       {AI Engineer}{05/2025 - Present}
       {Volkswagen Group of America}{Belmont, CA}
       \resumeItemListStart
-        \resumeItem{Developed long-horizon planning workflows for multi-agentic systems, including dynamic UI-tree planning, agentic RAG, and task decomposition for multimodal HMI automation.}
-        \resumeItem{Architected production-grade multimodal inference infrastructure for agentic automotive HMI workflows, designing evaluation frameworks for latency, throughput, task accuracy, and serving reliability with vLLM.}
-        \resumeItem{Fine-tuned multimodal foundation models using SFT, DPO, and GRPO for agentic reasoning, grounding, and task execution; applied knowledge distillation with quantization-aware training to compress VLMs for constrained hardware deployment.}
-        \resumeItem{Pruned Qwen2.5-VL for autonomous-driving trajectory prediction, reducing parameters from 3.75B to 1.4B for deployment under edge compute and memory constraints.}
+        \resumeItem{Implemented depth-pruning for Qwen2.5-VL by constructing 8L, 6L, and 4L student variants, mapping selected teacher layers and preserving compatible vision-language weights for constrained deployment.}
+        \resumeItem{Distilled knowledge from Qwen2.5-VL 7B into the pruned 1.4B trajectory-prediction model, applying quantization-aware training to preserve VLM performance under constrained deployment settings.}
+        \resumeItem{Built multi-task VLM fine-tuning pipelines for automotive HMI reasoning, combining toggle-state prediction, step decomposition, and UI grounding with DDP training and task-specific evaluation.}
+        \resumeItem{Post-trained multimodal foundation models using SFT, DPO, and GRPO for reasoning, grounding, and task execution in automotive AI workflows.}
+        \resumeItem{Deployed and evaluated Qwen3.5 models up to 35B/A3B on Azure ML managed endpoints with vLLM, configuring H100/A100 serving, prefix caching, long-context inference, health probes, and throughput/latency monitoring.}
       \resumeItemListEnd
-      \vspace{0.1cm}
+      \vspace{0.14cm}
 
 \resumeSubheading
       {Artificial Intelligence Research Assistant}{08/2022 - 06/2025}
@@ -112,23 +113,23 @@
 
 \resumeItem{Improved LLM KV-cache quantization by analyzing key/value norm imbalance, achieving 2$\times$ memory reduction with $>$94\% accuracy retention across models up to 70B parameters, directly optimizing inference memory efficiency for large-scale serving \href{https://arxiv.org/pdf/2502.15075}{\textcolor{blue}{[paper link]}}}
 
-\resumeItem{Developed LIT-LVM using latent variable models with structured regularization and GNN-based higher-order interactions for biomedical data, outperforming GNN, Factorization Machine, and elastic net baselines in ranking and recommendation tasks \href{https://arxiv.org/pdf/2506.15492}{\textcolor{blue}{[paper link]}}}
+\resumeItem{Developed LIT-LVM using latent variable embeddings, structured regularization, and GNN-based higher-order interactions, outperforming GNN, Factorization Machine, and elastic net baselines in ranking and recommendation tasks \href{https://arxiv.org/pdf/2506.15492}{\textcolor{blue}{[paper link]}}}
 
-\resumeItem{Developed DEASurv, a deep survival model leveraging entity-specific embeddings, attention mechanisms, and contrastive loss to improve multi-modal biological survival prediction on large-scale medical datasets}
+\resumeItem{Developed DEASurv, a deep multimodal model leveraging entity-specific embeddings, attention mechanisms, and contrastive loss to improve prediction on large-scale medical datasets}
 
 
         \resumeItemListEnd
-        \vspace{0.1cm}
+        \vspace{0.14cm}
 
 \resumeSubheading
     {Software Engineer - AI/ML Intern}{02/2024 - 07/2024}
       {Sherwin-Williams}{Cleveland, Ohio}
         \resumeItemListStart
-\resumeItem{Designed and deployed real-time inference pipeline for vision transformers (SAM) with client-backend architecture, optimizing model latency and achieving 7\% IoU improvement through inference optimization techniques.}
-\resumeItem{Built multimodal system integrating vision-language models (LLaVA) with vision transformers, implementing cross-modal alignment for natural language-driven visual grounding and object segmentation.}
+\resumeItem{Designed and deployed real-time inference pipeline for vision transformers (SAM), optimizing model latency and improving segmentation quality by 7\% IoU through inference and evaluation improvements.}
+\resumeItem{Built multimodal system integrating LLaVA with vision transformers, implementing cross-modal alignment for natural-language visual grounding and object segmentation.}
 
       \resumeItemListEnd
-    \vspace{0.1cm} 
+    \vspace{0.14cm} 
 
     \resumeSubheading
       {Data Science Research Intern}{05/2023 - 09/2023}
@@ -137,44 +138,26 @@
         \resumeItem{Developed and deployed Graph Neural Network models (GCN, GAT, GraphSAGE) using PyTorch Geometric for graph-structured data, achieving 10\% accuracy improvement over baseline approaches}
         \resumeItem{Fine-tuned Llama-2 using PyTorch distributed training with FSDP/DDP for multi-GPU optimization and quantization for efficient deployment.}
         \resumeItemListEnd
-\vspace{0.1cm}
+\vspace{0.04cm}
 
-    \resumeSubheading
-      {Machine Learning Research Assistant}{08/2018 - 07/2022}
-      {University of Toledo}{Toledo, Ohio}
-    
-      \resumeItemListStart
-            \resumeItem{Developed large-scale ML pipelines over 500,000+ records in PyTorch for preprocessing, distributed data handling, model development, and evaluation}
-        
-    \resumeItemListEnd
 \resumeSubHeadingListEnd
 
+\vspace{-0.55cm}
 \section{Skills}
-\vspace{0.1cm}
-- \textbf{Programming Languages}: Python, C++ \\
-- \textbf{Machine Learning}: Multimodal Foundation Models, Transformer Architectures, LLM/VLM Fine-tuning, Knowledge Distillation, Vision Transformers, Reinforcement Learning, Graph Neural Networks \\
-- \textbf{ML Infrastructure}: Distributed Training (FSDP/DDP), Data Pipelines, Distributed Inference, Model Serving \& Deployment, Profiling \& Optimization \\
-- \textbf{Frameworks \& Libraries}: PyTorch, vLLM, LangChain/LangGraph, PyTorch Geometric, NumPy, Pandas  \\
-- \textbf{Inference Optimization}: CUDA, Quantization, Distillation, Continuous Batching, Pruning \\
-- \textbf{Agentic Systems}: Long-Horizon Planning, Agentic RAG, Dynamic UI-Tree Planning, Task Decomposition \\
-- \textbf{DevOps \& Tools}: Docker, Flask, Redis, SQL, Git
-
-
-
+\vspace{0.06cm}
+\begin{itemize}[leftmargin=0.15in, label={}, itemsep=2pt]
+  \item \textbf{Programming}: Python, C++
+  \item \textbf{Foundation Models}: Multimodal Foundation Models, LLMs/VLMs, Transformers, Vision Transformers, Fine-tuning \& Post-training, Reinforcement Learning
+  \item \textbf{Optimization}: Knowledge Distillation, Quantization, Pruning, CUDA, Continuous Batching
+  \item \textbf{ML Systems}: PyTorch, vLLM, Distributed Training (FSDP/DDP), Model Serving, Experiment Design, Model Evaluation
+\end{itemize}
+\vspace{-0.2cm}
 
 \section{Education}
 \resumeSubHeadingListStart
-  \resumeSubheading
-  {Case Western Reserve University}{Cleveland, Ohio}
-  {Doctorate (PhD), Computer Science}{08/2022 - 05/2025}
-  \vspace{-5pt} 
-  \resumeSubheading
-  {University of Toledo}{Toledo, Ohio}
-  {Masters (MS), Computer Science}{08/2018 - 08/2020}
-  \vspace{-5pt} 
-  \resumeSubheading
-  {Shiraz University}{Shiraz, Fars}
-  {Bachelors (BS), Electrical Engineering}{08/2012 - 05/2017}
+  \resumeProjectHeading{\textbf{Case Western Reserve University} -- PhD, Computer Science}{Cleveland, OH $|$ 2025}
+  \resumeProjectHeading{\textbf{University of Toledo} -- MS, Computer Science}{Toledo, OH $|$ 2020}
+  \resumeProjectHeading{\textbf{Shiraz University} -- BS, Electrical Engineering}{Shiraz, Iran $|$ 2017}
 \resumeSubHeadingListEnd
  
 \end{document}
