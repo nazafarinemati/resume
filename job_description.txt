@@ -1,32 +1,24 @@
-Waymo is an autonomous driving technology company with the mission to be the world's most trusted driver. Since its start as the Google Self-Driving Car Project in 2009, Waymo has focused on building the Waymo Driver—The World's Most Experienced Driver™—to improve access to mobility while saving thousands of lives now lost to traffic crashes. The Waymo Driver powers Waymo’s fully autonomous ride-hail service and can also be applied to a range of vehicle platforms and product use cases. The Waymo Driver has provided over ten million rider-only trips, enabled by its experience autonomously driving over 100 million miles on public roads and tens of billions in simulation across 15+ U.S. states.
+Your primary responsibility will be to conduct thorough performance analysis and optimization of these networks, ensuring they operate efficiently both onboard the vehicle and during training on large-scale data centers. This position requires a deep understanding of software architecture, system performance, and latency issues, as you will be tackling various challenges that arise in these areas. You will collaborate with a team of talented engineers and researchers to develop solutions that improve the overall efficiency and reliability of our self-driving technology. Your work will directly contribute to making transportation safer and more accessible. The role demands a strong analytical mindset, particularly in performance troubleshooting, where you will utilize techniques such as profiling and the roofline model to identify bottlenecks and optimize performance. In addition to your technical skills, you will need to be adaptable and quick to learn new technologies, as the field of deep learning and autonomous systems is rapidly evolving. Strong communication skills are essential, as you will be working in a fast-paced environment with large code bases and collaborating with cross-functional teams.
 
-The mission of the Waymo Applied Research team is to develop machine learning solutions addressing open problems in autonomous driving, towards the goal of the safely operating Waymo vehicles in dozens of cities and under all driving conditions. As part of our work, we also initiate and foster collaborations with other research teams in Alphabet.
-
-In this hybrid role you will report to a Technical Lead Manager.         
-
-You will: 
-
-Conduct applied foundation model research and development
-
-Design compelling experiments by training and evaluating large deep learning models
-
-Present results to peers and leadership
-
-Write high quality code, unit tests, and documentation
-
-You have:
-
-Masters or PhD in deep learning in behavior and agent modeling or simulation
-
-Proficiency in Python
-3+ years of experience with modern deep learning frameworks. Prefer JAX or TensorFlow 2; however, Pytorch is acceptable.
-
-Experience in generative modeling and LLMs or VLMs (e.g., Gemini, Llama, GPT)
-We prefer:
-
-Experience with:
-
-Post-training, incl. reinforcement learning
-Distillation
-Transformer models
-Autoencoders and embeddings
+In this role you will
+Conduct performance analysis and optimization of Deep Learning networks running on the Autonomous Vehicle (AV).
+Optimize software architecture, system performance, and latency for deep learning applications.
+Work on deployment of deep learning models on the AV and training on large-scale data centers.
+Troubleshoot performance issues using profiling and roofline model techniques.
+Collaborate with cross-functional teams to enhance the efficiency of self-driving technology.
+Required Qualifications
+Minimum 5+ years of professional experience in software engineering.
+BS, MS, or PhD in Computer Science or a related field.
+Strong programming skills in CUDA, C++ and Python
+Extensive experience in high-performance computing and parallel programming, specializing in optimizing workloads to reduce GPU memory usage, minimize latency, and/or maximize throughput.
+Proficiency in leveraging performance analysis tools such as NVIDIA Nsight Systems , Nsight Compute and applying techniques like roofline model for performance optimization. 
+Hands-on experience in optimizing DL/ML workloads at the framework level using at least one deep learning framework (e.g., PyTorch, TensorFlow), ensuring efficient and scalable model deployment.
+Strong understanding of the fundamentals of computer vision and transformer-based deep learning architectures, with proficiency in foundational neural network building blocks.
+Strong analytical skills for diagnosing and troubleshooting performance bottlenecks in complex systems.
+Demonstrated ability to quickly learn and adapt to emerging technologies and tools in a fast-paced environment
+Experience working on large code bases in a fast-growing environment.
+Strong communication skills, enabling effective teamwork across multidisciplinary teams.
+Comfortable working in Linux/Unix environments.
+Desirable Qualifications
+Hands-on experience in motion planning or related fields such as robotics, autonomous systems, systems software, or computer vision.
+Experience with TensorRT, OpenAI Triton, Mojo and other inference acceleration tools.

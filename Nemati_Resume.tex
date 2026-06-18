@@ -95,14 +95,14 @@
   \resumeSubHeadingListStart
 
 \resumeSubheading
-      {AI Engineer}{05/2025 - Present}
+      {Senior AI Engineer}{05/2025 - Present}
       {Volkswagen Group of America}{Belmont, CA}
       \resumeItemListStart
-        \resumeItem{Implemented depth-pruning for Qwen2.5-VL by constructing 8L, 6L, and 4L student variants, mapping selected teacher layers and preserving compatible vision-language weights for constrained deployment.}
-        \resumeItem{Distilled knowledge from Qwen2.5-VL 7B into the pruned 1.4B trajectory-prediction model, applying quantization-aware training to preserve VLM performance under constrained deployment settings.}
-        \resumeItem{Built multi-task VLM fine-tuning pipelines for automotive HMI reasoning, combining toggle-state prediction, step decomposition, and UI grounding with DDP training and task-specific evaluation.}
+        \resumeItem{Optimized Qwen2.5-VL for constrained automotive deployment by depth-pruning 8L, 6L, and 4L student variants, reducing GPU memory footprint while preserving compatible vision-language weights.}
+        \resumeItem{Compressed Qwen2.5-VL 7B into a pruned 1.4B trajectory-prediction model using knowledge distillation and quantization-aware training for lower-memory, deployment-ready inference.}
+        \resumeItem{Built distributed PyTorch/DDP fine-tuning pipelines for multi-task automotive VLM workloads, combining toggle-state prediction, step decomposition, and UI grounding with task-specific evaluation.}
         \resumeItem{Post-trained multimodal foundation models using SFT, DPO, and GRPO for reasoning, grounding, and task execution in automotive AI workflows.}
-        \resumeItem{Deployed and evaluated Qwen3.5 models up to 35B/A3B on Azure ML managed endpoints with vLLM, configuring H100/A100 serving, prefix caching, long-context inference, health probes, and throughput/latency monitoring.}
+        \resumeItem{Deployed and profiled Qwen3.5 models up to 35B/A3B with TensorRT-LLM on H100/A100 Azure ML endpoints, using NVIDIA Nsight Systems/Compute to diagnose memory versus compute bottlenecks and tune throughput/latency.}
       \resumeItemListEnd
       \vspace{0.14cm}
 
@@ -111,7 +111,7 @@
       {Case Western Reserve University}{Cleveland, Ohio}
             \resumeItemListStart
 
-\resumeItem{Improved LLM KV-cache quantization by analyzing key/value norm imbalance, achieving 2$\times$ memory reduction with $>$94\% accuracy retention across models up to 70B parameters, directly optimizing inference memory efficiency for large-scale serving \href{https://arxiv.org/pdf/2502.15075}{\textcolor{blue}{[paper link]}}}
+\resumeItem{Optimized LLM inference memory by analyzing KV-cache key/value norm imbalance, achieving 2$\times$ memory reduction with $>$94\% accuracy retention across models up to 70B parameters \href{https://arxiv.org/pdf/2502.15075}{\textcolor{blue}{[paper link]}}}
 
 \resumeItem{Developed LIT-LVM using latent variable embeddings, structured regularization, and GNN-based higher-order interactions, outperforming GNN, Factorization Machine, and elastic net baselines in ranking and recommendation tasks \href{https://arxiv.org/pdf/2506.15492}{\textcolor{blue}{[paper link]}}}
 
@@ -125,7 +125,7 @@
     {Software Engineer - AI/ML Intern}{02/2024 - 07/2024}
       {Sherwin-Williams}{Cleveland, Ohio}
         \resumeItemListStart
-\resumeItem{Designed and deployed real-time inference pipeline for vision transformers (SAM), optimizing model latency and improving segmentation quality by 7\% IoU through inference and evaluation improvements.}
+\resumeItem{Designed and deployed real-time inference pipeline for vision transformers (SAM), optimizing model latency and improving segmentation quality by 7\% IoU through inference evaluation and pipeline tuning.}
 \resumeItem{Built multimodal system integrating LLaVA with vision transformers, implementing cross-modal alignment for natural-language visual grounding and object segmentation.}
 
       \resumeItemListEnd
@@ -146,10 +146,10 @@
 \section{Skills}
 \vspace{0.06cm}
 \begin{itemize}[leftmargin=0.15in, label={}, itemsep=2pt]
-  \item \textbf{Programming}: Python, C++
-  \item \textbf{Foundation Models}: Multimodal Foundation Models, LLMs/VLMs, Transformers, Vision Transformers, Fine-tuning \& Post-training, Reinforcement Learning
-  \item \textbf{Optimization}: Knowledge Distillation, Quantization, Pruning, CUDA, Continuous Batching
-  \item \textbf{ML Systems}: PyTorch, vLLM, Distributed Training (FSDP/DDP), Model Serving, Experiment Design, Model Evaluation
+  \item \textbf{Programming}: Python, C++, CUDA
+  \item \textbf{Performance Optimization}: GPU Memory Optimization, Latency/Throughput Tuning, Quantization, Pruning, Knowledge Distillation, Continuous Batching
+  \item \textbf{ML Systems}: PyTorch, TensorRT-LLM, Distributed Training (FSDP/DDP), Model Serving, NVIDIA Nsight Systems/Compute, Model Evaluation
+  \item \textbf{Deep Learning}: Transformers, Vision Transformers, Multimodal Models, Computer Vision, Reinforcement Learning
 \end{itemize}
 \vspace{-0.2cm}
 
