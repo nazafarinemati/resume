@@ -5,9 +5,9 @@ This repository maintains a LaTeX resume, `Nemati_Resume.tex`, tailored for spec
 
 ## Workflow
 1. Add or update `job_description.txt` with the target role details.
-2. Analyze the resume and job description, then propose changes first.
+2. Review `resume_bullet_bank.md`, then analyze the resume and job description and propose changes first.
 3. Wait for explicit user approval before editing `Nemati_Resume.tex`.
-4. After approval, update `Nemati_Resume.tex` to align with the role.
+4. After approval, update `Nemati_Resume.tex` to align with the role and keep `resume_bullet_bank.md` current.
 5. Commit with message format: `Tailored for [Company] - [Position]`.
 
 ## Critical Approval Rule
@@ -18,6 +18,7 @@ Follow this process:
 1. Analysis Phase
    - Read `Nemati_Resume.tex`.
    - Read `job_description.txt`.
+   - Read `resume_bullet_bank.md` and consider whether archived bullets, role-dependent skills, or prior variants should be restored for the target role.
    - Analyze gaps between the resume and job requirements.
    - Consider whether existing bullets should be added, removed, reordered, or rewritten to better reflect the job description.
    - Identify important job-description requirements that are not visible in the resume and discuss whether the user has relevant experience before proposing new bullets.
@@ -31,6 +32,7 @@ Follow this process:
    - Include current text versus proposed text.
    - Include the rationale for each change.
    - Include proposed bullet additions or removals when they would make the resume more targeted, concise, or aligned with the job description.
+   - When proposing a removal, identify whether the bullet should be archived in `resume_bullet_bank.md` for future reuse.
    - For the latest position, propose placing the strongest and most job-relevant bullet first.
    - Discuss Skills section additions/removals individually when relevance is unclear or when a skill is useful but not explicitly named in the job description.
    - Discuss Education section changes before editing, especially removing or compressing MS/BS entries.
@@ -48,6 +50,8 @@ Follow this process:
 
 5. Implementation Phase
    - Apply approved changes to `Nemati_Resume.tex`.
+   - Update `resume_bullet_bank.md` whenever bullets or skills are added, removed, substantially rewritten, or made role-dependent.
+   - Keep removed bullets in `resume_bullet_bank.md` rather than losing them, with enough context to restore them later.
    - Keep the resume to one page.
    - Compile or otherwise verify the LaTeX when possible.
    - Summarize the completed changes briefly.
