@@ -9,11 +9,11 @@ back for a future role.
 
 ### Volkswagen Group of America - Senior AI Engineer
 
-- Optimized Qwen2.5-VL for autonomous-driving trajectory prediction, reducing parameters from 3.75B to 1.4B through depth pruning for deployment under edge compute and memory constraints.
-- Distilled knowledge from Qwen2.5-VL 7B into the pruned 1.4B trajectory-prediction model, applying quantization-aware training to preserve VLM performance under constrained deployment settings.
-- Built distributed PyTorch/DDP pipelines for multi-task automotive VLM workloads, supporting scalable training, task-specific evaluation, and performance validation across transformer-based models.
-- Post-trained multimodal foundation models using SFT, DPO, and GRPO for reasoning, grounding, and task execution in automotive AI workflows.
-- Developed multimodal inference and evaluation infrastructure for automotive AI workflows, measuring latency, throughput, task accuracy, and serving reliability across large VLM experiments.
+- Fine-tuned multimodal foundation models using SFT, DPO, and GRPO for planner, reasoner, grounder, verifier, and error-recovery components in real-device automotive HMI software testing.
+- Compressed VLMs using pruning, knowledge distillation, and quantization-aware training for constrained deployment, improving inference efficiency for agentic AI workloads.
+- Built multimodal GUI-agent system for real-device Android HMI software testing, combining screen understanding, element grounding, tool-use actions, action verification, and error recovery across in-vehicle app workflows.
+- Developed long-horizon planning workflows for automotive HMI test agents, including dynamic task decomposition, app navigation, action execution, and completion-evidence tracking for multi-step validation goals.
+- Served custom VLM checkpoints with vLLM continuous batching and optimized attention backends to improve throughput and latency for agentic AI inference workloads.
 
 ### Case Western Reserve University - Artificial Intelligence Research Assistant
 
@@ -35,6 +35,9 @@ back for a future role.
 
 ### Foundation Model / Applied Research
 
+- Fine-tuned multimodal foundation models using SFT, DPO, and GRPO for planner, reasoner, grounder, verifier, and error-recovery components in real-device automotive HMI software testing.
+- Built multimodal GUI-agent system for real-device Android HMI software testing, combining screen understanding, element grounding, tool-use actions, action verification, and error recovery across in-vehicle app workflows.
+- Developed long-horizon planning workflows for automotive HMI test agents, including dynamic task decomposition, app navigation, action execution, and completion-evidence tracking for multi-step validation goals.
 - Post-trained multimodal foundation models using SFT, DPO, and GRPO for reasoning, grounding, and task execution in automotive AI workflows.
 - Built multi-task VLM fine-tuning pipelines for automotive HMI reasoning, combining toggle-state prediction, step decomposition, and UI grounding with DDP training and task-specific evaluation.
 - Developed long-horizon planning workflows for multimodal foundation-model systems, including task decomposition, dynamic planning, and agentic reasoning for automotive HMI automation.
@@ -48,6 +51,8 @@ back for a future role.
 
 ### Deployment / Serving
 
+- Compressed VLMs using pruning, knowledge distillation, and quantization-aware training for constrained deployment, improving inference efficiency for agentic AI workloads.
+- Developed multimodal inference and evaluation infrastructure for automotive AI workflows, measuring latency, throughput, task accuracy, and serving reliability across large VLM experiments.
 - Deployed and evaluated Qwen3.5 models up to 35B/A3B on Azure ML managed endpoints with vLLM, configuring H100/A100 serving, prefix caching, long-context inference, health probes, and throughput/latency monitoring.
 - Deployed and profiled Qwen3.5 models up to 35B/A3B with TensorRT-LLM on H100/A100 Azure ML endpoints, using NVIDIA Nsight Systems/Compute to diagnose memory versus compute bottlenecks and tune throughput/latency.
 - Architected multimodal inference and evaluation infrastructure for automotive AI workflows, measuring latency, throughput, task accuracy, and serving reliability for large VLM deployment with vLLM.
@@ -77,10 +82,10 @@ back for a future role.
 
 ### Currently Active
 
-- VLA / Automotive AI: Vision-Language-Action Models, Trajectory Prediction, Autonomous-Driving VLMs, Multimodal Reasoning, Visual Grounding
-- ML Engineering: Python, PyTorch, Distributed Training (FSDP/DDP), Fine-tuning, Post-training, Reinforcement Learning, Model Evaluation
-- Optimization / Deployment: Pruning, Knowledge Distillation, Quantization-Aware Training, vLLM, CUDA, Model Serving, Latency/Throughput Tuning
-- Computer Vision: Vision Transformers, Segmentation, Cross-Modal Alignment, Object Grounding, Graph Neural Networks
+- Agentic AI: GUI Agents, Long-Horizon Planning, Task Decomposition, Action Verification, Error Recovery, Multi-Agent Workflows
+- LLM / VLM Systems: Python, PyTorch, Vision-Language Models, Multimodal Reasoning, Visual Grounding, Prompting, Model Evaluation
+- Evaluation / Optimization: Trace Logging, Agent Evaluation, Latency/Throughput Tuning, Quantization, Knowledge Distillation, Pruning
+- Deployment / Frameworks: vLLM, CUDA, Model Serving, Distributed Training (FSDP/DDP), LangGraph, Agentic RAG
 
 ### Role-Dependent / Bring Back When Relevant
 

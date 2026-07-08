@@ -1,28 +1,38 @@
+Responsibilities
+
 Job Description
 
-As a Senior Research Scientist- Vision-Language-Action (VLA) Models, you contribute to research projects at the forefront of the ADAS/AD industry. Key responsibilities include:
-
-Conduct research and engineering in core AI and machine learning fields to enable Embodied AI (including computer vision, autonomous planning, open-world learning, and so on) for related business domains of ADAS/AD, industrial automation, robotics etc.
-Push the boundaries in (modular) end-to-end perception and planning for ADAS/AD, incorporating advancements in large vision-language-(action) models to aid reasoning capabilities and explainability.
-Collaborate cross-functionally with global research and engineering teams to ensure seamless technology transfer and system integration.
-Implement research results to solve real-world challenges, ensuring high-quality system integration within Bosch's existing platforms.
-Stay at the forefront of innovation by actively engaging with academic and industry communities through conferences, workshops, and technical events.
-Document and disseminate research findings through high-caliber publications and/or patent submissions.
+Design, build, and evaluate agentic AI systems that can plan, reason, act, and collaborate across tools and environments, including single- and multi-agent setups for complex, long-horizon tasks.
+Develop robust agent harnesses and evaluation frameworks covering end-to-end testing, regression analysis, trace logging, replayability, and metrics for success, cost, latency, robustness, and safety.
+Implement self-improving agent loops using reflection, critique, self-debugging, and iterative optimization strategies driven by agent experience, execution traces, and automated feedback.
+Architect and optimize agent memory systems, including short-term and long-term memory, retrieval-augmented generation, summarization, compression, forgetting policies, and privacy-aware retention.
+Enable reliable deployment of agents on constrained and edge environments, focusing on model/runtime optimization, partial or offline execution, secure tool-use, and seamless edge-cloud coordination.
 
 Qualifications
 
 Basic Qualifications
 
-Ph.D. in Computer Science, Robotics or a related discipline or Master's degree with >= 2/4 years industry experience after graduation.
-A minimum of 5 years of R&D experience, or an equivalent graduate research background, primarily in AI technologies including Computer Vision and Robotic or Automotive Motion and Behavioral Planning.
-Proficiency in one or more programming languages commonly used in machine learning (e.g., Python, C++, Rust).
-Strong interpersonal, communication, and teamwork capabilities.
-Knowledge of major machine learning frameworks like TensorFlow or PyTorch.
-Hands-on experience in reinforcement learning for behavior or motion planning or other applicable contexts and familiarity with common RL techniques (e.g. PPO, DQN, DDPG).
-A strong portfolio of publications in premier machine learning, deep learning, robotics and computer vision journals and conferences.
+Bachelor or master's degree in computer science or engineering
+Strong software engineering skills in Python
+Hands-on experience with LLMs and agentic systems, such as tool-using agents, planner-executor patterns, multistep reasoning pipelines, RAG systems
+Solid understanding of ML fundamentals and practical model usage, including prompting, evaluation, and error analysis
+Ability to design experiments and interpret results, including ablations, statistical thinking, clear success criteria and measurable KPIs
+Strong communication and documentation skills including clear write-ups, reproducible experiments, and crisp technical presentations
 
 Preferred Qualifications
 
-Experience with real-world product development and deployment of autonomous systems.
-Hands-on experience building and applying multimodal transformer-based sequence-to-sequence models, especially multimodal vision-language-action models.
-Hands-on experience in computer vision and deep learning, with work in any of the following areas: multimodal transformers, multimodal language models, diffusion models, NeRF, gaussian splatting, object detection / segmentation, 3D scene understanding, sensor calibration, SfM, voxel/BEV grid-based feature representation.
+3+ years experiences in industrial research.
+Experience with one or more of the following topics:
+Agent frameworks
+Structured generation
+Agent memory management
+Self-improving agents
+LLM fine-tuning & reinforcement learning
+Model optimization for edge
+Harness engineering
+Hands-on experience on production of AI systems
+Additional Information
+
+We offer a competitive base salary for this position with a range in US-California of --$165,000 - $180,000 along with an annual corporate bonus, and a long-term incentive bonus designed to reward sustained impact and contribution over time. Within the salary range, the individual pay is determined based on several factors, including, but not limited to, work experience and job knowledge, complexity of the role, job location, etc.
+
+Your well-being matters at Bosch! We offer a a benefits package designed to empower you in every area of your life. This includes premium health coverage, a 401(k) with generous matching, resources for financial planning and goal setting, ample paid time off, parental leave, and comprehensive life and disability protection. Your Recruiter can share more details for this position during the interview process.
