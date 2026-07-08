@@ -9,10 +9,11 @@ back for a future role.
 
 ### Volkswagen Group of America - Senior AI Engineer
 
-- Fine-tuned multimodal foundation models using SFT, DPO, and GRPO for specialized planner, reasoner, grounder, verifier, and error recovery components in real-device GUI automation.
-- Built multimodal GUI-agent system for real-device Android app and browser automation, combining visual screen understanding, element grounding, tool-use actions, verification, and error recovery across Android platforms.
-- Developed long-horizon multimodal reasoning workflows for GUI agents, including dynamic planning, task decomposition, app/browser navigation, and completion-evidence tracking for evaluation of multi-step goals.
-- Compressed VLMs using pruning, knowledge distillation, and quantization-aware training, then served custom checkpoints with vLLM continuous batching and optimized attention backends to improve GUI-agent inference throughput and latency.
+- Optimized Qwen2.5-VL for autonomous-driving trajectory prediction, reducing parameters from 3.75B to 1.4B through depth pruning for deployment under edge compute and memory constraints.
+- Distilled knowledge from Qwen2.5-VL 7B into the pruned 1.4B trajectory-prediction model, applying quantization-aware training to preserve VLM performance under constrained deployment settings.
+- Built distributed PyTorch/DDP pipelines for multi-task automotive VLM workloads, supporting scalable training, task-specific evaluation, and performance validation across transformer-based models.
+- Post-trained multimodal foundation models using SFT, DPO, and GRPO for reasoning, grounding, and task execution in automotive AI workflows.
+- Developed multimodal inference and evaluation infrastructure for automotive AI workflows, measuring latency, throughput, task accuracy, and serving reliability across large VLM experiments.
 
 ### Case Western Reserve University - Artificial Intelligence Research Assistant
 
@@ -76,10 +77,10 @@ back for a future role.
 
 ### Currently Active
 
-- ML Engineering: Python, PyTorch, Distributed Training (FSDP/DDP), Fine-tuning, Quantization, Knowledge Distillation, Model Evaluation
-- VLM / Multimodal AI: Vision-Language Models, Multimodal Reasoning, Visual Grounding, Cross-Modal Alignment, Computer Vision
-- Agentic Systems: GUI Agents, Tool Use, Long-Horizon Planning, Task Decomposition, Action Verification, Error Recovery
-- Inference Systems: vLLM, CUDA, FlashAttention-style Attention, Model Serving, GPU Memory Optimization, Latency/Throughput Tuning
+- VLA / Automotive AI: Vision-Language-Action Models, Trajectory Prediction, Autonomous-Driving VLMs, Multimodal Reasoning, Visual Grounding
+- ML Engineering: Python, PyTorch, Distributed Training (FSDP/DDP), Fine-tuning, Post-training, Reinforcement Learning, Model Evaluation
+- Optimization / Deployment: Pruning, Knowledge Distillation, Quantization-Aware Training, vLLM, CUDA, Model Serving, Latency/Throughput Tuning
+- Computer Vision: Vision Transformers, Segmentation, Cross-Modal Alignment, Object Grounding, Graph Neural Networks
 
 ### Role-Dependent / Bring Back When Relevant
 

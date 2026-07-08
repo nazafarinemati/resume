@@ -1,63 +1,28 @@
-ABOUT THE INSTITUTE OF FOUNDATION MODELS
+Job Description
 
-We are a dedicated research lab for building, understanding, using, and risk-managing foundation models. Our mandate is to advance research, nurture the next generation of AI builders, and drive transformative contributions to a knowledge-driven economy. 
+As a Senior Research Scientist- Vision-Language-Action (VLA) Models, you contribute to research projects at the forefront of the ADAS/AD industry. Key responsibilities include:
 
-As part of our team, you’ll have the opportunity to work on the core of cutting-edge foundation model training, alongside world-class researchers, data scientists, and engineers, tackling the most fundamental and impactful challenges in AI development. You will participate in the development of groundbreaking AI solutions that have the potential to reshape entire industries. Strategic and innovative problem-solving skills will be instrumental in establishing MBZUAI as a global hub for high-performance computing in deep learning, driving impactful discoveries that inspire the next generation of AI pioneers.
+Conduct research and engineering in core AI and machine learning fields to enable Embodied AI (including computer vision, autonomous planning, open-world learning, and so on) for related business domains of ADAS/AD, industrial automation, robotics etc.
+Push the boundaries in (modular) end-to-end perception and planning for ADAS/AD, incorporating advancements in large vision-language-(action) models to aid reasoning capabilities and explainability.
+Collaborate cross-functionally with global research and engineering teams to ensure seamless technology transfer and system integration.
+Implement research results to solve real-world challenges, ensuring high-quality system integration within Bosch's existing platforms.
+Stay at the forefront of innovation by actively engaging with academic and industry communities through conferences, workshops, and technical events.
+Document and disseminate research findings through high-caliber publications and/or patent submissions.
 
-Position Summary
+Qualifications
 
-As a Research Scientist in the Vision Language Model (VLM) team, your role will be central to advancing state-of-the-art multimodal foundation models that integrate visual understanding, reasoning, and agentic capabilities. You will work on the research and development of large-scale VLM systems, spanning model architectures, data recipes for pre-training and post-training, and evaluation benchmarks. The role combines cutting-edge research with practical engineering, emphasizing large-scale data processing, filtering, and weighting pipelines, distributed training systems, and reinforcement learning algorithms and systems for multimodal reasoning and agent development.
-Key Responsibilities
+Basic Qualifications
 
-Research and development of next-generation Vision Language Models across pre-training, instruction tuning, reasoning, and agents.
-Develop novel architectures and training methodologies for integrating visual understanding, language reasoning, and tool-use capabilities.
-Research efficient multimodal learning techniques, including data-efficient training, long-context modeling, model modularity, and inference optimization.
-Build and improve large-scale multimodal datasets, synthetic data generation pipelines, and evaluation benchmarks for VLM capabilities.
-Investigate multimodal reasoning, agentic behavior, OCR, grounding, document understanding, chart understanding, and visual question answering capabilities.
-Contribute to technical reports, research publications, and open-source software.
-Represent MBZUAI at research conferences and industry events, showcasing advancements in multimodal foundation models and large-scale AI systems.
-Mentor junior researchers and collaborate across teams to drive impactful research initiatives.
-Academic Qualifications
+Ph.D. in Computer Science, Robotics or a related discipline or Master's degree with >= 2/4 years industry experience after graduation.
+A minimum of 5 years of R&D experience, or an equivalent graduate research background, primarily in AI technologies including Computer Vision and Robotic or Automotive Motion and Behavioral Planning.
+Proficiency in one or more programming languages commonly used in machine learning (e.g., Python, C++, Rust).
+Strong interpersonal, communication, and teamwork capabilities.
+Knowledge of major machine learning frameworks like TensorFlow or PyTorch.
+Hands-on experience in reinforcement learning for behavior or motion planning or other applicable contexts and familiarity with common RL techniques (e.g. PPO, DQN, DDPG).
+A strong portfolio of publications in premier machine learning, deep learning, robotics and computer vision journals and conferences.
 
-PhD or equivalent research experience in Machine Learning, Computer Vision, Natural Language Processing, or Multimodal AI.
-$150,000 - $450,000 a year
-Salary Range
- 
-The posted salary range represents the company’s good faith estimate of the compensation for this position upon hire. The actual compensation offered may vary within this range depending on individual qualifications, including but not limited to relevant skills, experience, education, certifications, geographic location, and specific business needs.  
-PROFESSIONAL EXPERIENCE
+Preferred Qualifications
 
-Minimum  
-
-Experience working with large language models and/or vision-language models, including pre-training, fine-tuning, evaluation, or inference.
-
-Strong Python and PyTorch development skills for large-scale machine learning research.
-
-Experience with distributed training systems and large-scale model optimization.
-
-Familiarity with multimodal datasets and data processing pipelines involving images, text, and video.
-
-Understanding of modern deep learning architectures, including Transformers, attention mechanisms, and multimodal fusion techniques.
-
-Experience with ML infrastructure, including model evaluation, debugging, optimization, and large-scale experimentation.
-
-Problem-solving and research skills with the ability to independently drive research/engineering projects.
-
-Effective communication and collaboration skills for working across research and engineering teams.
-
-Preferred Skills
-
-Hands-on experience training or fine-tuning large Vision Language Models or multimodal foundation models at scale.
-
-Experience with distributed learning frameworks and infrastructure such as PyTorch Distributed, Megatron, Triton, or CUDA.
-
-Research experience in multimodal reasoning, agentic systems, tool use, OCR, grounding, document understanding, or multimodal retrieval.
-
-Experience with synthetic data generation, multimodal data curation, or automated evaluation frameworks for VLMs.
-
-Familiarity with efficient training and inference techniques such as FlashAttention, quantization, tensor parallelism, pipeline parallelism, or memory optimization.
-
-Experience contributing to open-source ML software and large-scale research codebases.
-
-Strong publication record in leading AI conferences such as NeurIPS, ICML, ICLR, CVPR, ICCV, ECCV, ACL, EMNLP, or related venues.
-
-Experience collaborating across research, infrastructure, and product-oriented teams to deliver state-of-the-art multimodal systems.
+Experience with real-world product development and deployment of autonomous systems.
+Hands-on experience building and applying multimodal transformer-based sequence-to-sequence models, especially multimodal vision-language-action models.
+Hands-on experience in computer vision and deep learning, with work in any of the following areas: multimodal transformers, multimodal language models, diffusion models, NeRF, gaussian splatting, object detection / segmentation, 3D scene understanding, sensor calibration, SfM, voxel/BEV grid-based feature representation.
