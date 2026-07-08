@@ -9,10 +9,10 @@ back for a future role.
 
 ### Volkswagen Group of America - Senior AI Engineer
 
-- Built GUI-agent system for real-device app and browser automation on Android, combining screen understanding, element grounding, ADB action execution, action verification, and error recovery across different Android platforms.
-- Developed long-horizon planning workflows for GUI agents, including dynamic task planning, task decomposition, app/browser navigation, and completion-evidence tracking for multi-step user goals.
 - Fine-tuned multimodal foundation models using SFT, DPO, and GRPO for specialized planner, reasoner, grounder, verifier, and error recovery components in real-device GUI automation.
-- Applied pruning, knowledge distillation, and quantization-aware training to compress VLMs for constrained deployment, then served custom checkpoints with vLLM continuous batching to improve throughput and latency for GUI-agent inference.
+- Built multimodal GUI-agent system for real-device Android app and browser automation, combining visual screen understanding, element grounding, tool-use actions, verification, and error recovery across Android platforms.
+- Developed long-horizon multimodal reasoning workflows for GUI agents, including dynamic planning, task decomposition, app/browser navigation, and completion-evidence tracking for evaluation of multi-step goals.
+- Compressed VLMs using pruning, knowledge distillation, and quantization-aware training, then served custom checkpoints with vLLM continuous batching and optimized attention backends to improve GUI-agent inference throughput and latency.
 
 ### Case Western Reserve University - Artificial Intelligence Research Assistant
 
@@ -23,7 +23,7 @@ back for a future role.
 ### Sherwin-Williams - Software Engineer, AI/ML Intern
 
 - Designed and deployed real-time vision-transformer inference pipeline for SAM, tuning latency and improving segmentation quality by 7% IoU through inference evaluation and pipeline optimization.
-- Built multimodal system integrating LLaVA with vision transformers, implementing cross-modal alignment for natural-language visual grounding and object segmentation.
+- Built VLM-based visual grounding system integrating LLaVA with vision transformers, implementing cross-modal alignment for natural-language object grounding and segmentation.
 
 ### Beyond Limits AI - Data Science Research Intern
 
@@ -39,7 +39,9 @@ back for a future role.
 - Developed long-horizon planning workflows for multimodal foundation-model systems, including task decomposition, dynamic planning, and agentic reasoning for automotive HMI automation.
 - Developed multimodal task-planning workflows that translate natural-language automotive HMI goals into executable action sequences, supporting evaluation of reasoning and grounding behavior.
 - Built GUI-agent system for real-device app and browser automation on Android, combining screen understanding, element grounding, ADB action execution, action verification, and error recovery across different Android platforms.
+- Built multimodal GUI-agent system for real-device Android app and browser automation, combining visual screen understanding, element grounding, tool-use actions, verification, and error recovery across Android platforms.
 - Developed long-horizon planning workflows for GUI agents, including dynamic task planning, task decomposition, app/browser navigation, and completion-evidence tracking for multi-step user goals.
+- Developed long-horizon multimodal reasoning workflows for GUI agents, including dynamic planning, task decomposition, app/browser navigation, and completion-evidence tracking for evaluation of multi-step goals.
 - Fine-tuned multimodal foundation models using SFT, DPO, and GRPO for specialized planner, reasoner, grounder, verifier, and error recovery components in real-device GUI automation.
 - Instrumented agent runs with screenshots, parsed model outputs, latency, path plans, and step histories to diagnose robustness failures and improve long-horizon task completion on Android workflows.
 
@@ -49,6 +51,7 @@ back for a future role.
 - Deployed and profiled Qwen3.5 models up to 35B/A3B with TensorRT-LLM on H100/A100 Azure ML endpoints, using NVIDIA Nsight Systems/Compute to diagnose memory versus compute bottlenecks and tune throughput/latency.
 - Architected multimodal inference and evaluation infrastructure for automotive AI workflows, measuring latency, throughput, task accuracy, and serving reliability for large VLM deployment with vLLM.
 - Applied pruning, knowledge distillation, and quantization-aware training to compress VLMs for constrained deployment, then served custom checkpoints with vLLM continuous batching to improve throughput and latency for GUI-agent inference.
+- Compressed VLMs using pruning, knowledge distillation, and quantization-aware training, then served custom checkpoints with vLLM continuous batching and optimized attention backends to improve GUI-agent inference throughput and latency.
 
 ### Pruning / Compression
 
@@ -63,6 +66,7 @@ back for a future role.
 - Compressed Qwen2.5-VL 7B into a pruned 1.4B trajectory-prediction model using knowledge distillation and quantization-aware training for lower-memory, deployment-ready inference.
 - Built distributed PyTorch/DDP pipelines for multi-task automotive VLM workloads, supporting scalable training, task-specific evaluation, and performance validation across transformer-based models.
 - Profiled and optimized TensorRT-LLM serving for Qwen3.5 models up to 35B/A3B on H100/A100 GPUs, using NVIDIA Nsight Systems/Compute to diagnose memory-vs-compute bottlenecks and tune throughput/latency.
+- Served custom VLM checkpoints with vLLM continuous batching and optimized attention backends, applying CUDA/FlashAttention systems knowledge to improve throughput and latency for GUI-agent inference.
 
 ### Earlier Experience
 
@@ -72,10 +76,10 @@ back for a future role.
 
 ### Currently Active
 
-- Programming: Python, C++, SQL
-- ML Engineering: PyTorch, Distributed Training (FSDP/DDP), Fine-tuning, Quantization, Knowledge Distillation, Computer Vision
-- Agentic Systems: GUI Agents, LangGraph, Multi-Agent Workflows, Long-Horizon Planning, Dynamic Planning, Task Decomposition, UI Grounding, Action Verification, Error Recovery
-- LLM/VLM Systems: vLLM, Prompting, Multimodal Models, Model Serving, Performance Evaluation
+- ML Engineering: Python, PyTorch, Distributed Training (FSDP/DDP), Fine-tuning, Quantization, Knowledge Distillation, Model Evaluation
+- VLM / Multimodal AI: Vision-Language Models, Multimodal Reasoning, Visual Grounding, Cross-Modal Alignment, Computer Vision
+- Agentic Systems: GUI Agents, Tool Use, Long-Horizon Planning, Task Decomposition, Action Verification, Error Recovery
+- Inference Systems: vLLM, CUDA, FlashAttention-style Attention, Model Serving, GPU Memory Optimization, Latency/Throughput Tuning
 
 ### Role-Dependent / Bring Back When Relevant
 
@@ -86,6 +90,7 @@ back for a future role.
 - Redis
 - Git
 - LangChain
+- LangGraph
 - PyTorch Geometric
 - NumPy
 - Pandas
@@ -93,8 +98,11 @@ back for a future role.
 - Reinforcement Learning
 - Embeddings
 - Graph Neural Networks
-- CUDA
 - NVIDIA Nsight Systems/Compute
-- GPU Memory Optimization
-- Latency/Throughput Tuning
 - TensorRT-LLM
+- C++
+- SQL
+- Prompting
+- Multi-Agent Workflows
+- Dynamic Planning
+- UI Grounding

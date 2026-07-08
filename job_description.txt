@@ -1,77 +1,63 @@
-About the role
+ABOUT THE INSTITUTE OF FOUNDATION MODELS
 
-The Computer Use team teaches Claude to see and operate computer interfaces, and builds the agent harness and end-user products that turn that capability into real tools. The team sits inside Anthropic's research organization and closes the loop between product and model.
+We are a dedicated research lab for building, understanding, using, and risk-managing foundation models. Our mandate is to advance research, nurture the next generation of AI builders, and drive transformative contributions to a knowledge-driven economy. 
 
-As a Product Engineer on this team, you'll own end-to-end delivery of our computer-use and browser-control product surfaces. You'll build across the full stack, from the user interface to the agent runtime to the backend services behind it. You'll work directly alongside researchers, with no layers between you and the model or the user. 
+As part of our team, you’ll have the opportunity to work on the core of cutting-edge foundation model training, alongside world-class researchers, data scientists, and engineers, tackling the most fundamental and impactful challenges in AI development. You will participate in the development of groundbreaking AI solutions that have the potential to reshape entire industries. Strategic and innovative problem-solving skills will be instrumental in establishing MBZUAI as a global hub for high-performance computing in deep learning, driving impactful discoveries that inspire the next generation of AI pioneers.
 
-This is a dynamic role in which priorities evolve frequently. Success depends on a high tolerance for ambiguity, the adaptability to shift focus as needs change, and the agility and discernment to continuously prioritize the highest impact work.
+Position Summary
 
-Key responsibilities
+As a Research Scientist in the Vision Language Model (VLM) team, your role will be central to advancing state-of-the-art multimodal foundation models that integrate visual understanding, reasoning, and agentic capabilities. You will work on the research and development of large-scale VLM systems, spanning model architectures, data recipes for pre-training and post-training, and evaluation benchmarks. The role combines cutting-edge research with practical engineering, emphasizing large-scale data processing, filtering, and weighting pipelines, distributed training systems, and reinforcement learning algorithms and systems for multimodal reasoning and agent development.
+Key Responsibilities
 
-Own end-to-end delivery of computer-use and browser-control product surfaces: scope, build, ship, measure, and iterate
+Research and development of next-generation Vision Language Models across pre-training, instruction tuning, reasoning, and agents.
+Develop novel architectures and training methodologies for integrating visual understanding, language reasoning, and tool-use capabilities.
+Research efficient multimodal learning techniques, including data-efficient training, long-context modeling, model modularity, and inference optimization.
+Build and improve large-scale multimodal datasets, synthetic data generation pipelines, and evaluation benchmarks for VLM capabilities.
+Investigate multimodal reasoning, agentic behavior, OCR, grounding, document understanding, chart understanding, and visual question answering capabilities.
+Contribute to technical reports, research publications, and open-source software.
+Represent MBZUAI at research conferences and industry events, showcasing advancements in multimodal foundation models and large-scale AI systems.
+Mentor junior researchers and collaborate across teams to drive impactful research initiatives.
+Academic Qualifications
 
-Diagnose and resolve reliability and robustness issues in the computer-use agent harness that block real-world usage
+PhD or equivalent research experience in Machine Learning, Computer Vision, Natural Language Processing, or Multimodal AI.
+$150,000 - $450,000 a year
+Salary Range
+ 
+The posted salary range represents the company’s good faith estimate of the compensation for this position upon hire. The actual compensation offered may vary within this range depending on individual qualifications, including but not limited to relevant skills, experience, education, certifications, geographic location, and specific business needs.  
+PROFESSIONAL EXPERIENCE
 
-Partner with computer-use researchers
+Minimum  
 
-Partner with the Claude Cowork team on shared surfaces, integrations, and knowledge-worker workflows
+Experience working with large language models and/or vision-language models, including pre-training, fine-tuning, evaluation, or inference.
 
-Instrument products and use usage data to drive prioritization and measure progress 
+Strong Python and PyTorch development skills for large-scale machine learning research.
 
-Translate fuzzy user pain points into concrete, shippable features for knowledge workers
+Experience with distributed training systems and large-scale model optimization.
 
-Minimum qualifications
+Familiarity with multimodal datasets and data processing pipelines involving images, text, and video.
 
-Experience building and shipping a product from zero to one with end-to-end ownership, as a founding or early engineer at a startup or with equivalent ownership inside a larger company
+Understanding of modern deep learning architectures, including Transformers, attention mechanisms, and multimodal fusion techniques.
 
-Strong full-stack engineering skills, including production web frontend and backend development
+Experience with ML infrastructure, including model evaluation, debugging, optimization, and large-scale experimentation.
 
-Hands-on experience building with LLM APIs, prompting, or agent frameworks
+Problem-solving and research skills with the ability to independently drive research/engineering projects.
 
-A track record of shipping to external users and iterating based on their feedback
+Effective communication and collaboration skills for working across research and engineering teams.
 
-Preferred qualifications
+Preferred Skills
 
-Strong product design instincts and the ability to produce a clean, usable interface without a dedicated designer
+Hands-on experience training or fine-tuning large Vision Language Models or multimodal foundation models at scale.
 
-Experience with browser automation, desktop automation, or robotic process automation systems
+Experience with distributed learning frameworks and infrastructure such as PyTorch Distributed, Megatron, Triton, or CUDA.
 
-Experience building evals or quality harnesses for machine learning systems
+Research experience in multimodal reasoning, agentic systems, tool use, OCR, grounding, document understanding, or multimodal retrieval.
 
-Comfort with lightweight data analysis, such as SQL, notebooks, and defining and tracking product metrics
+Experience with synthetic data generation, multimodal data curation, or automated evaluation frameworks for VLMs.
 
-Experience designing agent loops, tool integrations, or guardrails for LLM-based systems
+Familiarity with efficient training and inference techniques such as FlashAttention, quantization, tensor parallelism, pipeline parallelism, or memory optimization.
 
-Representative projects
+Experience contributing to open-source ML software and large-scale research codebases.
 
-Own and resolve the top reliability and robustness issues on the computer-control and browser-control product surfaces, with measurable improvement in task success rate
+Strong publication record in leading AI conferences such as NeurIPS, ICML, ICLR, CVPR, ICCV, ECCV, ACL, EMNLP, or related venues.
 
-Take a net-new computer-use powered workflow from concept to external users, including instrumentation and a readout on usage
-
-The annual compensation range for this role is listed below. 
-
-For sales roles, the range provided is the role’s On Target Earnings ("OTE") range, meaning that the range includes both the sales commissions/sales bonuses target and annual base salary for the role.
-
-Annual Salary:
-$300,000 - $320,000 USD
-Logistics
-
-Minimum education: Bachelor’s degree or an equivalent combination of education, training, and/or experience
-
-Required field of study: A field relevant to the role as demonstrated through coursework, training, or professional experience
-
-Minimum years of experience: Years of experience required will correlate with the internal job level requirements for the position
-
-Location-based hybrid policy: Currently, we expect all staff to be in one of our offices at least 25% of the time. However, some roles may require more time in our offices.
-
-Visa sponsorship: We do sponsor visas! However, we aren't able to successfully sponsor visas for every role and every candidate. But if we make you an offer, we will make every reasonable effort to get you a visa, and we retain an immigration lawyer to help with this.
-
-We encourage you to apply even if you do not believe you meet every single qualification. Not all strong candidates will meet every single qualification as listed.  Research shows that people who identify as being from underrepresented groups are more prone to experiencing imposter syndrome and doubting the strength of their candidacy, so we urge you not to exclude yourself prematurely and to submit an application if you're interested in this work. We think AI systems like the ones we're building have enormous social and ethical implications. We think this makes representation even more important, and we strive to include a range of diverse perspectives on our team.
-
-Your safety matters to us. To protect yourself from potential scams, remember that Anthropic recruiters only contact you from @anthropic.com email addresses. In some cases, we may partner with vetted recruiting agencies who will identify themselves as working on behalf of Anthropic. Be cautious of emails from other domains. Legitimate Anthropic recruiters will never ask for money, fees, or banking information before your first day. If you're ever unsure about a communication, don't click any links—visit anthropic.com/careers directly for confirmed position openings.
-
-How we're different
-
-We believe that the highest-impact AI research will be big science. At Anthropic we work as a single cohesive team on just a few large-scale research efforts. And we value impact — advancing our long-term goals of steerable, trustworthy AI — rather than work on smaller and more specific puzzles. We view AI research as an empirical science, which has as much in common with physics and biology as with traditional efforts in computer science. We're an extremely collaborative group, and we host frequent research discussions to ensure that we are pursuing the highest-impact work at any given time. As such, we greatly value communication skills.
-
-The easiest way to understand our research directions is to read our recent research. This research continues many of the directions our team worked on prior to Anthropic, including: GPT-3, Circuit-Based Interpretability, Multimodal Neurons, Scaling Laws, AI & Compute, Concrete Problems in AI Safety, and Learning from Human Preferences.
+Experience collaborating across research, infrastructure, and product-oriented teams to deliver state-of-the-art multimodal systems.
