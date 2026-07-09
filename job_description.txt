@@ -1,38 +1,26 @@
-Responsibilities
+Your tasks
 
-Job Description
+Key Responsibilities: 
 
-Design, build, and evaluate agentic AI systems that can plan, reason, act, and collaborate across tools and environments, including single- and multi-agent setups for complex, long-horizon tasks.
-Develop robust agent harnesses and evaluation frameworks covering end-to-end testing, regression analysis, trace logging, replayability, and metrics for success, cost, latency, robustness, and safety.
-Implement self-improving agent loops using reflection, critique, self-debugging, and iterative optimization strategies driven by agent experience, execution traces, and automated feedback.
-Architect and optimize agent memory systems, including short-term and long-term memory, retrieval-augmented generation, summarization, compression, forgetting policies, and privacy-aware retention.
-Enable reliable deployment of agents on constrained and edge environments, focusing on model/runtime optimization, partial or offline execution, secure tool-use, and seamless edge-cloud coordination.
-
-Qualifications
+Conduct research on GenAI and Foundation models (FM) to address academic and industrial challenges in ADAS AI domain such as 3D reconstruction, world model, map and localization, data curation and auto-labeling, etc.
+Work with an international team of experts to transfer and apply the Bosch in-house GenAI / FM innovations and 3rd-party solutions to Bosch AI products and services, such as ADAS.
+Stay abreast of the latest technological advancements and market trends by attending academic conferences, technical events, and seminars.
+Offer expert insights to the management team in relevant technology sectors, aiding in strategic planning, R&D trajectory, and investment decisions.
+Document and disseminate research findings through high-caliber publications and/or patent submissions.
+Your profile
 
 Basic Qualifications
 
-Bachelor or master's degree in computer science or engineering
-Strong software engineering skills in Python
-Hands-on experience with LLMs and agentic systems, such as tool-using agents, planner-executor patterns, multistep reasoning pipelines, RAG systems
-Solid understanding of ML fundamentals and practical model usage, including prompting, evaluation, and error analysis
-Ability to design experiments and interpret results, including ablations, statistical thinking, clear success criteria and measurable KPIs
-Strong communication and documentation skills including clear write-ups, reproducible experiments, and crisp technical presentations
+Ph.D. in Computer Science or Engineering, or a related discipline or master’s degree with 3+ years industry experience (GenAI and/or world model related) after graduation
+2+ years of research experience or equivalent graduate research experience on foundation models, including training, fine-tuning, and prompting
+In-depth experiences in deep learning, with work in at least two of the following areas: diffusion models, 3D reconstruction, world models 
+Proficiency in one or more programming languages commonly used in systems research (e.g., Python, C++) and hands on experience with AI / NLP / CV libraries
+Publication record in top venues including CVPR, ICCV, ECCV, ICRA, IROS, RSS, NeurIPS, AAAI, ACL, EMNLP, and CoRL
+Strong interpersonal, communication, and teamwork capabilities
+Preferred Qualifications 
 
-Preferred Qualifications
-
-3+ years experiences in industrial research.
-Experience with one or more of the following topics:
-Agent frameworks
-Structured generation
-Agent memory management
-Self-improving agents
-LLM fine-tuning & reinforcement learning
-Model optimization for edge
-Harness engineering
-Hands-on experience on production of AI systems
-Additional Information
-
-We offer a competitive base salary for this position with a range in US-California of --$165,000 - $180,000 along with an annual corporate bonus, and a long-term incentive bonus designed to reward sustained impact and contribution over time. Within the salary range, the individual pay is determined based on several factors, including, but not limited to, work experience and job knowledge, complexity of the role, job location, etc.
-
-Your well-being matters at Bosch! We offer a a benefits package designed to empower you in every area of your life. This includes premium health coverage, a 401(k) with generous matching, resources for financial planning and goal setting, ample paid time off, parental leave, and comprehensive life and disability protection. Your Recruiter can share more details for this position during the interview process.
+Strong background in math and statistics
+3+ years experiences in industrial research
+Hands-on experience in product development in the above-mentioned areas for consumer/enterprise markets
+Experience in leading R&D project & team dealing with international customers
+Leadership skills with excellent English communication & teamwork skills

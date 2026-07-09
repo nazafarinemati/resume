@@ -9,10 +9,10 @@ back for a future role.
 
 ### Volkswagen Group of America - Senior AI Engineer
 
+- Integrated a diffusion-based world-model approach into the multi-agent automotive HMI testing framework, predicting future environment states from candidate actions to enable more reliable long-horizon decision-making.
 - Fine-tuned multimodal foundation models using SFT, DPO, and GRPO for planner, reasoner, grounder, verifier, and error-recovery components in real-device automotive HMI software testing.
-- Compressed VLMs using pruning, knowledge distillation, and quantization-aware training for constrained deployment, improving inference efficiency for agentic AI workloads.
+- Compressed Qwen2.5-VL for autonomous-driving trajectory prediction, reducing parameters from 3.75B to 1.4B through pruning, then distilling knowledge from the 7B teacher model and applying quantization-aware training to preserve performance under constrained edge deployment.
 - Built multimodal GUI-agent system for real-device Android HMI software testing, combining screen understanding, element grounding, tool-use actions, action verification, and error recovery across in-vehicle app workflows.
-- Developed long-horizon planning workflows for automotive HMI test agents, including dynamic task decomposition, app navigation, action execution, and completion-evidence tracking for multi-step validation goals.
 - Served custom VLM checkpoints with vLLM continuous batching and optimized attention backends to improve throughput and latency for agentic AI inference workloads.
 
 ### Case Western Reserve University - Artificial Intelligence Research Assistant
@@ -82,10 +82,10 @@ back for a future role.
 
 ### Currently Active
 
-- Agentic AI: GUI Agents, Long-Horizon Planning, Task Decomposition, Action Verification, Error Recovery, Multi-Agent Workflows
-- LLM / VLM Systems: Python, PyTorch, Vision-Language Models, Multimodal Reasoning, Visual Grounding, Prompting, Model Evaluation
-- Evaluation / Optimization: Trace Logging, Agent Evaluation, Latency/Throughput Tuning, Quantization, Knowledge Distillation, Pruning
-- Deployment / Frameworks: vLLM, CUDA, Model Serving, Distributed Training (FSDP/DDP), LangGraph, Agentic RAG
+- Agentic AI: GUI Agents, Long-Horizon Planning, Task Decomposition, Action Verification, Error Recovery
+- Foundation Models / GenAI: Python, C++, PyTorch, Diffusion Models, World Models, Vision-Language Models, Multimodal Reasoning, Prompting
+- Evaluation / Optimization: Model Evaluation, Quantization, Knowledge Distillation, Pruning
+- Deployment / Frameworks: vLLM, CUDA, Distributed Training (FSDP/DDP)
 
 ### Role-Dependent / Bring Back When Relevant
 
@@ -106,9 +106,12 @@ back for a future role.
 - Graph Neural Networks
 - NVIDIA Nsight Systems/Compute
 - TensorRT-LLM
-- C++
 - SQL
-- Prompting
 - Multi-Agent Workflows
 - Dynamic Planning
 - UI Grounding
+- Trace Logging
+- Agent Evaluation
+- Latency/Throughput Tuning
+- Model Serving
+- Visual Grounding
