@@ -86,7 +86,7 @@
     \textbf{\Huge \scshape Mohammadreza Nemati} \\ \vspace{1pt}
     \small  Santa Clara, CA 95054 $|$ 
     \small Mobile: 567-204-7520 $|$ 
-    \href{mailto:x@x.com}{mrnemati747@gmail.com} $|$ 
+    \href{mailto:mrnemati747@gmail.com}{mrnemati747@gmail.com} $|$
     \small \href{https://www.linkedin.com/in/mnemati/}{\textcolor{blue}{\underline{www.linkedin.com/in/mnemati}}}
 \end{center}
 
@@ -98,11 +98,11 @@
       {Senior AI Engineer}{05/2025 - Present}
       {Volkswagen Group of America}{Belmont, CA}
       \resumeItemListStart
-        \resumeItem{Integrated a diffusion-based world-model approach into the multi-agent automotive HMI testing framework, predicting future environment states from candidate actions to enable more reliable long-horizon decision-making.}
-        \resumeItem{Fine-tuned multimodal foundation models using SFT, DPO, and GRPO for planner, reasoner, grounder, verifier, and error-recovery components in real-device automotive HMI software testing.}
-        \resumeItem{Compressed Qwen2.5-VL for autonomous-driving trajectory prediction, reducing parameters from 3.75B to 1.4B through pruning, then distilling knowledge from the 7B teacher model and applying quantization-aware training to preserve performance under constrained edge deployment.}
-        \resumeItem{Built multimodal GUI-agent system for real-device Android HMI software testing, combining screen understanding, element grounding, tool-use actions, action verification, and error recovery across in-vehicle app workflows.}
-        \resumeItem{Served custom VLM checkpoints with vLLM continuous batching and optimized attention backends to improve throughput and latency for agentic AI inference workloads.}
+        \resumeItem{Post-trained multimodal foundation models with SFT, DPO, and GRPO for specialized reasoner, grounder, verifier, and error-recovery components in real-device automotive workflows.}
+        \resumeItem{Designed a long-horizon task planner that decomposed natural-language automotive human-machine interface (HMI) goals into executable steps and dynamically replanned from action feedback across multi-step device workflows.}
+        \resumeItem{Built multimodal-agent evaluation infrastructure to benchmark task completion, integrating reasoning voice agents to accept user voice input and test in-vehicle HMI voice capabilities.}
+        \resumeItem{Deployed and evaluated Qwen3.5 models on Azure ML managed endpoints with vLLM, configuring prefix caching, long-context inference, and throughput/latency monitoring.}
+        \resumeItem{Compressed Qwen2.5-VL for autonomous-driving trajectory prediction from 3.75B to 1.4B using structured pruning, knowledge distillation from a 7B teacher, and quantization-aware training to reduce inference latency while maintaining accuracy under edge constraints.}
       \resumeItemListEnd
       \vspace{0.14cm}
 
@@ -111,11 +111,11 @@
       {Case Western Reserve University}{Cleveland, Ohio}
             \resumeItemListStart
 
-\resumeItem{Optimized LLM inference memory by analyzing KV-cache key/value norm imbalance, achieving 2$\times$ memory reduction with $>$94\% accuracy retention across models up to 70B parameters \href{https://arxiv.org/pdf/2502.15075}{\textcolor{blue}{[paper link]}}}
+\resumeItem{Analyzed KV-cache key/value norm imbalance to optimize LLM inference memory, achieving 2$\times$ memory reduction with $>$94\% accuracy retention across foundation models up to 70B parameters \href{https://www.researchgate.net/profile/Mohsen-Hariri-2/publication/389273902_More_for_Keys_Less_for_Values_Adaptive_KV_Cache_Quantization/links/68746b60dd6b84447df84464/More-for-Keys-Less-for-Values-Adaptive-KV-Cache-Quantization.pdf}{\textcolor{blue}{[paper link]}}}
 
-\resumeItem{Developed LIT-LVM using latent variable embeddings, structured regularization, and GNN-based higher-order interactions, outperforming GNN, Factorization Machine, and elastic net baselines in ranking and recommendation tasks \href{https://arxiv.org/pdf/2506.15492}{\textcolor{blue}{[paper link]}}}
+\resumeItem{Developed LIT-LVM, a latent-variable method for structured interaction modeling that outperformed elastic net, hierarchical lasso, and factorization-machine baselines across simulated and real-world datasets \href{https://arxiv.org/pdf/2506.15492}{\textcolor{blue}{[TMLR 2025]}}}
 
-\resumeItem{Developed DEASurv, a deep multimodal model leveraging entity-specific embeddings, attention mechanisms, and contrastive loss to improve prediction on large-scale medical datasets}
+\resumeItem{Developed DEASurv, a multimodal predictive model combining entity-specific embeddings, attention, and contrastive learning for large-scale medical datasets}
 
 
         \resumeItemListEnd
@@ -125,8 +125,8 @@
     {Software Engineer - AI/ML Intern}{02/2024 - 07/2024}
       {Sherwin-Williams}{Cleveland, Ohio}
         \resumeItemListStart
+\resumeItem{Built a VLM-based grounded-perception system integrating LLaVA and vision transformers for natural-language object grounding and segmentation.}
 \resumeItem{Designed and deployed real-time vision-transformer inference pipeline for SAM, tuning latency and improving segmentation quality by 7\% IoU through inference evaluation and pipeline optimization.}
-\resumeItem{Built VLM-based visual grounding system integrating LLaVA with vision transformers, implementing cross-modal alignment for natural-language object grounding and segmentation.}
 
       \resumeItemListEnd
     \vspace{0.14cm} 
@@ -135,8 +135,8 @@
       {Data Science Research Intern}{05/2023 - 09/2023}
       {Beyond Limits AI}{Glendale, California}
             \resumeItemListStart
+        \resumeItem{Fine-tuned Llama-2 using PyTorch FSDP/DDP for scalable multi-GPU training and quantized deployment.}
         \resumeItem{Developed and deployed Graph Neural Network models (GCN, GAT, GraphSAGE) using PyTorch Geometric for graph-structured data, achieving 10\% accuracy improvement over baseline approaches}
-        \resumeItem{Fine-tuned Llama-2 using PyTorch distributed training with FSDP/DDP for multi-GPU optimization and quantization for efficient deployment.}
         \resumeItemListEnd
 \vspace{0.04cm}
 
@@ -146,10 +146,10 @@
 \section{Skills}
 \vspace{0.06cm}
 \begin{itemize}[leftmargin=0.15in, label={}, itemsep=2pt]
-  \item \textbf{Agentic AI}: GUI Agents, Long-Horizon Planning, Task Decomposition, Action Verification, Error Recovery
-  \item \textbf{Foundation Models / GenAI}: Python, C++, PyTorch, Diffusion Models, World Models, Vision-Language Models, Multimodal Reasoning, Prompting
-  \item \textbf{Evaluation / Optimization}: Model Evaluation, Quantization, Knowledge Distillation, Pruning
-  \item \textbf{Deployment / Frameworks}: vLLM, CUDA, Distributed Training (FSDP/DDP)
+  \item \textbf{Foundation Models / Multimodal}: Transformers, Vision-Language Models, Multimodal Learning, Visual Grounding
+  \item \textbf{Agentic AI}: Long-Horizon Planning, Voice Agents, Tool Use, GUI Agents, Multi-Agent Workflows
+  \item \textbf{Training / Evaluation}: SFT, DPO, GRPO, Reinforcement Learning, PyTorch, Distributed Training (FSDP/DDP), Model and Agent Evaluation, Knowledge Distillation, Quantization, Pruning
+  \item \textbf{Programming / Infrastructure}: Python, C++, CUDA, vLLM, Docker, Git
 \end{itemize}
 \vspace{-0.2cm}
 

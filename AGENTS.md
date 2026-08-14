@@ -3,12 +3,20 @@
 ## Purpose
 This repository maintains a LaTeX resume, `Nemati_Resume.tex`, tailored for specific job applications. Each commit should correspond to optimizing the resume for a particular job description.
 
+## Bullet Bank Is a Required Source
+The current resume is only one role-specific snapshot and must never be treated as the complete source of the user's experience. For every tailoring request, agents must review the entire `resume_bullet_bank.md` and compare its archived bullets, alternate phrasings, role-dependent skills, and prior variants against the new job description.
+
+Agents must actively propose restoring relevant banked content to the main resume and removing or replacing less relevant current content when that produces a stronger match. Do not limit proposals to rewriting bullets already present in `Nemati_Resume.tex`.
+
+The bullet bank is also a living record and must be kept current. After every approved tailoring pass, agents must review whether the changes produced useful new bullet wording, role-specific variants, skills, metrics, or context worth preserving. Add those improvements to `resume_bullet_bank.md`, update outdated entries when appropriate, and retain displaced strong variants so future tailoring is not limited by the latest resume version.
+
 ## Workflow
 1. Add or update `job_description.txt` with the target role details.
-2. Review `resume_bullet_bank.md`, then analyze the resume and job description and propose changes first.
-3. Wait for explicit user approval before editing `Nemati_Resume.tex`.
-4. After approval, update `Nemati_Resume.tex` to align with the role and keep `resume_bullet_bank.md` current.
-5. Commit with message format: `Tailored for [Company] - [Position]`.
+2. Review the entire `resume_bullet_bank.md`, `Nemati_Resume.tex`, and the job description; treat both the bullet bank and current resume as candidate sources.
+3. Compare all relevant banked and current bullets against the job description, then propose which content to add, remove, replace, rewrite, or reorder.
+4. Wait for explicit user approval before editing `Nemati_Resume.tex`.
+5. After approval, update `Nemati_Resume.tex` to align with the role and keep `resume_bullet_bank.md` current.
+6. Commit with message format: `Tailored for [Company] - [Position]`.
 
 ## Critical Approval Rule
 Do not directly edit the resume file without user approval.
@@ -18,9 +26,12 @@ Follow this process:
 1. Analysis Phase
    - Read `Nemati_Resume.tex`.
    - Read `job_description.txt`.
-   - Read `resume_bullet_bank.md` and consider whether archived bullets, role-dependent skills, or prior variants should be restored for the target role.
+   - Read the entire `resume_bullet_bank.md` on every tailoring pass, even if the current resume already appears relevant.
+   - Treat the bullet bank as a first-class source of resume content, not merely an archive or optional reference.
+   - Compare banked bullets and variants with current resume bullets for every role, and identify banked content that better matches the target job.
+   - Consider whether archived bullets, role-dependent skills, or prior variants should be restored for the target role.
    - Analyze gaps between the resume and job requirements.
-   - Consider whether existing bullets should be added, removed, reordered, or rewritten to better reflect the job description.
+   - Consider whether bullets from either the current resume or bullet bank should be added, removed, replaced, reordered, or rewritten to better reflect the job description.
    - Identify important job-description requirements that are not visible in the resume and discuss whether the user has relevant experience before proposing new bullets.
    - Review the Skills section for role relevance, removing low-signal or less relevant skills while keeping foundational skills that strengthen the application even if not explicitly listed in the job description.
    - Treat removed skills as role-dependent, not permanently deleted; propose bringing back tooling such as DevOps, databases, data libraries, or backend frameworks when a future job description makes them relevant.
@@ -31,6 +42,7 @@ Follow this process:
    - Include the section or bullet being modified.
    - Include current text versus proposed text.
    - Include the rationale for each change.
+   - Explicitly identify proposed bullets sourced from `resume_bullet_bank.md`, including which current bullet they should replace when space is limited.
    - Include proposed bullet additions or removals when they would make the resume more targeted, concise, or aligned with the job description.
    - When proposing a removal, identify whether the bullet should be archived in `resume_bullet_bank.md` for future reuse.
    - For the latest position, propose placing the strongest and most job-relevant bullet first.
@@ -50,8 +62,11 @@ Follow this process:
 
 5. Implementation Phase
    - Apply approved changes to `Nemati_Resume.tex`.
-   - Update `resume_bullet_bank.md` whenever bullets or skills are added, removed, substantially rewritten, or made role-dependent.
+   - Review and update `resume_bullet_bank.md` after every approved tailoring pass, including for incremental wording improvements—not only major rewrites.
+   - Add useful new bullets, phrasing variants, verified metrics, role-specific context, and role-dependent skills introduced during tailoring.
+   - Update or annotate outdated bank entries when new approved wording is stronger, while preserving distinct variants that may suit other roles.
    - Keep removed bullets in `resume_bullet_bank.md` rather than losing them, with enough context to restore them later.
+   - Do not overwrite or delete a strong prior variant merely because it is not used in the current resume.
    - Keep the resume to one page.
    - Compile or otherwise verify the LaTeX when possible.
    - Summarize the completed changes briefly.
@@ -80,8 +95,8 @@ Follow this process:
 ## Technical Mapping
 For each role, map:
 
-- Required skills to matching resume bullets and the Skills section.
-- Preferred qualifications to relevant achievements or projects.
+- Required skills to matching bullets in both `Nemati_Resume.tex` and `resume_bullet_bank.md`, as well as the Skills section.
+- Preferred qualifications to relevant achievements or projects found in either the current resume or bullet bank.
 - Domain knowledge to projects with similar data, users, products, or constraints.
 - Soft skills to evidence of collaboration, ownership, communication, or ambiguity handling.
 
@@ -106,6 +121,11 @@ Maintain this structure in `Nemati_Resume.tex`:
 - Use commit messages that make it easy to track which resume version belongs to which role.
 
 ## Quality Checklist
+- The entire bullet bank was reviewed and compared against the job description and current resume.
+- Relevant banked bullets and variants were considered for restoration, replacement, and reordering.
+- The proposal was not limited to content already present in the current resume.
+- After approved resume changes, the bullet bank was updated with reusable improvements and displaced strong content.
+- Distinct role-specific variants were preserved rather than overwritten by the latest resume wording.
 - User approved all resume edits before implementation.
 - All added skills and experiences are verified.
 - Required skills from the job description are addressed where truthfully supported.
