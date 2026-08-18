@@ -16,7 +16,7 @@ The bullet bank is also a living record and must be kept current. After every ap
 3. Compare all relevant banked and current bullets against the job description, then propose which content to add, remove, replace, rewrite, or reorder.
 4. Wait for explicit user approval before editing `Nemati_Resume.tex`.
 5. After approval, update `Nemati_Resume.tex` to align with the role and keep `resume_bullet_bank.md` current.
-6. Commit with message format: `Tailored for [Company] - [Position]`.
+6. When the user says "commit," commit the approved tailoring changes with message format: `Tailored for [Company] - [Position] - [YYYY-MM-DD]`.
 
 ## Critical Approval Rule
 Do not directly edit the resume file without user approval.
@@ -69,6 +69,10 @@ Follow this process:
    - Do not overwrite or delete a strong prior variant merely because it is not used in the current resume.
    - Keep the resume to one page.
    - Compile or otherwise verify the LaTeX when possible.
+   - Always name the final compiled resume artifact `nemati_resume.pdf`, using the exact lowercase base name `nemati_resume` regardless of company or position.
+   - After tailoring and verification are complete, create an application archive at `applications/[Company]_[JobID]_[YYYY-MM-DD]/nemati_resume.pdf` and copy the final compiled resume into it.
+   - Use the company name, exact job-description or requisition ID, and tailoring/application date. Replace spaces with underscores and omit unsupported filename characters. If the job ID is missing or ambiguous, ask the user before creating the archive.
+   - Example: `applications/NVIDIA_JR2018915_2026-08-18/nemati_resume.pdf`.
    - Summarize the completed changes briefly.
 
 ## Tailoring Guidelines
@@ -115,8 +119,11 @@ Maintain this structure in `Nemati_Resume.tex`:
 - Prioritize outcomes over tasks.
 
 ## Commit Standards
-- Format: `Tailored for [Company] - [Position]`.
-- Example: `Tailored for Apple - ML Research Engineer`.
+- Treat a user instruction such as "commit" as a request to create the role-specific commit after confirming that the intended tailoring changes are complete.
+- Format: `Tailored for [Company] - [Position] - [YYYY-MM-DD]`.
+- Use the date of the resume tailoring/application in ISO format so commits sort chronologically.
+- Example: `Tailored for Apple - ML Research Engineer - 2026-08-18`.
+- Derive the company and exact position title from `job_description.txt` or the approved tailoring context. If either is missing or ambiguous, ask the user before committing rather than using a generic commit message.
 - Keep `job_description.txt` in sync with the target application.
 - Use commit messages that make it easy to track which resume version belongs to which role.
 
@@ -133,5 +140,7 @@ Maintain this structure in `Nemati_Resume.tex`:
 - Metrics are included where available.
 - Resume remains one page.
 - LaTeX compiles without errors when verification is possible.
+- Final compiled artifact is named `nemati_resume.pdf`.
+- Verified final PDF is archived under `applications/[Company]_[JobID]_[YYYY-MM-DD]/nemati_resume.pdf`.
 - Contact information is current.
 - The most relevant experience is emphasized.

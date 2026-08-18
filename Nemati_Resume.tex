@@ -27,7 +27,7 @@
 \addtolength{\oddsidemargin}{-0.5in}
 \addtolength{\evensidemargin}{-0.5in}
 \addtolength{\textwidth}{1in}
-\addtolength{\topmargin}{-.5in}
+\addtolength{\topmargin}{-.2in}
 \addtolength{\textheight}{1.0in}
 
 \urlstyle{same}
@@ -98,11 +98,10 @@
       {Senior AI Engineer}{05/2025 - Present}
       {Volkswagen Group of America}{Belmont, CA}
       \resumeItemListStart
-        \resumeItem{Post-trained multimodal foundation models with SFT, DPO, and GRPO for specialized reasoner, grounder, verifier, and error-recovery components in real-device automotive workflows.}
-        \resumeItem{Designed a long-horizon task planner that decomposed natural-language automotive human-machine interface (HMI) goals into executable steps and dynamically replanned from action feedback across multi-step device workflows.}
-        \resumeItem{Built multimodal-agent evaluation infrastructure to benchmark task completion, integrating reasoning voice agents to accept user voice input and test in-vehicle HMI voice capabilities.}
-        \resumeItem{Deployed and evaluated Qwen3.5 models on Azure ML managed endpoints with vLLM, configuring prefix caching, long-context inference, and throughput/latency monitoring.}
-        \resumeItem{Compressed Qwen2.5-VL for autonomous-driving trajectory prediction from 3.75B to 1.4B using structured pruning, knowledge distillation from a 7B teacher, and quantization-aware training to reduce inference latency while maintaining accuracy under edge constraints.}
+        \resumeItem{Developed and optimized Qwen2.5-VL for multimodal scene understanding and ego-trajectory prediction in autonomous driving, constructing 8L, 6L, and 4L depth-pruned variants that reduced parameters from 3.75B to 1.4B for real-time deployment under edge compute and memory constraints.}
+        \resumeItem{Distilled knowledge from a Qwen2.5-VL 7B teacher into the pruned ego-trajectory prediction model and applied quantization-aware training to preserve accuracy while reducing latency for constrained automotive deployment.}
+        \resumeItem{Built distributed PyTorch/DDP pipelines for multimodal autonomous-driving models, supporting scene-understanding and ego-trajectory prediction training, task-specific evaluation, and performance validation.}
+        \resumeItem{Deployed and profiled Qwen3.5 models up to 35B/A3B with TensorRT-LLM on H100/A100 Azure ML endpoints, using NVIDIA Nsight Systems/Compute to diagnose memory-versus-compute bottlenecks and tune throughput and latency.}
       \resumeItemListEnd
       \vspace{0.14cm}
 
@@ -125,8 +124,8 @@
     {Software Engineer - AI/ML Intern}{02/2024 - 07/2024}
       {Sherwin-Williams}{Cleveland, Ohio}
         \resumeItemListStart
-\resumeItem{Built a VLM-based grounded-perception system integrating LLaVA and vision transformers for natural-language object grounding and segmentation.}
 \resumeItem{Designed and deployed real-time vision-transformer inference pipeline for SAM, tuning latency and improving segmentation quality by 7\% IoU through inference evaluation and pipeline optimization.}
+\resumeItem{Built a VLM-based grounded-perception system integrating LLaVA and vision transformers for natural-language object grounding and segmentation.}
 
       \resumeItemListEnd
     \vspace{0.14cm} 
@@ -135,8 +134,8 @@
       {Data Science Research Intern}{05/2023 - 09/2023}
       {Beyond Limits AI}{Glendale, California}
             \resumeItemListStart
-        \resumeItem{Fine-tuned Llama-2 using PyTorch FSDP/DDP for scalable multi-GPU training and quantized deployment.}
         \resumeItem{Developed and deployed Graph Neural Network models (GCN, GAT, GraphSAGE) using PyTorch Geometric for graph-structured data, achieving 10\% accuracy improvement over baseline approaches}
+        \resumeItem{Fine-tuned Llama-2 using PyTorch FSDP/DDP for scalable multi-GPU training and quantized deployment.}
         \resumeItemListEnd
 \vspace{0.04cm}
 
@@ -146,10 +145,9 @@
 \section{Skills}
 \vspace{0.06cm}
 \begin{itemize}[leftmargin=0.15in, label={}, itemsep=2pt]
-  \item \textbf{Foundation Models / Multimodal}: Transformers, Vision-Language Models, Multimodal Learning, Visual Grounding
-  \item \textbf{Agentic AI}: Long-Horizon Planning, Voice Agents, Tool Use, GUI Agents, Multi-Agent Workflows
-  \item \textbf{Training / Evaluation}: SFT, DPO, GRPO, Reinforcement Learning, PyTorch, Distributed Training (FSDP/DDP), Model and Agent Evaluation, Knowledge Distillation, Quantization, Pruning
-  \item \textbf{Programming / Infrastructure}: Python, C++, CUDA, vLLM, Docker, Git
+  \item \textbf{Autonomous Driving / Perception}: Scene Understanding, Ego-Trajectory Prediction, PyTorch, Transformers, Vision-Language Models, Visual Grounding, Segmentation, Graph Neural Networks
+  \item \textbf{Training / Optimization}: Distributed Training (FSDP/DDP), Knowledge Distillation, Quantization-Aware Training, Structured Pruning, Model Evaluation
+  \item \textbf{Programming / GPU Infrastructure}: Python, C++, CUDA, TensorRT-LLM, NVIDIA Nsight Systems/Compute, vLLM, Docker, Git
 \end{itemize}
 \vspace{-0.2cm}
 

@@ -9,11 +9,10 @@ back for a future role.
 
 ### Volkswagen Group of America - Senior AI Engineer
 
-- Post-trained multimodal foundation models with SFT, DPO, and GRPO for specialized reasoner, grounder, verifier, and error-recovery components in real-device automotive workflows.
-- Designed a long-horizon task planner that decomposed natural-language automotive human-machine interface (HMI) goals into executable steps and dynamically replanned from action feedback across multi-step device workflows.
-- Built multimodal-agent evaluation infrastructure to benchmark task completion, integrating reasoning voice agents to accept user voice input and test in-vehicle HMI voice capabilities.
-- Deployed and evaluated Qwen3.5 models on Azure ML managed endpoints with vLLM, configuring prefix caching, long-context inference, and throughput/latency monitoring.
-- Compressed Qwen2.5-VL for autonomous-driving trajectory prediction from 3.75B to 1.4B using structured pruning, knowledge distillation from a 7B teacher, and quantization-aware training to reduce inference latency while maintaining accuracy under edge constraints.
+- Developed and optimized Qwen2.5-VL for multimodal scene understanding and ego-trajectory prediction in autonomous driving, constructing 8L, 6L, and 4L depth-pruned variants that reduced parameters from 3.75B to 1.4B for real-time deployment under edge compute and memory constraints.
+- Distilled knowledge from a Qwen2.5-VL 7B teacher into the pruned ego-trajectory prediction model and applied quantization-aware training to preserve accuracy while reducing latency for constrained automotive deployment.
+- Built distributed PyTorch/DDP pipelines for multimodal autonomous-driving models, supporting scene-understanding and ego-trajectory prediction training, task-specific evaluation, and performance validation.
+- Deployed and profiled Qwen3.5 models up to 35B/A3B with TensorRT-LLM on H100/A100 Azure ML endpoints, using NVIDIA Nsight Systems/Compute to diagnose memory-versus-compute bottlenecks and tune throughput and latency.
 
 ### Case Western Reserve University - Artificial Intelligence Research Assistant
 
@@ -35,6 +34,14 @@ back for a future role.
 
 ### Prior Volkswagen Resume Wording
 
+- Developed and optimized Qwen2.5-VL for multimodal scene understanding and trajectory prediction in autonomous driving, constructing 8L, 6L, and 4L depth-pruned variants that reduced parameters from 3.75B to 1.4B for real-time deployment under edge compute and memory constraints.
+- Distilled knowledge from a Qwen2.5-VL 7B teacher into the pruned trajectory-prediction model and applied quantization-aware training to preserve accuracy while reducing latency for constrained automotive deployment.
+- Built distributed PyTorch/DDP pipelines for multimodal autonomous-driving models, supporting scene-understanding and trajectory-prediction training, task-specific evaluation, and performance validation.
+- Compressed Qwen2.5-VL for autonomous-driving trajectory prediction from 3.75B to 1.4B using structured pruning, knowledge distillation from a 7B teacher, and quantization-aware training to reduce inference latency while maintaining accuracy under edge constraints.
+- Built distributed PyTorch/DDP pipelines for multimodal autonomous-driving models, supporting scalable training, trajectory-prediction evaluation, and performance validation across transformer-based architectures.
+- Implemented depth pruning for Qwen2.5-VL by constructing 8L, 6L, and 4L student variants, mapping selected teacher layers and preserving compatible vision-language weights for constrained autonomous-driving deployment.
+- Built multi-task VLM fine-tuning pipelines for automotive HMI reasoning, combining toggle-state prediction, step decomposition, and UI grounding with DDP training and task-specific evaluation.
+- Post-trained multimodal foundation models with SFT, DPO, and GRPO for specialized reasoner, grounder, verifier, and error-recovery components in real-device automotive workflows.
 - Post-trained multimodal foundation models with SFT, DPO, and GRPO for specialized planner, reasoner, grounder, verifier, and error-recovery components in real-device automotive workflows.
 - Built multimodal-agent evaluation infrastructure capturing screenshots, model outputs, latency, execution plans, and step histories to diagnose failure modes and benchmark task-completion success.
 - Post-trained multimodal foundation models with SFT, DPO, and GRPO to improve planning, reasoning, grounded perception, tool execution, verification, and error recovery for long-horizon agentic workflows on real automotive devices.
@@ -112,10 +119,9 @@ back for a future role.
 
 ### Currently Active
 
-- Foundation Models / Multimodal: Transformers, Vision-Language Models, Multimodal Learning, Visual Grounding
-- Agentic AI: Long-Horizon Planning, Voice Agents, Tool Use, GUI Agents, Multi-Agent Workflows
-- Training / Evaluation: SFT, DPO, GRPO, Reinforcement Learning, PyTorch, Distributed Training (FSDP/DDP), Model and Agent Evaluation, Knowledge Distillation, Quantization, Pruning
-- Programming / Infrastructure: Python, C++, CUDA, vLLM, Docker, Git
+- Autonomous Driving / Perception: Scene Understanding, Ego-Trajectory Prediction, PyTorch, Transformers, Vision-Language Models, Visual Grounding, Segmentation, Graph Neural Networks
+- Training / Optimization: Distributed Training (FSDP/DDP), Knowledge Distillation, Quantization-Aware Training, Structured Pruning, Model Evaluation
+- Programming / GPU Infrastructure: Python, C++, CUDA, TensorRT-LLM, NVIDIA Nsight Systems/Compute, vLLM, Docker, Git
 
 ### Role-Dependent / Bring Back When Relevant
 
@@ -140,3 +146,13 @@ back for a future role.
 - Trace Logging
 - Latency/Throughput Tuning
 - Model Serving
+- Long-Horizon Planning
+- Voice Agents
+- Tool Use
+- GUI Agents
+- Multi-Agent Workflows
+- Reinforcement Learning
+- SFT
+- DPO
+- GRPO
+- Trajectory Prediction
