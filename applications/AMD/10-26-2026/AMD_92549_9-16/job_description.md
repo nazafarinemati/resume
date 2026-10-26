@@ -1,0 +1,55 @@
+# AMD
+
+## Senior AI Software Engineer - Autonomous Systems
+
+| Field | Details |
+|---|---|
+| Job ID | 92549 |
+| Location | San Jose, California, United States |
+| Work arrangement | Not stated in posting |
+| Department | Not stated in posting |
+| Employment type | Full-time |
+| Posting date | September 16, 2026 |
+| Valid through | September 16, 2027 |
+| Retrieved | October 26, 2026 |
+| Compensation | \$175,700-\$251,000 and \$200,800-\$301,200 USD/year (ranges shown in official posting) |
+| Source | [Official AMD posting](https://careers.amd.com/careers-home/jobs/92549?lang=en-us) |
+
+ADVANCE YOUR CAREER. ADVANCE THE WORLD. 
+At AMD, we believe technology has the power to solve the world’s most important challenges. From advancing healthcare and scientific discovery to powering AI and the technologies people rely on every day, innovation at AMD is shaping the future. 
+
+Whether you’re designing next-gen processors, enabling AI breakthroughs, or bringing leading edge products to market, every role at AMD contributes to something bigger — technology that moves the world forward. Join us and, together, we’ll advance your career.
+
+## About the Role
+We are seeking a highly skilled Senior AI Software Engineer to join our team. The ideal candidate will be responsible for designing and implementing AI-driven software solutions tailored for autonomous systems. This role requires deep expertise in AI frameworks, model analysis and optimization, GPU-accelerated computing, and system performance profiling within high-performance autonomous environments.
+
+## Key Responsibilities
+Select and optimize AI models for autonomous applications, ensuring scalability, low latency, and real-time performance across edge and cloud deployments.
+Collaborate with cross-functional teams to ensure seamless integration of AI frameworks into software stacks, optimizing inference pipelines and model performance for real-world use cases.
+Provide technical leadership and guidance in AI software best practices, focusing on deep learning frameworks, GPU-accelerated computing, model compression, and efficient deployment strategies for autonomous systems.
+Analyze and optimize AI software stack performance, particularly in real-time inference, GPU-accelerated, and autonomous navigation environments, identifying bottlenecks and implementing targeted improvements.
+Stay updated with the latest trends and technologies in AI frameworks, foundation models, edge AI deployment and autonomous systems integration, offering insights and recommendations to continuously advance AI capabilities.
+## Preferred Experience
+AI Frameworks: Proven experience designing and implementing solutions using leading AI frameworks such as PyTorch, TensorFlow, JAX, or ONNX Runtime, with a focus on autonomous applications.
+AI Model Analysis & Optimization: Strong knowledge and hands-on experience with model profiling, benchmarking, quantization, pruning, and distillation techniques to optimize AI models for performance and efficiency.
+ROCm, CUDA & GPU Computing: Deep expertise in ROCm or CUDA programming, GPU kernel optimization, and GPU memory management for accelerating AI inference and training workloads.
+System Performance Analysis: Expertise in profiling and analyzing end-to-end AI system performance using tools such as NVIDIA Nsight, TensorRT, Triton Inference Server, or similar profiling and optimization platforms.
+Autonomous Systems: Experience deploying AI models within software stacks, including integration with ROS/ROS2, real-time systems, and edge AI hardware platforms (NVIDIA Jetson, etc.).
+Problem-Solving Skills: Excellent problem-solving skills and attention to detail in debugging complex AI model behavior, performance regressions, and hardware-software interactions.
+Collaboration and Communication: Ability to work collaboratively in a cross-functional team environment with strong written and verbal communication skills.
+## ACADEMIC CREDENTIALS:
+Bachelor’s or Master’s in Electrical Engineer, Computer Engineering, Computer Science, or a closely related field 
+
+## Location
+San Jose or Austin
+This role is not eligible for visa sponsorship.
+
+#LI-BW2
+
+Benefits offered are described: AMD benefits at a glance.
+
+AMD does not accept unsolicited resumes from headhunters, recruitment agencies, or fee-based recruitment services. AMD and its subsidiaries are equal opportunity, inclusive employers and will consider all applicants without regard to age, ancestry, color, marital status, medical condition, mental or physical disability, national origin, race, religion, political and/or third-party affiliation, sex, pregnancy, sexual orientation, gender identity, military or veteran status, or any other characteristic protected by law. We encourage applications from all qualified candidates and will accommodate applicants’ needs under the respective laws throughout all stages of the recruitment and selection process.
+
+AMD may use Artificial Intelligence to help screen, assess or select applicants for this position. AMD’s “Responsible AI Policy” is available here.
+
+This posting is for an existing vacancy.

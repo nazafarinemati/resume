@@ -1,0 +1,104 @@
+\RequirePackage{fix-cm}
+\documentclass[letterpaper,13pt]{article}
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage[absolute,overlay]{textpos}
+\usepackage{xcolor}
+\input{glyphtounicode}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.55in}
+\addtolength{\textheight}{1.15in}
+\urlstyle{same}
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+\titleformat{\section}{\vspace{0pt}\scshape\raggedright\large}{}{0em}{}[\color{black}\titlerule \vspace{-2pt}]
+\pdfgentounicode=1
+\newcommand{\resumeItem}[1]{\item\small{{#1}}}
+\newcommand{\resumeSubheading}[4]{\vspace{-2pt}\item\begin{tabular*}{\textwidth}[t]{l@{\extracolsep{\fill}}r}\textbf{#1} & #2 \enspace $|$ \enspace \textit{\small #4} \\ {\fontsize{10pt}{11pt}\selectfont\textit{#3}} & \\ \end{tabular*}\vspace{-1pt}}
+\newcommand{\resumeProjectHeading}[2]{\item\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}\small#1 & #2 \\ \end{tabular*}\vspace{-4pt}}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}[leftmargin=0.22in, itemsep=2pt, parsep=0pt, topsep=1pt, partopsep=0pt]}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-2pt}}
+\begin{document}
+\begin{center}
+    \textbf{\LARGE \scshape Mohammadreza Nemati} \\ \vspace{1pt}
+    \small Santa Clara, CA 95054 $|$ Mobile: 567-204-7520 $|$
+    \href{mailto:mrnemati747@gmail.com}{mrnemati747@gmail.com} $|$
+    \href{https://www.linkedin.com/in/mnemati/}{\textcolor{blue}{\underline{www.linkedin.com/in/mnemati}}}
+\end{center}
+
+\section{Summary}
+\small{AI Engineer and Computer Science PhD specializing in distributed ML infrastructure, model serving, performance evaluation, and production AI systems. Experienced building reliable training and inference pipelines, benchmark automation, observability tooling, and high-concurrency LLM services.}
+\vspace{0.05cm}
+
+\section{Experience}
+\vspace{0.05cm}
+\resumeSubHeadingListStart
+\resumeSubheading{AI Engineer}{2025 - Present}{Volkswagen}{Belmont, CA}
+  \resumeItemListStart
+    \resumeItem{\textbf{Distributed Training \& Evaluation:} Engineered PyTorch pipelines with DDP to train and evaluate multimodal foundation models, developing task-specific metrics and regression checks for performance validation.}
+    \resumeItem{\textbf{Inference Runtime Tuning:} Deployed and evaluated Qwen3.5 2B with vLLM, tuning prefix caching, long-context inference, and serving parameters to improve maximum request concurrency.}
+    \resumeItem{\textbf{Performance Benchmarking:} Built a vLLM benchmark suite for Qwen3.5 2B measuring time to first token, inter-token latency, token throughput, P95 latency, GPU memory, and maximum concurrency across batch sizes, context lengths, and prefix-cache hit rates.}
+    \resumeItem{\textbf{Agent Evaluation:} Engineered evaluation and observability infrastructure that logged screenshots, model outputs, tool actions, latency, execution plans, and step traces to isolate failure modes and measure end-to-end task success on real Android devices.}
+    \resumeItem{\textbf{GPU Performance Analysis:} Profiled and optimized Qwen3.5 models up to 35B with TensorRT-LLM and vLLM, using NVIDIA Nsight Systems/Compute to identify memory- and compute-bound bottlenecks across long-context inference workloads.}
+    \resumeItem{\textbf{Production Multi-Agent Systems:} Built a production-grade LangGraph-based multimodal multi-agent system for long-horizon Android app and browser workflows, orchestrating task decomposition, visual grounding, tool execution, verification, dynamic replanning, and error recovery on real devices.}
+  \resumeItemListEnd
+  \vspace{0.04cm}
+\resumeSubheading{AI Researcher}{2022 - 2025}{Case Western Reserve University}{Cleveland, Ohio}
+  \resumeItemListStart
+    \resumeItem{\textbf{LLM Inference Optimization:} Developed an adaptive mixed-precision KV-cache quantization method based on key/value norm imbalance, achieving 2$\times$ memory reduction with $>$94\% accuracy retention across LLMs up to 70B parameters.}
+    \resumeItem{\textbf{Model Development:} Developed LIT-LVM, a latent-variable method for structured interaction modeling that outperformed elastic net, hierarchical lasso, and factorization-machine baselines across simulated and real-world datasets.}
+    \resumeItem{\textbf{Multimodal Learning:} Developed DEASurv, a multimodal time-to-event survival prediction model combining entity-specific embeddings, attention, and contrastive learning for large-scale medical datasets.}
+  \resumeItemListEnd
+  \vspace{0.02cm}
+\resumeSubheading{Software Engineer - AI/ML Intern}{2024}{Sherwin-Williams}{Cleveland, Ohio}
+  \resumeItemListStart
+    \resumeItem{\textbf{Vision Model Deployment:} Built and deployed a VLM-based perception system integrating LLaVA, vision transformers, and SAM for natural-language object detection, grounding, and semantic segmentation, improving segmentation quality by 7\% IoU.}
+  \resumeItemListEnd
+  \vspace{0.02cm}
+\resumeSubheading{Data Science Research Intern}{2023}{Beyond AI}{Glendale, California}
+  \resumeItemListStart
+    \resumeItem{\textbf{Multi-GPU Training:} Fine-tuned Llama-2 on refinery-domain text using PyTorch FSDP/DDP for scalable distributed training and quantized deployment.}
+
+  \resumeItemListEnd
+  \vspace{0.02cm}
+\resumeSubheading{Software Intern}{2020}{Nexteer Automotive}{Auburn Hills, Michigan}
+  \resumeItemListStart
+    \resumeItem{\textbf{Validation Data Pipeline:} Developed a data pipeline for electric power-steering test data, enabling structured analysis and validation of steering-system responses for ADAS applications.}
+  \resumeItemListEnd
+\resumeSubHeadingListEnd
+
+\section{Skills}
+\vspace{0.02cm}
+\begin{itemize}[leftmargin=0.15in, label={}, itemsep=2pt, topsep=1pt]
+  \item \textbf{Programming \& Infrastructure}: Python, C++, SQL, Docker, Git
+  \item \textbf{Machine Learning}: PyTorch, Transformers, Model Evaluation, Distributed Training
+  \item \textbf{ML Systems}: vLLM, TensorRT-LLM, FSDP, DDP, Model Serving
+  \item \textbf{Reliability \& Evaluation}: Observability, Benchmarking, Regression Testing, Failure Analysis
+\end{itemize}
+\vspace{0.02cm}
+
+\section{Education}
+\resumeSubHeadingListStart
+  \resumeProjectHeading{\textbf{Case Western Reserve University} -- PhD, Computer Science}{Cleveland, OH $|$ 2025}
+\resumeSubHeadingListEnd
+\end{document}

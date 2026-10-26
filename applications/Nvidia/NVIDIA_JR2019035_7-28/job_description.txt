@@ -1,0 +1,25 @@
+locations
+US, CA, Remote
+time type
+Full time
+posted on
+Posted 21 Days Ago
+job requisition id
+JR2019035
+NVIDIA is building the world’s leading AI company, and we are looking for a Solutions Architect skilled in full cycle Gen AI development and deployment to assist customers with adoption of NVIDIA's full-stack technologies as well as building and deploying solutions around Generative AI and other related GPU-accelerated technologies in which intelligent agents can learn, reason, and interact with the world. As part of the Hospitality and Travel Solutions Architecture team, we work with some of key hotel and transportation chains to integrate accelerated computing and AI into their stacks. A Solutions Architect is the first line of technical expertise between NVIDIA and our Auto customers so you will engage directly with developers, researchers, and data scientists with some the most strategic customers as well as work directly with business and engineering teams on product strategy as it pertains to these customers. Join us in this exciting endeavor!
+What You Will Be Doing:
+Provide hands-on technical mentorship to partners and customers on Nvidia GenAI stack. Guide customers to develope and deploy Agentic AI workflows on our platforms, quantifying the benefits of our accelerated computing software and hardware.
+Build demonstrations and POCs for solutions that address critical business needs of our customers. Help in draft requirements for missing features to unblock progress at customers/partners.
+Educate customers on new NVIDIA GenAI technologies and platforms. Prepare and deliver technical training presentations and workshops.
+Build collateral (notebook/ blog) applied to the industry use-cases.
+Partner with NVIDIA engineering, product, sales teams to secure design wins at customers. Enable development and growth of NVIDIA product features through customer feedback and POC evaluations.
+What We Need To See:
+Master's or Ph.D. in Computer Science, Artificial Intelligence, or equivalent experience.
+8+ years of hands-on experience in a technical AI role, with a strong emphasis on Gen AI.
+Proficient in the latest and greatest model architectures and be able to articulate the computational complexities of each.
+Proven track record of deploying and optimizing LLM models for inference in production environments using well known inferencing engines e.g., vLLM, TRT-LLM, SGLang, etc.
+Expertise in training and fine-tuning LLMs using popular frameworks such as TensorFlow, PyTorch, or Hugging Face Transformers.
+Solid understanding of GPU cluster architecture and the ability to bring to bear parallel processing for accelerated model training and inference.
+Experience with basic DevOps tools e.g., Docker, Kubernetes, GitLab, Linux Command Line, Shell, etc.
+Excellent communication and teamwork skills with the ability to explain complex technical concepts to both technical and non-technical collaborators.
+Experience leading workshops, training sessions, and presenting technical solutions to diverse audiences.

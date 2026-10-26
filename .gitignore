@@ -2,6 +2,14 @@ Nemati_Resume.aux
 Nemati_Resume.log
 Nemati_Resume.out
 
+# Generated resume artifacts
+*.pdf
+*.zip
+
+# Local filesystem artifacts
+.DS_Store
+.trash/
+
 # Local project workspaces
 vlm-pruning/
 model-deployment/

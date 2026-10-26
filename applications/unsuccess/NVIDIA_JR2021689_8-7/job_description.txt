@@ -1,0 +1,33 @@
+Inference Performance Engineer, Agent Driven Inference Optimization
+Apply
+locations
+US, CA, Santa Clara
+US, CA, Remote
+time type
+Full time
+posted on
+Posted 11 Days Ago
+job requisition id
+JR2021689
+NVIDIA is recruiting a Senior Inference Performance Engineer to push NVIDIA's performance limits on large-scale AI inference benchmarks. This position provides an outstanding opportunity to employ your optimization knowledge in an autonomous optimization framework. AI agents use this framework to repeatedly run benchmark, profile, and tune processes, amplifying the impact of every technique you design. If you enjoy extracting maximum performance from GPUs and scaling your skills beyond your individual efforts, this role is a great fit!
+What you'll be doing:
+Distill your performance instincts into reusable skills, workflows, and evidence-backed methodologies that AI agents can complete autonomously. Review agent-generated experiments, validate findings, and curate best-known configurations.
+Performance improvement of AI inference workloads that methodically increase throughput-per-GPU and user interactivity by exploring configuration options, parallelism techniques, batching, KV cache handling, quantization, and speculative decoding settings.
+Measure and optimize both aggregated and disaggregated serving architectures across TensorRT-LLM, SGLang, vLLM, and Dynamo on NVIDIA's latest GPU platforms.
+Profile workloads using Nsight Systems, kernel traces, and internal analysis tools. Use roofline and speed-of-light analysis to find credible headroom and drive fixes from hypothesis to measured wins.
+Land improvements upstream: serving framework patches, optimized kernels, and deployment recipes that advance the public Pareto frontier while maintaining strict model correctness.
+Collaborate with TensorRT-LLM, SGLang, vLLM, kernel, benchmarking, and GPU architecture teams to convert profiling insights into delivered performance improvements.
+What we need to see:
+BS, MS, or PhD in Computer Science, Computer Engineering, Electrical Engineering, Applied Math, or a related field, or equivalent experience.
+3+ years of relevant engineering experience.
+Must have: Extensive knowledge of the efficiency and optimization involved in AI model execution, covering continuous batching, throughput-latency tradeoffs, KV cache and memory limitations, parallel processing techniques, MoE serving, quantization, and meeting serving SLAs.
+Must have: Hands-on experience benchmarking and profiling GPU workloads using tools such as Nsight Systems, Nsight Compute, CUPTI, or PyTorch profiler, and interpreting kernel-level performance data.
+Strong Python engineering skills and the ability to navigate and modify large C++/CUDA serving codebases.
+Rigorous experimental methodology with controlled single-variable comparisons, reproducible benchmarks, and evidence-backed optimization decisions.
+Strong written and verbal communication skills to explain performance tradeoffs clearly to both humans and documentation for autonomous systems.
+Ways to stand out from the crowd:
+Direct contributions to TensorRT-LLM, vLLM, SGLang, FlashInfer, Dynamo, or comparable inference frameworks.
+Experience with disaggregated serving, wide expert-parallel MoE inference, KV cache transfer, or NCCL/NIXL/NVSHMEM communication at multi-node scale.
+CUDA kernel authorship or optimization experience on Hopper/Blackwell architectures, focusing on Tensor Cores, TMA, and warp specialization.
+Proven results on public inference benchmarks such as MLPerf Inference or SemiAnalysis InferenceX.
+Experience building or operating agentic AI workflows to automate engineering tasks.

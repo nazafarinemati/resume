@@ -1,146 +1,162 @@
-# Resume Tailoring Instructions for Agents
+# Resume Tailoring Instructions
 
 ## Purpose
-This repository maintains a LaTeX resume, `Nemati_Resume.tex`, tailored for specific job applications. Each commit should correspond to optimizing the resume for a particular job description.
 
-## Bullet Bank Is a Required Source
-The current resume is only one role-specific snapshot and must never be treated as the complete source of the user's experience. For every tailoring request, agents must review the entire `resume_bullet_bank.md` and compare its archived bullets, alternate phrasings, role-dependent skills, and prior variants against the new job description.
+This repository maintains `Nemati_Resume.tex`, a one-page LaTeX resume tailored for individual job applications.
 
-Agents must actively propose restoring relevant banked content to the main resume and removing or replacing less relevant current content when that produces a stronger match. Do not limit proposals to rewriting bullets already present in `Nemati_Resume.tex`.
+## Autonomous Workflow
 
-The bullet bank is also a living record and must be kept current. After every approved tailoring pass, agents must review whether the changes produced useful new bullet wording, role-specific variants, skills, metrics, or context worth preserving. Add those improvements to `resume_bullet_bank.md`, update outdated entries when appropriate, and retain displaced strong variants so future tailoring is not limited by the latest resume version.
+- Do not pause for approval, confirmation, preferences, or advice before editing the resume.
+- Complete the entire tailoring workflow after the user provides a job posting or asks for a new resume.
+- The user will review the completed resume and request changes when desired.
+- Make reasonable decisions from the job description, current resume, and bullet bank.
+- Never fabricate or inflate experience, skills, metrics, publications, systems, or responsibilities.
+- If an important job requirement is unsupported, omit it and mention the omission in the completion summary. Do not add it merely for keyword matching.
 
-## Workflow
-1. Add or update `job_description.txt` with the target role details.
-2. Review the entire `resume_bullet_bank.md`, `Nemati_Resume.tex`, and the job description; treat both the bullet bank and current resume as candidate sources.
-3. Compare all relevant banked and current bullets against the job description, then propose which content to add, remove, replace, rewrite, or reorder.
-4. Wait for explicit user approval before editing `Nemati_Resume.tex`.
-5. After approval, update `Nemati_Resume.tex` to align with the role and keep `resume_bullet_bank.md` current.
-6. When the user says "commit," commit the approved tailoring changes with message format: `Tailored for [Company] - [Position] - [YYYY-MM-DD]`.
+## Required Inputs and Sources
 
-## Critical Approval Rule
-Do not directly edit the resume file without user approval.
+For every tailoring pass:
 
-Follow this process:
+1. Retrieve the complete job posting from the supplied link, prioritizing the employer's official page.
+2. Read the entire `resume_bullet_bank.md`.
+3. Read the complete current `Nemati_Resume.tex`.
+4. Treat the current resume and every relevant bullet-bank entry as candidate content.
+5. Compare current and archived variants rather than limiting edits to bullets already in the resume.
 
-1. Analysis Phase
-   - Read `Nemati_Resume.tex`.
-   - Read `job_description.txt`.
-   - Read the entire `resume_bullet_bank.md` on every tailoring pass, even if the current resume already appears relevant.
-   - Treat the bullet bank as a first-class source of resume content, not merely an archive or optional reference.
-   - Compare banked bullets and variants with current resume bullets for every role, and identify banked content that better matches the target job.
-   - Consider whether archived bullets, role-dependent skills, or prior variants should be restored for the target role.
-   - Analyze gaps between the resume and job requirements.
-   - Consider whether bullets from either the current resume or bullet bank should be added, removed, replaced, reordered, or rewritten to better reflect the job description.
-   - Identify important job-description requirements that are not visible in the resume and discuss whether the user has relevant experience before proposing new bullets.
-   - Review the Skills section for role relevance, removing low-signal or less relevant skills while keeping foundational skills that strengthen the application even if not explicitly listed in the job description.
-   - Treat removed skills as role-dependent, not permanently deleted; propose bringing back tooling such as DevOps, databases, data libraries, or backend frameworks when a future job description makes them relevant.
-   - Review the Education section for both content and visual presentation, including whether older degrees should remain, be compressed, or be removed for the target role.
+The current resume is one role-specific snapshot. It is not the complete record of the user's experience.
 
-2. Proposal Phase
-   - Present a clear list of proposed changes.
-   - Include the section or bullet being modified.
-   - Include current text versus proposed text.
-   - Include the rationale for each change.
-   - Explicitly identify proposed bullets sourced from `resume_bullet_bank.md`, including which current bullet they should replace when space is limited.
-   - Include proposed bullet additions or removals when they would make the resume more targeted, concise, or aligned with the job description.
-   - When proposing a removal, identify whether the bullet should be archived in `resume_bullet_bank.md` for future reuse.
-   - For the latest position, propose placing the strongest and most job-relevant bullet first.
-   - Discuss Skills section additions/removals individually when relevance is unclear or when a skill is useful but not explicitly named in the job description.
-   - Discuss Education section changes before editing, especially removing or compressing MS/BS entries.
+## Job Description Files
 
-3. Skills and Experience Verification
-   - Never assume or add skills that are not already documented or confirmed by the user.
-   - If the job description mentions a skill or experience not visible in the resume, ask the user whether they have relevant experience.
-   - Discuss potentially relevant experience the user may have but has not yet documented in the resume before omitting an important job-description match.
-   - Do not fabricate, inflate, or overstate experience.
+- Create or replace `job_description.txt` and `job_description.md` for every new application.
+- Preserve the company, exact position title, requisition or job ID, locations, work arrangement, department, employment type, posting date, source URL, retrieval date, responsibilities, required qualifications, preferred qualifications, compensation, and other material posting details.
+- Keep the text and Markdown versions consistent.
+- Do not silently reuse an older description or invent missing posting details.
 
-4. Approval Phase
-   - Wait for explicit confirmation such as "looks good", "go ahead", or "apply these changes".
-   - If the user requests revisions, update the proposal and wait again.
-   - Only edit the resume after clear approval.
+## Responsibility-Driven Alignment
 
-5. Implementation Phase
-   - Apply approved changes to `Nemati_Resume.tex`.
-   - Review and update `resume_bullet_bank.md` after every approved tailoring pass, including for incremental wording improvements—not only major rewrites.
-   - Add useful new bullets, phrasing variants, verified metrics, role-specific context, and role-dependent skills introduced during tailoring.
-   - Update or annotate outdated bank entries when new approved wording is stronger, while preserving distinct variants that may suit other roles.
-   - Keep removed bullets in `resume_bullet_bank.md` rather than losing them, with enough context to restore them later.
-   - Do not overwrite or delete a strong prior variant merely because it is not used in the current resume.
-   - Keep the resume to one page.
-   - Compile or otherwise verify the LaTeX when possible.
-   - Always name the final compiled resume artifact `nemati_resume.pdf`, using the exact lowercase base name `nemati_resume` regardless of company or position.
-   - After tailoring and verification are complete, create an application archive at `applications/[Company]_[JobID]_[YYYY-MM-DD]/nemati_resume.pdf` and copy the final compiled resume into it.
-   - Use the company name, exact job-description or requisition ID, and tailoring/application date. Replace spaces with underscores and omit unsupported filename characters. If the job ID is missing or ambiguous, ask the user before creating the archive.
-   - Example: `applications/NVIDIA_JR2018915_2026-08-18/nemati_resume.pdf`.
-   - Summarize the completed changes briefly.
+- Begin with the posting's `You will`, `What you'll be doing`, `What you will do`, or equivalent responsibilities section.
+- Identify its most important technical, domain, system, and outcome terms.
+- Give these responsibility terms more weight than generic company language and broad qualification lists.
+- Use the same terms or close, natural variants in the summary, strongest Experience bullets, bullet labels, and Skills when they truthfully match verified experience.
+- Keep wording recognizable enough that a recruiter can connect the resume evidence to the responsibilities.
+- Keep bullet labels close to the job's work areas, but do not copy headings mechanically or make every label identical to the posting.
+- Avoid keyword stuffing. Each important term should appear where it adds meaning and has supporting evidence.
+- Omit responsibility terms that are not supported by the resume or bullet bank.
 
-## Tailoring Guidelines
+## Summary
 
-### Include
-- Relevant keywords from the job description, integrated naturally.
-- Quantifiable outcomes and concrete scale where supported.
-- Role-specific skills that directly match requirements.
-- Domain-aligned phrasing for the target company or team.
-- Technical depth for senior, specialized, AI, ML, or infrastructure roles.
-- Impact language focused on scalable systems, production deployment, reliability, evaluation, and cross-functional collaboration.
-- A compact, role-targeted Skills section that prioritizes the strongest JD-aligned and foundational technical signals.
-- Education details that support the application without visually distracting from more relevant experience.
+- Use two concise sentences occupying approximately two or three rendered lines.
+- Sentence one should identify three or four broad specialization areas.
+- Sentence two should summarize three or four general capabilities supported by the selected Experience bullets.
+- Align the strongest themes with the responsibilities section.
+- Use important role language naturally, without turning the summary into a keyword list.
+- Do not include narrow configuration details, hardware SKUs, long technology lists, or unsupported claims.
+- Ensure every summary claim maps to a selected Experience bullet or verified skill.
 
-### Avoid
-- Editing `Nemati_Resume.tex` before approval.
-- Creating new files unless explicitly requested or clearly necessary.
-- Fabricating skills, systems, metrics, publications, or production experience.
-- Adding irrelevant content that does not support the target role.
-- Keyword stuffing.
-- Long skills lists that dilute the most relevant signals for the target role.
-- Removing critical details such as education, contact information, or major achievements without approval.
+## Experience Selection and Editing
 
-## Technical Mapping
-For each role, map:
+- Compare every role's current bullets with all relevant bullet-bank variants.
+- Restore stronger archived bullets when they better match the target responsibilities.
+- Add, remove, replace, rewrite, and reorder bullets as needed for the target role.
+- Lead the latest position with the strongest and most relevant contribution.
+- Prioritize concrete ownership, technical depth, scale, metrics, evaluation, deployment, reliability, and research impact.
+- Use direct action verbs such as Developed, Designed, Deployed, Optimized, Integrated, Achieved, Architected, and Engineered.
+- Keep strong displaced variants in the bullet bank for future applications.
+- Preserve the `AI Researcher` title for Case Western Reserve University.
+- Use `Qwen3.5` for the corrected scene-understanding and ego-trajectory depth-pruning bullet. Do not restore the older model name for that specific bullet.
+- Describe the verified KV-cache contribution as an adaptive mixed-precision quantization method based on key/value norm imbalance. Do not assign an unsupported method name or publication status.
 
-- Required skills to matching bullets in both `Nemati_Resume.tex` and `resume_bullet_bank.md`, as well as the Skills section.
-- Preferred qualifications to relevant achievements or projects found in either the current resume or bullet bank.
-- Domain knowledge to projects with similar data, users, products, or constraints.
-- Soft skills to evidence of collaboration, ownership, communication, or ambiguity handling.
+## Skills
 
-## Resume Structure
-Maintain this structure in `Nemati_Resume.tex`:
+- Fill the Skills section with verified, role-relevant keywords from the job description, especially the responsibilities section.
+- Select skills from the verified core and role-dependent pools in `resume_bullet_bank.md`.
+- Keep Python and PyTorch unless there is an exceptional reason to omit them.
+- Use compact categories that fit the role, such as Programming, Machine Learning, Reinforcement Learning, Perception, Performance Optimization, Agentic AI, or ML Systems.
+- Put Model Evaluation under Machine Learning or another evaluation-focused category, not Model Optimization.
+- Put LangGraph under Agentic AI when an agent-focused category is used, not under ML Systems.
+- Put workload details, model sizes, hardware configurations, and measured outcomes in Experience rather than Skills.
+- Replace unrelated skills and categories when stronger verified job keywords exist.
 
-1. Header: name and contact information.
-2. Experience: most recent and relevant positions first, with concise bullets.
-3. Skills: grouped by category.
-4. Education: PhD, MS, BS.
+## Education and Structure
 
-## Language Guidance
-- Use specific action verbs such as Developed, Designed, Deployed, Optimized, Integrated, Achieved, Architected, and Engineered.
-- Match job posting terminology when truthful and supported.
-- Use concrete scale such as records processed, model size, latency, throughput, accuracy, memory savings, or deployment constraints.
-- Prioritize outcomes over tasks.
+Maintain this order:
 
-## Commit Standards
-- Treat a user instruction such as "commit" as a request to create the role-specific commit after confirming that the intended tailoring changes are complete.
-- Format: `Tailored for [Company] - [Position] - [YYYY-MM-DD]`.
-- Use the date of the resume tailoring/application in ISO format so commits sort chronologically.
-- Example: `Tailored for Apple - ML Research Engineer - 2026-08-18`.
-- Derive the company and exact position title from `job_description.txt` or the approved tailoring context. If either is missing or ambiguous, ask the user before committing rather than using a generic commit message.
-- Keep `job_description.txt` in sync with the target application.
-- Use commit messages that make it easy to track which resume version belongs to which role.
+1. Header
+2. Summary
+3. Experience
+4. Skills
+5. Education
 
-## Quality Checklist
-- The entire bullet bank was reviewed and compared against the job description and current resume.
-- Relevant banked bullets and variants were considered for restoration, replacement, and reordering.
-- The proposal was not limited to content already present in the current resume.
-- After approved resume changes, the bullet bank was updated with reusable improvements and displaced strong content.
-- Distinct role-specific variants were preserved rather than overwritten by the latest resume wording.
-- User approved all resume edits before implementation.
-- All added skills and experiences are verified.
-- Required skills from the job description are addressed where truthfully supported.
-- Keywords are naturally integrated.
-- Metrics are included where available.
-- Resume remains one page.
-- LaTeX compiles without errors when verification is possible.
-- Final compiled artifact is named `nemati_resume.pdf`.
-- Verified final PDF is archived under `applications/[Company]_[JobID]_[YYYY-MM-DD]/nemati_resume.pdf`.
-- Contact information is current.
-- The most relevant experience is emphasized.
+- Keep only the PhD entry in Education.
+- Do not add a Publications section unless the user explicitly requests one.
+- Keep the resume to one page.
+- Preserve the established visual style unless a layout adjustment improves readability or page balance.
+- Keep the top and bottom whitespace visually balanced and maintain clear spacing between bullets and roles.
+
+## Bullet Bank Maintenance
+
+After every tailoring pass:
+
+- Update `resume_bullet_bank.md` with useful new wording, verified metrics, corrections, skills, role-specific variants, and selection notes.
+- Record the company, role, and job ID for the completed variant.
+- Preserve distinct strong variants that may fit other roles.
+- Update or annotate outdated claims and remove incorrect wording.
+- Never let the newest resume overwrite the broader record of verified experience.
+- Record persistent user corrections so they carry into future applications.
+
+## Rendering and Verification
+
+1. Compile `Nemati_Resume.tex` with LaTeX.
+2. Confirm that compilation succeeds and the resume is exactly one page.
+3. Visually inspect the rendered page for clipping, crowding, awkward wrapping, inconsistent spacing, and unbalanced margins.
+4. Correct layout problems and render again.
+5. Run `./clean_resume.sh` after rendering.
+6. Keep the final compiled artifact at `output/pdf/nemati_resume.pdf` using that exact lowercase filename.
+
+## Application Archive
+
+Group completed applications by tailoring/application date inside the existing company directory:
+
+`applications/[Company]/[M-D-YYYY]/[Company]_[JobID]_[PostingM-PostingD]/`
+
+- Use the tailoring/application date for the outer date folder, including the year and omitting leading zeros (for example, `9-15-2026`).
+- Place all new application directories completed for that company on that date inside the same date folder.
+- Preserve the existing company directory spelling and capitalization, such as `Nvidia`.
+- Keep using the job posting date for the inner application directory suffix, omitting the year and leading zeros. Replace spaces and unsupported filename characters with underscores.
+- When revising an existing application, update its archive in its original date folder rather than creating a duplicate under the revision date.
+
+Example for an application tailored on September 15, 2026:
+
+`applications/Nvidia/9-15-2026/NVIDIA_JR2019844_9-15/`
+
+Every archive must contain:
+
+- `nemati_resume.pdf`, the verified final PDF
+- `Nemati_Resume.tex`, the exact source used for that PDF
+- `job_description.txt`, the matching complete text description
+- `job_description.md`, the matching renderable Markdown description
+
+For the inner application directory, resolve relative posting dates against the retrieval date: `Posted Today` uses the retrieval month and day, `Posted Yesterday` subtracts one calendar day, and `Posted N Days Ago` subtracts N calendar days.
+
+If the job ID or posting date cannot be recovered, do not invent it. Complete all other work and clearly report which archive metadata remains unavailable.
+
+If two distinct postings share the same company, visible job ID, and posting date, preserve both archives and append a short role qualifier to the newer folder instead of overwriting the existing application.
+
+## Completion Summary
+
+When finished, briefly report:
+
+- The role and company
+- The main alignment choices
+- Any important unsupported requirements that were omitted
+- One-page compilation and visual verification status
+- Links to the final PDF, application archive, source, and job description
+
+Do not present a proposal or ask for approval after completing the work.
+
+## Commits
+
+- Commit only when the user explicitly says `commit`.
+- Use: `Tailored for [Company] - [Exact Position] - [YYYY-MM-DD]`.
+- Use the tailoring or application date in ISO format.
+- Derive the company and exact position from the current job description.

@@ -1,0 +1,62 @@
+# Machine Learning Engineer Perception LLM/VLM (PhD, New Grad)
+
+- Company: Waymo
+- Position: Machine Learning Engineer Perception LLM/VLM (PhD, New Grad)
+- Job number: 4430
+- Location: Mountain View, California, United States; San Francisco, California, United States
+- Work arrangement: On Site
+- Department: Software Engineering
+- Employment type: Full-Time
+- Posting date: 2025-12-22 (official JobPosting datePosted: 2025-12-22T23:38:40Z)
+- Source URL: https://careers.withwaymo.com/jobs/machine-learning-engineer-perception-llm-vlm-phd-new-grad-mountain-view-california-united-states-san-francisco
+- Retrieval date: 2026-09-14
+
+## Job description
+
+Waymo is an autonomous driving technology company with the mission to be the world's most trusted driver. Since its start as the Google Self-Driving Car Project in 2009, Waymo has focused on building the Waymo Driver—The World's Most Experienced Driver™—to improve access to mobility while saving thousands of lives now lost to traffic crashes. The Waymo Driver powers Waymo’s fully autonomous ride-hail service and can also be applied to a range of vehicle platforms and product use cases. The Waymo Driver has provided over ten million rider-only trips, enabled by its experience autonomously driving over 100 million miles on public roads and tens of billions in simulation across 15+ U.S. states.
+
+The Perception team builds the system which learns the spatial-temporal representation and their semantic meanings of the surrounding environment of the autonomously driving vehicle (ADV), i.e., the system that “perceives” the world around the car. We work jointly with downstream teams on the optimization and integration into the Waymo Driver. We conduct our own research to address real-world problems and collaborate with research teams at Alphabet. We have access to millions of miles of driving data from a diverse set of sensors, enabling engineers like you to (1) develop methods for efficiently and continuously learning from large scale real-world data, to (2) develop models and model training at scale, to (3) analyze real-world behavior and develop systems for handling the complexities of interacting with the real-world, and (4) optimize models for our onboard and offboard hardware.
+
+You will:
+
+- Design, implement, and optimize large-scale continual pre-training pipelines for cutting-edge VLM foundation models.
+
+- Conduct research and development on novel pre-training techniques, focusing on efficiently integrating new, diverse, and multimodal data streams (e.g., visual data from different sensors) into existing models.
+
+- Develop and rigorously evaluate metrics and methodologies for measuring the performance, and transferability of continually pre-trained foundation models in the context of autonomous driving.
+
+- Stay current with the latest advancements in large language models, vision-language models, and continual learning, and translate relevant research into production-ready systems.
+
+You have:
+
+- 5+ years of experience in Machine Learning, with a focus on large-scale model development (LLM, VLM, or similar foundation models).
+
+- Proven expertise in LLM/VLM pre-training, continual learning with large scale datasets.
+
+- Strong coding proficiency in Python and deep learning frameworks (e.g., Jax, TensorFlow, PyTorch).
+
+- Hands-on experience with model training, evaluation, and deployment in a production environment.
+
+- Master's degree in Computer Science, Electrical Engineering, or a related field, or equivalent practical experience.
+
+We prefer:
+
+- Experience in fine-tuning foundation models for autonomous driving or robotics applications
+
+- Familiarity with large-scale data curation and quality assurance processes for multimodal datasets.
+
+- Background in autonomous vehicle perception, motion planning, or decision-making systems.
+
+- Publications in top-tier machine learning or computer vision conferences (e.g., NeurIPS, ICML, CVPR, ICCV, ECCV).
+
+- PhD in a relevant field.
+
+The expected base salary range for this full-time position across US locations is listed below. Actual starting pay will be based on job-related factors, including exact work location, experience, relevant training and education, and skill level. Your recruiter can share more about the specific salary range for the role location or, if the role can be performed remote, the specific salary range for your preferred location, during the hiring process. 
+
+Waymo employees are also eligible to participate in Waymo’s discretionary annual bonus program, equity incentive plan, and generous Company benefits program, subject to eligibility requirements. 
+
+Salary Range
+
+$170,000—$216,000 USD
+
+We appreciate your interest in Waymo. Waymo is proud to be an equal opportunity employer, committed to creating a culture of belonging and maintaining a supportive workplace for all employees. We welcome applicants of all backgrounds, and employment decisions are based on a candidate’s qualifications, experience, and alignment with job requirements and business needs. Waymo does not discriminate against, and prohibits harassment of, any applicant or employee based on race, color, sex, sexual orientation, gender identity, religion, national origin, age, disability, military status, family status, pregnancy, genetic information or any other basis protected by applicable law. Waymo will also consider for employment qualified applicants with criminal records in accordance with applicable law. Waymo is committed to making sure our hiring process is accessible for all candidates. If you need assistance applying for a role or participating in the interview process due to a disability, please let the recruiting team know or email waymo-candidatesupport@google.com. (This email address is intended to be used only for requesting accommodations as part of the application process. Other inquiries will not receive a response.)

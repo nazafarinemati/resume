@@ -1,0 +1,24 @@
+Senior Applied Research Scientist
+Apply
+locations
+US, CA, Santa Clara
+time type
+Full time
+posted on
+Posted 18 Days Ago
+job requisition id
+JR2020724
+The application of modern AI techniques to drug discovery, is radically redefining the field. Genomics, proteomics, molecular dynamics, docking, and protein folding are just some of the areas that are affected. NVIDIA is building an outstanding team to invent the future of foundation models for life sciences.  We are seeking senior research scientists and engineers to push the frontier of large-scale foundation models that natively speak the language of cells, biology, and chemistry.  The ideal candidate has a strong background in the combination of modern machine learning techniques as applied to drug discovery, genomics, proteomics, or medical chemistry.  This is a hands-on role for someone with deep technical expertise and a passion for advancing the state-of-the-art.
+What you’ll be doing
+Designing and training large-scale machine learning models at the intersection of genomics, proteomics, and chemistry
+Experimental design for probing the capabilities and limitations of the foundation models that are developed
+Mentoring other team members, leading research initiatives, and helping to craft strategic roadmaps
+Working closely with hardware and software teams to improve NVIDIA’s platforms for large-scale foundation model applications
+Engaging with the broader research community via publications, presentations, and research collaborations
+What we need to see:
+PhD (or equivalent experience) in Computer Science or Computational Biology
+2+ years in deep learning, bioinformatics, chemical engineering, structural biology, or related fields.
+Track record of excellence in engineering and research
+Deep understanding of modern AI techniques: deep learning for sequences, diffusion models, LLMs, unsupervised learning. Hands-on practical know-how of how to design, train, and evaluate large neural networks.
+Excellent software engineering and design instincts in Python, C++, or similar.
+Outstanding expertise in biochemistry, drug discovery, molecular biology, chemical engineering, or related fields

@@ -1,0 +1,48 @@
+# Research Scientist, RL for Autonomous Planning & World Modeling
+
+- Company: Waymo
+- Job number: 4391
+- Location: Kirkland, Washington; Mountain View, California; New York City, New York; San Francisco, California
+- Work arrangement: Hybrid / On Site
+- Department: AI Foundations
+- Employment type: Full-Time
+- Posting date: 2026-08-30
+- Source: [Official Waymo posting](https://careers.withwaymo.com/jobs/research-scientist-rl-for-autonomous-planning-world-modeling-kirkland-washington-united-states-mountain-view-california-new-york-city-new-york-san-francisco)
+- Retrieved: 2026-09-14
+
+## About Waymo and AI Foundations
+
+Waymo is an autonomous driving technology company with the mission to be the world's most trusted driver. Since its start as the Google Self-Driving Car Project in 2009, Waymo has focused on building the Waymo Driver, The World's Most Experienced Driver, to improve access to mobility while saving thousands of lives now lost to traffic crashes. The Waymo Driver powers Waymo's fully autonomous ride-hail service and can also be applied to a range of vehicle platforms and product use cases. It has provided over ten million rider-only trips, enabled by over 100 million autonomous miles on public roads and tens of billions in simulation across 15+ U.S. states.
+
+The Waymo AI Foundations team develops machine-learning solutions for open problems in autonomous driving, towards safely operating Waymo vehicles in dozens of cities and under all driving conditions. The team collaborates with other research teams in Alphabet. Current focus areas include reinforcement learning, learning from demonstration, generative modeling, Bayesian inference, hierarchical learning, and robust evaluation.
+
+In this hybrid role, you will report to a Principal Scientist.
+
+## You will
+
+- Participate in Waymo's Foundation World Model post-training and evaluation.
+- Research and develop cutting-edge RL and distillation techniques for Autonomous Vehicle Trajectory Planning.
+- Integrate emerging research from the broader AI community into Waymo's internal RL infrastructure, conducting rigorous ablations to identify and scale the most promising methods.
+- Partner with engineering and research teams across Waymo to share recipes, techniques, and post-training best practices to accelerate collective know-how.
+
+## You have
+
+- PhD or Master's degree in Computer Science, Machine Learning, Robotics, or a similar technical field, with 3+ years of industry or postdoctoral research experience in Reinforcement Learning or Foundation Models.
+- Demonstration of original contributions through high-impact publications, including arXiv and peer-reviewed conferences such as NeurIPS, ICLR, and CVPR, technical blog posts, or significant open-source contributions.
+- Proficiency implementing model-training flows in a scalable, distributed, and performant manner, such as data parallel, FSDP, and other sharding approaches.
+- Willingness to work with the complexity of globally distributed inference infrastructure.
+
+## We prefer
+
+- PhD in Computer Science, Machine Learning, or Robotics, with a research focus on Reinforcement Learning, Foundation Models, or Multi-Modal learning.
+- Extensive experience designing and deploying Reinforcement Learning infrastructure, specifically for on-policy learning or alignment with human preferences.
+- A consistent history of original contributions to the AI community, evidenced by first-author publications at top-tier venues such as NeurIPS, ICLR, and ICRA, or maintaining significant open-source ML projects.
+- Experience with large-scale, many-machine training infrastructure and techniques for inference with large models, such as model sharding and tensor parallelism.
+
+## Benefits, compensation, and equal opportunity
+
+Benefits include health, dental, vision, life, and disability insurance; 401(k) with company match; 20 days of vacation per year for the first five years; sick time; maternity leave; baby-bonding leave; and 13 paid holidays per year. Waymo may not be able to employ remotely in all locations. Candidates should discuss preferred locations for remote work with a recruiter.
+
+The expected base salary range for this full-time position across US locations is $204,000 to $259,000 USD. Actual starting pay will be based on job-related factors, including exact work location, experience, relevant training and education, and skill level. Waymo employees are also eligible for a discretionary annual bonus, equity incentives, and benefits, subject to eligibility requirements.
+
+Waymo is an equal opportunity employer. Employment decisions are based on qualifications, experience, and alignment with job requirements and business needs. Waymo provides accommodations during the hiring process and considers qualified applicants with criminal records in accordance with applicable law.

@@ -1,0 +1,57 @@
+# Waymo
+
+## Senior Machine Learning Engineer, Computer Vision/VLM
+
+| Field | Details |
+|---|---|
+| Job ID | 3742 |
+| Internal posting identifier | `06b58049383ff8530d321af18857d01f` |
+| Location | Mountain View, California, United States |
+| Work arrangement | On Site / Hybrid |
+| Department | Software Engineering |
+| Employment type | Full-Time |
+| Posting date | September 16, 2025 |
+| Retrieved | September 14, 2026 |
+| Source | [Official Waymo posting](https://careers.withwaymo.com/jobs/senior-machine-learning-engineer-computer-vision-vlm-mountain-view-california-united-states) |
+
+## About Waymo
+
+Waymo is an autonomous driving technology company with the mission to be the world's most trusted driver. Since its start as the Google Self-Driving Car Project in 2009, Waymo has focused on building the Waymo Driver to improve access to mobility while saving lives lost to traffic crashes. The Waymo Driver powers Waymo's fully autonomous ride-hail service and can be applied to a range of vehicle platforms and product use cases.
+
+The Waymo Driver has provided over ten million rider-only trips, enabled by autonomously driving over 100 million miles on public roads and tens of billions of miles in simulation across more than 15 U.S. states.
+
+## Team
+
+The Semantics team creates high-fidelity, comprehensive offboard perception autolabels at massive scale as the foundation for training and validating the autonomous-vehicle stack. The team uses computer vision, deep learning, and generative AI to analyze driving logs, generate rich scene understanding, and power Waymo's data engine.
+
+## You will
+
+- Develop and train state-of-the-art computer-vision and multimodal models to extract rich semantic information, including object attributes, scene properties, and interaction dynamics, required by the AI agent.
+- Design and implement a scalable AI-agent framework that integrates large foundation models with perception-model outputs and internal knowledge bases.
+- Develop and apply fine-tuning and reinforcement-learning techniques to create a data flywheel that continuously improves captioning and reasoning through automated feedback.
+- Develop and prototype prompting strategies for vision-language models to elicit complex, causal reasoning about driving scenarios.
+- Collaborate with ML Infrastructure, Perception, Behavior, and AI Foundation teams to define data requirements and integrate the captioning system into the broader ML development lifecycle.
+- Own the full system lifecycle, from advanced model development and prototyping through production deployment and scaling for massive data generation.
+
+## You have
+
+- Master's degree in Computer Science or a related technical field.
+- Four or more years of hands-on experience training and shipping deep-learning models for computer-vision tasks such as detection, segmentation, or video understanding, using Python and frameworks such as PyTorch, JAX, or TensorFlow.
+- One or more years of experience with LLMs or VLMs in areas such as fine-tuning, prompting, or retrieval-augmented generation.
+- Strong software-engineering fundamentals, including designing scalable and reliable systems.
+- Experience building and managing large-scale data-processing pipelines for ML training.
+- Ability to work autonomously and lead complex technical projects in a fast-paced R&D environment.
+
+## Preferred
+
+- PhD in Computer Science or a related technical field.
+- Publication record in top-tier AI conferences such as NeurIPS, ICML, ICLR, or CVPR.
+- Hands-on reinforcement-learning experience, especially RLHF, RLAIF, or RL applied to language or agentic tasks.
+- Experience with self-supervised, weakly supervised, or multi-task learning for perception.
+- Experience with AI-agent frameworks such as LangChain or LlamaIndex, or autonomous agentic systems.
+- Familiarity with multimodal-perception challenges in robotics or autonomous driving.
+- Record of impactful cross-functional collaboration.
+
+## Compensation
+
+Expected base salary: **$213,000-$263,000 USD**. Employees may also be eligible for an annual bonus, equity incentives, and benefits.

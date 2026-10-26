@@ -1,0 +1,40 @@
+Senior Deep Learning Algorithm Engineer
+Apply
+locations
+US, CA, Santa Clara
+US, CA, Remote
+time type
+Full time
+posted on
+Posted 4 Days Ago
+job requisition id
+JR2022994
+NVIDIA is looking for engineers for our core AI Frameworks (Megatron Core and NeMo Framework) team to design, develop and optimize diverse real world workloads. Megatron Core and NeMo Framework are open-source, scalable and cloud-native frameworks built for researchers and developers working on Large Language Models (LLM) and Multimodal (MM) foundation model pretraining and post-training. Our GenAI Frameworks provide end-to-end model training, including pretraining, reasoning, alignment, customization, evaluation, deployment and tooling to optimize performance and user experience.
+In this critical role, you will expand Megatron Core and NeMo Framework's capabilities, enabling users to develop, train, and optimize models by designing and implementing the latest in distributed training algorithms, model parallel paradigms, model optimizations, defining robust APIs, meticulously analyzing and tuning performance, and expanding our toolkits and libraries to be more comprehensive and coherent. You will collaborate with internal partners, users, and members of the open source community to analyze, design, and implement highly optimized solutions.
+What you’ll be doing:
+Develop algorithms for AI/DL, data analytics, machine learning, or scientific computing
+Contribute and advance open source NeMo-RL, Megatron Core, NeMo Framework
+Solve large-scale, end-to-end AI training and inference challenges, spanning the full model lifecycle from initial orchestration, data pre-processing, running of model training and tuning, to model deployment.
+Work at the intersection of compter-architecture, libraries, frameworks, AI applications and the entire software stack.
+Innovate and improve model architectures, distributed training algorithms, and model parallel paradigms.
+Performance tuning and optimizations, model training and finetuning with mixed precision recipes on next-gen NVIDIA GPU architectures.
+Research, prototype, and develop robust and scalable AI tools and pipelines.
+What we need to see:
+MS, PhD or equivalent experience in Computer Science, AI, Applied Math, or related fields.
+5+ years of industry experience.
+Experience with AI Frameworks (e.g. PyTorch, JAX, Ray), and/or inference and deployment environments (e.g. TRTLLM, vLLM, SGLang).
+Proficient in Python programming, software design, debugging, performance analysis, test design and documentation.
+Consistent record of working effectively across multiple engineering initiatives and improving AI libraries with new innovations.
+Strong understanding of AI/Deep-Learning fundamentals and their practical applications.
+Ways to stand out from the crowd:
+Hands-on experience in large-scale AI training, with a deep understanding of core compute system concepts (such as latency/throughput bottlenecks, pipelining, and multiprocessing) and demonstrated excellence in related performance analysis and tuning.
+Prior experience with Reinforcement Learning algorithms and compute patterns
+Expertise in distributed computing, model parallelism, and mixed precision training
+Prior experience with Generative AI techniques applied to LLM and Multi-Modal learning (Text, Image, and Video).
+Knowledge of GPU/CPU architecture and related numerical software.
+Your base salary will be determined based on your location, experience, and the pay of employees in similar positions. The base salary range is 184,000 USD - 287,500 USD for Level 4, and 224,000 USD - 356,500 USD for Level 5.
+You will also be eligible for equity and benefits.
+Applications for this job will be accepted at least until August 18, 2026.
+This posting is for an existing vacancy.
+NVIDIA uses AI tools in its recruiting processes.
+NVIDIA is committed to fostering an inclusive work environment and proud to be an equal opportunity employer. As we highly value diversity in our current and future employees, we do not discriminate (including in our hiring and promotion practices) on the basis of race, religion, color, national origin, gender, gender expression, sexual orientation, age, marital status, veteran status, disability status or any other characteristic protected by law.

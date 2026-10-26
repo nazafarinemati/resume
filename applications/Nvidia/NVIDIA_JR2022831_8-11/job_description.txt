@@ -1,0 +1,38 @@
+Software Engineer, CUDA Deep Learning Systems
+Apply
+locations
+US, CA, Santa Clara
+US, TX, Austin
+US, TX, Remote
+time type
+Full time
+posted on
+Posted 7 Days Ago
+job requisition id
+JR2022831
+We are looking for an experienced and highly motivated software professional to work on pioneering initiatives and projects at the intersection of CUDA and Deep Learning Systems. As the complexity and scale of artificial intelligence continue to grow, the intersection of advanced deep learning architectures, massive-scale distributed computing, and low-level hardware optimization has never been more critical. Our team is dedicated to exploring and prototyping next-generation ideas that bridge the gap between deep learning algorithms and CUDA, pushing the boundaries of what is possible on modern accelerator architectures. Join our dynamic, research-oriented team to help unlock maximum hardware performance for emerging AI workloads. You will be a crucial member of a highly technical group exploring uncharted territories in model optimization, custom kernel development, and cluster-scale AI systems design. If you are passionate about the fundamentals of deep learning and thrive on squeezing every ounce of performance out of advanced computing systems from a single GPU to supercomputer clusters, we want you on our team!
+What you will be doing:
+Explore, research, and prototype novel systems optimizations for advanced deep learning models at the intersection of high-level DL frameworks and low-level CUDA through modeling, simulation, and silicon prototyping.
+Architect and optimize distributed computing systems that scale seamlessly from a single node to massive, cluster-scale supercomputing environments.
+Design, implement, and optimize custom high-performance CUDA kernels tailored to emerging neural network architectures and workloads.
+Analyze complex hardware-software interactions to identify and resolve performance bottlenecks in both training and inference pipelines.
+Collaborate closely with AI researchers, HW and SW architects, kernel and compiler authors and CUDA driver experts to co-design systems and algorithms that improve accelerator compute utilization, memory bandwidth, cross-node network communication efficiency and programmability.
+Develop exploratory tools and runtime systems to profile and accelerate new paradigms in deep learning.
+Write clean, effective, and maintainable code, ensuring exploratory prototypes can smoothly transition into open-source releases, upstream framework integrations, internal tools, or closed-source commercial products.
+What we need to see:
+BS, MS, or PhD degree in Computer Science, Computer Engineering, Electrical Engineering, or related field (or equivalent experience).
+2+ years of relevant industry experience or equivalent academic experience after degree achievement.
+Strong proficiency in C++ and Python programming.
+Solid background in the fundamentals of Deep Learning with a focus on transformers.
+Strong understanding of distributed computing principles, multi-node scaling, and the unique performance challenges of cluster-scale execution.
+Proven experience in systems programming, computer architecture, and low-level systems performance optimization.
+Familiarity with deep learning accelerator architectures such as the GPU and hands-on experience with CUDA programming, kernel optimization, and workload profiling
+Experience profiling and optimizing generative AI models, including but not limited to, pioneering large language models.
+Research background in machine learning systems or adjacent fields and experience profiling and optimizing innovative vision models, generative AI architectures, or diffusion models.
+A track-record of initiative and willingness to deep-dive on problems across the stack.
+Ways to stand out from the crowd:
+Deep expertise in performance internals and execution graphs of major deep learning training and inference frameworks (e.g., PyTorch, JAX, TensorRT, vLLM, sgLang, Nemo, Megatron).
+Hands-on experience with communication libraries (e.g., NCCL, MPI, UCX) and distributed machine learning techniques (e.g., pipeline, tensor, expert parallelism).
+Knowledge of numerical methods and low-precision arithmetic (e.g., NVFP4, MXFP4, FP8, INT8) and their impact on deep learning accuracy and performance.
+Background in deep learning compilers and ML systems, including graph-level and codegen tools (e.g., Triton, XLA, torch.compile) and highly parallel/RL-style simulation environments.
+Experience designing and implementing agentic AI systems applied to complex systems and infrastructure problems.

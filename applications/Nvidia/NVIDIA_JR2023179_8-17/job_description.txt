@@ -1,0 +1,29 @@
+Senior Software Engineer, Agent Architecture and Evaluation
+Apply
+locations
+US, CA, Santa Clara
+US, CA, Remote
+time type
+Full time
+posted on
+Posted Yesterday
+job requisition id
+JR2023179
+We are now looking for a Senior Software Engineer for Agent Architecture and Evaluation! Today, NVIDIA is tapping into the unlimited potential of AI to define the next era of computing. An era in which our GPUs act as the brains of computers, robots, and self-driving cars that can understand the world. Doing what’s never been done before takes vision, innovation, and the world’s best talent. As an NVIDIAN, you’ll be immersed in a diverse, encouraging environment where everyone is inspired to do their best work.
+Demand for inference is growing rapidly, and coding and research agents are becoming major drivers of token usage. New agentic patterns, including reasoning models, parallel subagents, and long-horizon tool use, are further increasing the complexity and scale of inference workloads. We are looking to deeply understand the workload profiles of these agents as they evolve, developing the best understanding in the world so we can support building the best hardware in the world. Through this process, we will also engineer our own agentic AI systems to ensure NVIDIA stays ahead of the curve.
+What you will be doing:
+Building agentic systems in coding and research domains internally
+Architecting systems that analyze inference workload dynamics of leading agentic harnesses under realistic conditions
+Collaborating with teams that lead evaluation systems for software and hardware to improve eval quality
+What we need to see:
+Strong experience with building AI agents
+Familiarity with how to evaluate performance of AI agents
+Experience using coding agents like Codex and Claude Code
+MS in Computer Science or related field (or equivalent experience), with 5 years of relevant software development experience. Huge plus for recent experience to be in AI inferencing or Agents.
+Ways to stand out from the crowd:
+2+ years experience with building modern agentic systems or AI-backed systems.
+Open source projects showcasing agentic AI applications you have built
+Rigorous analytical approach to analyzing and collecting data
+NVIDIA is widely considered to be one of the technology world’s most desirable employers. We have some of the most forward-thinking and hardworking people in the world working for us. If you're creative and autonomous, we want to hear from you!
+#LI-Hybrid
+Your base salary will be determined based on your location, experience, and the pay of employees in similar positions. The base salary range is 152,000 USD - 241,500 USD for Level 3, and 184,000 USD - 287,500 USD for Level 4.

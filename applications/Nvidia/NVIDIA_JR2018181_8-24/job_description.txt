@@ -1,0 +1,62 @@
+Skip to main content
+ careers home
+CAREERS AT NVIDIA
+
+Sign In
+Home
+Search for Jobs
+
+Applied AI Engineer page is loaded
+Applied AI Engineer
+Apply
+Applied AI Engineer
+Apply
+locations
+US, CA, Remote
+US, GA, Remote
+US, TX, Remote
+US, AZ, Remote
+US, FL, Remote
+
+View All 6 Locations
+time type
+Full time
+posted on
+Posted Yesterday
+job requisition id
+JR2018181
+NVIDIA's Silicon Co-Design Group is seeking an Applied AI Engineer to innovate, develop, and integrate innovative AI solutions into the design and automation infrastructure that powers our chips. Every CPU, GPU, and Tegra SoC NVIDIA has shipped in the past four years passed through our toolchain on its way to production — over 200 product SKUs were optimized during the Blackwell generation alone. Now we're rebuilding that toolchain around AI, and we're looking for the engineer to lead that charge. In this role, you will architect and implement solutions that enhance the efficiency, scalability, and intelligence of our workflows, driving initiatives from concept to deployment. If you combine deep technical expertise with a hands-on approach and an aim to push the boundaries of what's possible, this is your opportunity. At NVIDIA, we strive for perfection, encourage innovation, and provide opportunities to explore new ways to succeed!
+What you'll be doing:
+LLM-Powered Validation Pipelines: Design and deploy AI systems that make post-silicon validation faster, smarter, and more scalable across semiconductor environments. You're not maintaining what exists, you're building what comes next.
+Cross-Team AI Integration: Work directly with multi-functional engineering teams across the organization to identify where AI can eliminate friction, and then build the solution. Your output will be felt across teams, products, and generations of silicon.
+Technology Scouting & Evaluation: Evaluate emerging AI frameworks and architectures before the rest of the industry catches on. Be the person who spots what's worth adopting, and makes the case for it.
+Impact Measurement & Continuous Improvement: Build the data systems that prove what's working. Establish clear, quantitative indicators of AI impact, close performance gaps, and drive iteration across the org to turn insight into lasting improvement!
+What we need to see:
+BS, MS, or PhD or equivalent experience in CS, EE, CE, or a related field, with 5+ years of hands-on experience building and deploying ML/AI systems or data-intensive backend services.
+2+ years of direct Applied AI experience independently owning an AI agent, LLM-powered workflow, or intelligent automation system end-to-end — from prototype through production deployment.
+Strong Python skills and proficiency in at least one static language such as C, C++, C#, Java, or Scala.
+Strong EE fundamentals, including computer architecture, high-speed interfaces, timing, power basics, and a solid understanding of firmware/driver structures and hardware interaction.
+Hands-on experience in production test, system validation, post-silicon bring-up, reliability, silicon debug, or silicon productization areas such as ATE, SLT, board-level test, validation, or yield analysis.
+Experience working within a silicon development environment, with exposure to chip and system characterization methodologies; familiarity with manufacturing and quality metrics (e.g., yield, FPY, DPPM, RAS, TTR, escape rate).
+Proven track record in balancing multiple concurrent projects and applying excellent problem-solving, communication, and teamwork skills.
+Ways to stand out from the crowd:
+Exposure to GPU, CPU, AI accelerator, networking, automotive, or other large-scale SoC programs.
+Familiarity with modern AI technologies and methodologies for crafting and launching LLMs.
+Experience with building and deploying orchestration agents managing hundreds to thousands of tools.
+Ability to translate innovative AI research into practical, high-impact production tools.
+Demonstrated experience with deep learning frameworks like PyTorch or TensorFlow, and hands-on experience with agentic and orchestration tools, including NeMo Agent Toolkit, LangChain, Semantic Kernel, AutoGen, CrewAI, or n8n.
+Our team is at the forefront of silicon innovation, advancing groundbreaking technologies. We offer a dynamic work environment where your contributions will directly impact the company's success. Join us to advance your career in a role where you can truly make a difference. With competitive salaries and a generous benefits package, we are widely considered one of the technology industry’s most desirable employers. We have some of the most forward-thinking and hardworking people in the world working for us, and due to unprecedented growth, our exclusive engineering teams are rapidly growing. If you're a creative and autonomous engineer with a real passion for technology, we want to hear from you!
+#LI-Hybrid
+Your base salary will be determined based on your location, experience, and the pay of employees in similar positions. The base salary range is 152,000 USD - 241,500 USD for Level 3, and 184,000 USD - 287,500 USD for Level 4.
+You will also be eligible for equity and benefits.
+Applications for this job will be accepted at least until August 28, 2026.
+This posting is for an existing vacancy.
+NVIDIA uses AI tools in its recruiting processes.
+NVIDIA is committed to fostering an inclusive work environment and proud to be an equal opportunity employer. As we highly value diversity in our current and future employees, we do not discriminate (including in our hiring and promotion practices) on the basis of race, religion, color, national origin, gender, gender expression, sexual orientation, age, marital status, veteran status, disability status or any other characteristic protected by law.
+NV-rgb-blk-apr2026
+NVIDIA pioneered accelerated computing. Today, our AI infrastructure powers global intelligence, transforming every industry.
+
+Learn more about NVIDIA.
+Follow Us
+Applicant Privacy Policy
+© 2026 Workday, Inc. All rights reserved.

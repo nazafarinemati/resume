@@ -1,0 +1,50 @@
+# Waymo
+
+## Senior Software Engineer, Training Efficiency
+
+| Field | Details |
+|---|---|
+| Job ID | 3627 |
+| Internal posting identifier | `ef7b23cc6c81d5912b40a7a9dcc35a30` |
+| Location | Mountain View, California, United States |
+| Work arrangement | On Site / Hybrid |
+| Department | Software Engineering |
+| Employment type | Full-Time |
+| Posting date | August 11, 2025 |
+| Retrieved | September 14, 2026 |
+| Source | [Official Waymo posting](https://careers.withwaymo.com/jobs/senior-software-engineer-training-efficiency-mountain-view-california-united-states) |
+
+## About Waymo
+
+Waymo is an autonomous driving technology company with the mission to be the world's most trusted driver. The Waymo Driver powers Waymo's fully autonomous ride-hail service and can be applied to a range of vehicle platforms and product use cases. It has provided over ten million rider-only trips, driven over 100 million autonomous miles on public roads, and completed tens of billions of miles in simulation across more than 15 U.S. states.
+
+## Team
+
+The ML Infrastructure team works with Research and Production teams to develop Perception and Planning models for autonomous-driving software. It provides solutions across the model-development lifecycle in collaboration with teams at Google, with emphasis on scaling models and solving ML problems specific to autonomous driving. This role improves the runtime efficiency of input data pipelines for large-scale training workloads.
+
+## You will
+
+- Design and improve distributed input data pipelines for large-scale ML training workloads.
+- Collaborate with researchers and ML engineers to resolve data-pipeline performance bottlenecks.
+- Improve ML training goodput by optimizing input-data processing and ensuring scalability and reliability across distributed environments.
+- Implement and maintain ML infrastructure tools including ML Pathways, Grain, JAX, and TensorFlow.
+- Evaluate and integrate modern technologies that improve ML-system performance and scalability.
+- Promote distributed-systems architecture best practices and contribute technical leadership.
+
+## You have
+
+- BS in Computer Science or Mathematics, or at least five years of equivalent real-world experience.
+- Proficiency in distributed-systems design and understanding of ML data-pipeline optimization.
+- Experience with ML frameworks including TensorFlow and JAX.
+- Hands-on experience with libraries such as Grain or tf.data service.
+- Strong Python and C++ programming skills.
+- Practical familiarity with profiling tools for finding performance bottlenecks.
+
+## Preferred
+
+- MS in Computer Science or Mathematics.
+- Familiarity with distributed dataflow frameworks such as ML Pathways.
+
+## Compensation
+
+Expected base salary: **$238,000-$302,000 USD**. Employees may also be eligible for an annual bonus, equity incentives, and benefits.

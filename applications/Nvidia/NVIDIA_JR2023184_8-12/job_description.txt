@@ -1,0 +1,35 @@
+Senior Software Engineer, Agent Simulation and Evaluation
+Apply
+locations
+US, CA, Santa Clara
+US, CA, Remote
+time type
+Full time
+posted on
+Posted 6 Days Ago
+job requisition id
+JR2023184
+We are now looking for a Senior Software Engineer for Agent Simulation & Evaluation! Today, NVIDIA is tapping into the unlimited potential of AI to define the next era of computing. An era in which our GPUs act as the brains of computers, robots, and self-driving cars that can understand the world. Doing what’s never been done before takes vision, innovation, and the world’s best talent. As an NVIDIAN, you’ll be immersed in a diverse, encouraging environment where everyone is inspired to do their best work.
+Demand for inference is growing rapidly, driven by reasoning models, coding agents, parallel subagents, and long-horizon tool use. These workloads are increasing the complexity of how AI systems must be evaluated, simulated, and optimized across different accelerator platforms. We are looking for an AI-native engineer who can combine a strong understanding of model architectures with performance analysis across GPU and LPU systems. You will use agentic methods to streamline simulation, evaluation, and critical engineering workflows for the LPU organization, helping NVIDIA develop a deeper understanding of emerging AI workloads and how they map to future hardware.
+What you will be doing:
+Building agentic systems that automate simulation, evaluation, performance analysis, and reporting.
+Developing tools that configure experiments, run evaluations, analyze results, identify regressions, and recommend follow-up work.
+Analyzing the inference characteristics of LLMs, reasoning models, coding agents, multimodal models, and agentic harnesses.
+Building and validating performance models for GPU, LPU, and heterogeneous GPU–LPU systems.
+Collaborating with inference, hardware, runtime, compiler, evaluation, and product teams to improve simulation quality and accelerate engineering decisions.
+Automating critical LPU workflows such as benchmarking, workload characterization, capacity planning, and release qualification.
+What we need to see:
+Strong experience building AI agents or AI-backed engineering systems.
+Familiarity with modern model architectures and AI inference workloads.
+Experience evaluating AI models or agents and analyzing performance.
+Experience with simulation, profiling, benchmarking, or performance modelling.
+Strong Python skills and experience building reliable engineering tools.
+MS in Computer Science, Engineering, or a related field, or equivalent experience.
+5+ years of relevant software development experience.
+2 years of experience building AI agents or building AI-backed engineering systems.
+Ways to stand out from the crowd:
+Experience using coding agents such as Codex, Claude Code, or similar tools to automate technical workflows.
+Knowledge of GPU or accelerator architecture, distributed inference, or high-performance computing.
+Open-source projects demonstrating agentic AI, evaluation, or performance-engineering applications.
+A rigorous analytical approach to experimentation, data collection, and validation.
+NVIDIA is widely considered one of the technology world’s most desirable employers. We have some of the most forward-thinking and hardworking people in the world working for us. If you’re creative, analytical, and autonomous, we want to hear from you!

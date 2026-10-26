@@ -1,0 +1,64 @@
+# AMD
+
+## Senior Compiler Software Development Engineer - AI/ML
+
+| Field | Details |
+|---|---|
+| Job ID | 89589 |
+| Location | San Jose, California, United States |
+| Work arrangement | Not stated in posting |
+| Department | Not stated in posting |
+| Employment type | Full-time |
+| Posting date | August 10, 2026 |
+| Valid through | August 10, 2027 |
+| Retrieved | October 26, 2026 |
+| Compensation | \$210,000-\$300,000 and \$240,000-\$360,000 USD/year (ranges shown in official posting) |
+| Source | [Official AMD posting](https://careers.amd.com/careers-home/jobs/89589?lang=en-us) |
+
+ADVANCE YOUR CAREER. ADVANCE THE WORLD.
+At AMD, we believe technology can change lives for the better. It can heal us, entertain us, and make us more connected, productive, and understanding of the world around us. And we’re looking for talent who feel the same: people who want to leave the planet better than they found it, those who don’t shy away from humanity’s challenges but are determined to help solve them.
+
+AMD is powering the next generation of supercomputing, high-performance computing, cloud, and AI. Whether you’re designing next-gen processors, enabling AI breakthroughs, or creating go-to-market plans, every role at AMD contributes to something bigger — technology that moves the world forward.
+
+## THE ROLE:
+
+We are seeking a highly motivated and technically exceptional PMTS AI/ML Compiler Engineer to join AMD's AI Software organization. In this role, you will drive compiler and performance optimizations that enable state-of-the-art AI training and inference workloads on AMD GPU platforms. You will work at the intersection of compiler technology, machine learning frameworks, GPU architecture, and performance engineering, contributing to the ROCm software ecosystem and ONNX Runtime execution stack. The ideal candidate combines deep compiler expertise with hands-on experience optimizing AI workloads, and thrives in a fast-paced environment collaborating across architecture, kernel, runtime, and framework teams.
+
+## THE PERSON:
+
+You are passionate about building high-performance AI software and solving complex optimization challenges. You possess strong compiler fundamentals, GPU programming expertise, and a proven ability to improve performance for large-scale AI models.
+You enjoy collaborating with architecture, compiler, runtime, and machine learning teams to deliver innovative solutions that scale across current and future AMD GPU platforms. You have a strong sense of ownership, excellent problem-solving skills, and a track record of driving meaningful performance improvements across software stacks.
+
+## KEY RESPONSIBILITIES:
+Work with AMD’s architecture specialists to improve future products
+Design, develop, and optimize compiler transformations and operator lowerings within MLIR, LLVM, and the ROCm software stack.
+Develop scalable solutions that improve portability and performance across AMD GPU architectures.
+Collaborate with compiler and runtime teams to develop advanced optimization strategies for AI workloads.
+Implement, validate, and maintain ONNX operators and microbenchmark test suites.
+Lead performance optimization efforts for AI training, fine-tuning, reinforcement learning (RL), and inference workloads on AMD GPUs.
+Design and implement graph-level, kernel-level, and runtime-level optimizations that deliver measurable performance gains.
+Analyze workload execution characteristics and identify opportunities for improvements in compute efficiency, memory utilization, and communication overhead.
+Drive performance characterization and benchmarking across pre-silicon and post-silicon environments. 
+## PREFERRED EXPERIENCE:
+Strong proficiency in C++ and object-oriented software development.
+Hands-on experience with GPU programming technologies such as HIP, CUDA, Triton, or equivalent parallel programming frameworks.
+Experience with compiler technologies including MLIR, LLVM, or related compiler infrastructures.
+Strong understanding of machine learning frameworks, model execution pipelines, and AI workload optimization.
+Experience profiling and optimizing performance-critical software systems.
+Proficiency with Linux development environments, source control systems (Git), debugging tools, and performance profilers.
+Strong analytical, communication, and problem-solving skills. 
+## ACADEMIC CREDENTIALS:
+Bachelor’s or Master's degree in Computer Science, Computer Engineering, Electrical Engineering, or equivalent 
+
+## LOCATION:
+San Jose, California
+
+#LI-JG1
+
+Benefits offered are described: AMD benefits at a glance.
+
+AMD does not accept unsolicited resumes from headhunters, recruitment agencies, or fee-based recruitment services. AMD and its subsidiaries are equal opportunity, inclusive employers and will consider all applicants without regard to age, ancestry, color, marital status, medical condition, mental or physical disability, national origin, race, religion, political and/or third-party affiliation, sex, pregnancy, sexual orientation, gender identity, military or veteran status, or any other characteristic protected by law. We encourage applications from all qualified candidates and will accommodate applicants’ needs under the respective laws throughout all stages of the recruitment and selection process.
+
+AMD may use Artificial Intelligence to help screen, assess or select applicants for this position. AMD’s “Responsible AI Policy” is available here.
+
+This posting is for an existing vacancy.

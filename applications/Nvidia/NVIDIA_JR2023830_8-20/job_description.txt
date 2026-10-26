@@ -1,0 +1,24 @@
+US, CA, Santa Clara
+time type
+Full time
+posted on
+Posted 5 Days Ago
+job requisition id
+JR2023830
+FlashDreams and FastGen are NVIDIA’s core technologies for turning video models into real-time world simulations. The stack spans model adaptation for faster generation and richer control, plus the execution layer that runs those models as responsive experiences. We develop and ship this technology in pursuit of generative worlds that people can explore and direct. The work can enable autonomous-driving simulation, robot policy development and testing, game worlds, medical simulation, and virtual training.
+As a Research Engineer, you will contribute across model development and runtime systems, building capabilities and helping turn research into systems that work in real applications. We work across the world-model ecosystem, from emerging startups to established model labs. If you want to collaborate with leading researchers, help shape a new computing platform, and ship AI capabilities with real-world impact, we would love to hear from you.
+What you'll be doing:
+Build and optimize the continuous autoregressive serving loop, including per-step control inputs, model and KV-cache state management, GPU inference, frame streaming, and model integrations to speed-of-light.
+Advance the production-ready world model frontier by working with researchers on few-step distillation, causal or autoregressive generation, reward fine-tuning, action conditioning, and long-horizon spatiotemporal memory and consistency.
+Deliver capabilities such as multi-user experiences and simulation workflows from prototype through evaluation, integration, and release. Partner with applied researchers and domain teams to meet quality, performance, and reliability goals.
+What we need to see:
+Experience in one or more areas such as video or world models, diffusion and generative modeling, model distillation and adaptation, simulation, robotics, computer vision, or real-time, stateful ML systems.
+A BS or MS in Computer Science, Computer Engineering, Electrical Engineering, or a related field or equivalent experience.
+3+ years of relevant experience building, evaluating, integrating, optimizing, or serving machine-learning systems through industry, academic research, open-source work, or substantial projects.
+Strong Python and PyTorch skills, supported by software-engineering fundamentals in design, testing, debugging, version control, performance analysis, and Linux development.
+Ability to turn an open-ended technical problem into a working implementation, measure its quality and performance, and communicate the results clearly.
+Ways to stand out from the crowd:
+Experience with post-training generative video models, including distillation, self-forcing, action conditioning, or long-horizon memory.
+Experience building and optimizing real-time, stateful generative inference systems, including history and KV-cache management, GPU kernels, quantization, parallel execution, streaming, scheduling, or multi-user serving.
+Contributions to an open-source ML project or developer platform, such as implementing model support, improving performance, building tests and benchmarks, fixing difficult issues, writing documentation, or helping users adopt the technology.
+With competitive salaries and a generous benefits package, we are widely considered to be one of the technology world’s most desirable employers. We have some of the most forward-thinking and hardworking people in the world working for us and, due to unprecedented growth, our exclusive engineering teams are rapidly growing. If you're a creative and autonomous engineer with a real passion for technology, we want to hear from you. NVIDIA is widely considered to be one of the technology world’s most desirable employers. We have some of the most hard-working and talented people in the world working for us. If you're creative and passionate about developing cloud services we want to hear from you!

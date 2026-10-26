@@ -1,0 +1,56 @@
+# AMD
+
+## Senior GPU Kernel Development Engineer
+
+| Field | Details |
+|---|---|
+| Job ID | 93491 |
+| Location | San Jose, California, United States |
+| Work arrangement | Not stated in posting |
+| Department | Not stated in posting |
+| Employment type | Full-time |
+| Posting date | October 14, 2026 |
+| Valid through | October 14, 2027 |
+| Retrieved | October 26, 2026 |
+| Compensation | \$170,100-\$243,000 and \$194,400-\$291,600 USD/year (ranges shown in official posting) |
+| Source | [Official AMD posting](https://careers.amd.com/careers-home/jobs/93491?lang=en-us) |
+
+ADVANCE YOUR CAREER. ADVANCE THE WORLD. 
+At AMD, we believe technology has the power to solve the world’s most important challenges. From advancing healthcare and scientific discovery to powering AI and the technologies people rely on every day, innovation at AMD is shaping the future. 
+
+Whether you’re designing next-gen processors, enabling AI breakthroughs, or bringing leading edge products to market, every role at AMD contributes to something bigger — technology that moves the world forward. Join us and, together, we’ll advance your career.
+
+## THE ROLE:
+As a senior technical member of the team, you will play a key role in designing, developing, and optimizing high-performance GPU kernels for LLM and other ML models. You will analyze performance bottlenecks and develop architecture-aware optimizations to maximize compute efficiency, memory bandwidth utilization, and overall GPU performance. You will also collaborate closely with GPU architecture, compiler, library, and framework teams to develop scalable solutions and advance GPU performance across current and next-generation platforms.  
+  
+## THE PERSON:
+The ideal candidate has strong experience in GPU programming, performance analysis and system software development. You will provide technical leadership, guiding teams and driving projects/initiatives independently. You will define goals, scope, and own development efforts while collaborating effectively within a high-performing team.
+  
+## KEY RESPONSIBILITIES:
+Architect and Optimize AI Workloads: Lead the optimization of LLMs, quantized models, and emerging AI workloads for AMD GPU architectures.
+Develop High-Performance GPU Kernels: Design, implement, profile, and optimize GPU kernels, with a strong focus on maximizing hardware utilization and application performance.
+Drive Performance Analysis: Perform deep performance characterization across compute, memory bandwidth, cache hierarchy, synchronization, kernel scheduling, and execution efficiency to identify and eliminate bottlenecks.
+Advance Compiler and Code-Generation Technologies: Develop compiler-level optimizations and code-generation techniques using LLVM, MLIR, and related technologies to achieve portable and scalable GPU performance.
+Innovate with AI-Assisted Development: Apply AI techniques to create next-generation tools for code generation, debugging, performance analysis, kernel optimization, and engineering productivity.
+  
+## PREFERRED EXPERIENCE:
+Strong C++ skills 
+Strong understanding of GPU compute, memory hierarchy, cache behavior, synchronization, and performance bottlenecks.
+Strong experience developing and optimizing GPU kernels using HIP, CUDA, C/C++, or similar technologies.
+Strong analytical/problem-solving skills and pronounced attention to details 
+Must be a self-starter, and able to independently drive tasks to completion 
+  
+## ACADEMIC CREDENTIALS:
+Bachelors or Masters degree in electrical or computer engineering 
+
+#LI-JG1
+
+This role is not eligible for visa sponsorship.
+
+Benefits offered are described: AMD benefits at a glance.
+
+AMD does not accept unsolicited resumes from headhunters, recruitment agencies, or fee-based recruitment services. AMD and its subsidiaries are equal opportunity, inclusive employers and will consider all applicants without regard to age, ancestry, color, marital status, medical condition, mental or physical disability, national origin, race, religion, political and/or third-party affiliation, sex, pregnancy, sexual orientation, gender identity, military or veteran status, or any other characteristic protected by law. We encourage applications from all qualified candidates and will accommodate applicants’ needs under the respective laws throughout all stages of the recruitment and selection process.
+
+AMD may use Artificial Intelligence to help screen, assess or select applicants for this position. AMD’s “Responsible AI Policy” is available here.
+
+This posting is for an existing vacancy.

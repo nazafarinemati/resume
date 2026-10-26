@@ -1,0 +1,49 @@
+# AMD
+
+## Senior GPU Inference Performance Engineer
+
+| Field | Details |
+|---|---|
+| Job ID | 87853 |
+| Location | Santa Clara, California, United States |
+| Work arrangement | Not stated in posting |
+| Department | Not stated in posting |
+| Employment type | Full-time |
+| Posting date | July 9, 2026 |
+| Valid through | July 9, 2027 |
+| Retrieved | October 26, 2026 |
+| Compensation | \$143,500-\$205,000 and \$164,000-\$246,000 USD/year (ranges shown in official posting) |
+| Source | [Official AMD posting](https://careers.amd.com/careers-home/jobs/87853?lang=en-us) |
+
+WHAT YOU DO AT AMD CHANGES EVERYTHING 
+At AMD, our mission is to build great products that accelerate next-generation computing experiences—from AI and data centers, to PCs, gaming and embedded systems. Grounded in a culture of innovation and collaboration, we believe real progress comes from bold ideas, human ingenuity and a shared passion to create something extraordinary. When you join AMD, you’ll discover the real differentiator is our culture. We push the limits of innovation to solve the world’s most important challenges—striving for execution excellence, while being direct, humble, collaborative, and inclusive of diverse perspectives. Join us as we shape the future of AI and beyond. Together, we advance your career. 
+
+THE ROLE:We are looking for a Senior GPU Inference Performance Engineer to own end-to-end performance analysis of GPU-accelerated AI inference workloads. You will profile, diagnose, and explain performance across the full stack from GPU silicon, communication libraries, networking fabrics, and operating systems through the software runtime and drive competitive positioning against other accelerator vendors. This role sits at the intersection of hardware, systems software, networking, and AI infrastructure, and requires someone who can go deep on a trace and present findings to product and executive stakeholders. THE PERSON:A hands-on performance engineer who is equally comfortable reading a GPU trace, debugging distributed systems performance issues, and briefing executives. You are curious, evidence-driven, rigorous, and you don't stop at "X is faster" and you explain why, rooted in hardware and software evidence. You collaborate across hardware, systems software, networking, and AI infrastructure teams, communicate clearly in written reports and presentations, and thrive at the intersection of silicon, operating systems, communication libraries, networking, and AI. Experience with Linux systems, distributed GPU infrastructure, RDMA/RoCE networking, or communication libraries such as NCCL/RCCL is highly valued. KEY RESPONSIBILITIES:Full-stack GPU profiling: Instrument and analyze inference workloads across AMD Instinct (ROCm, rocProfiler, ROCm Systems Profiler, RGP, rocprof-compute, rocprof-sys, Omniperf) and NVIDIA (CUDA, Nsight Systems/Compute, DCGM) GPUs. Identify bottlenecks spanning HBM bandwidth, compute utilization, kernel scheduling, memory allocation, PCIe/Infinity Fabric data movement, and GPU runtime behavior.
+Systems and runtime performance analysis: Profile and diagnose performance interactions between GPU runtimes, Linux operating systems, device drivers, container runtimes, memory subsystems, CPU scheduling, NUMA topology, and I/O pathways. Identify system-level bottlenecks that impact throughput, latency, and GPU utilization.
+Competitive performance analysis: Design and execute head-to-head benchmarks (AMD vs. NVIDIA) on standardized AI and LLM workloads. Produce clear, data-backed explanations of why performance differs attributing gaps to hardware architecture, networking topology, communication libraries, software maturity, runtime behavior, or configuration differences.
+Multi-server inference networking: Profile and optimize distributed inference topologies including prefill-decode (PD) disaggregation, pipeline parallelism, and tensor parallelism across multi-node clusters. Analyze network-level bottlenecks using RDMA/RoCE traces, NCCL/RCCL collective profiling, GPUDirect RDMA, NIC-level counters (Pensando, ConnectX), and network performance tools. Quantify the impact of latency, bandwidth, congestion, and topology on end-to-end inference SLAs.
+GPU operator and Kubernetes stack: Profile the overhead introduced by GPU operators, device plugins, container runtimes (Docker, containerd), and Kubernetes scheduling on inference latency. Identify and resolve jitter, cold-start, resource contention, and infrastructure inefficiencies in production environments.
+Tooling and automation: Build reproducible benchmarking harnesses, profiling scripts, and performance regression dashboards. Automate trace collection and analysis to support continuous performance validation across firmware, drivers, networking stacks, runtimes, and AI frameworks.
+
+PREFERRED EXPERIENCE:Background in GPU performance engineering, HPC, distributed systems, networking, operating systems, or systems performance analysis.
+Hands-on proficiency with either AMD (ROCm, rocProfiler, ROCm Systems Profiler, RGP, rocprof-compute, rocprof-sys, Omniperf/Omnitrace) or NVIDIA (CUDA, Nsight Systems/Compute, NCU) profiling toolchains, with deep understanding of GPU architecture: warp/wavefront execution, memory hierarchy, occupancy, and instruction-level parallelism.
+Experience analyzing GPU communication and networking performance including NCCL/RCCL, RDMA/RoCE, GPUDirect RDMA, UCX, MPI, ConnectX, Pensando, or similar high-performance networking technologies.
+Experience with multi-GPU and multi-node inference, training, or HPC environments including tensor parallelism, pipeline parallelism, distributed communication libraries, and network performance analysis tools.
+Experience with Linux systems performance analysis, operating systems, device drivers, virtualization, container runtimes, or low-level systems software development.
+Demonstrated ability to explain performance differences in written reports or presentations—not just "X is faster" but why, rooted in hardware and software evidence.
+Strong Python and C/C++ skills; comfort reading GPU kernel code (HIP/CUDA), runtime code, or systems-level software.
+Experience with Kubernetes GPU scheduling, MIG, GPU operator performance, or contributions to open-source infrastructure, systems, networking, inference, or profiling projects.
+
+ACADEMIC CREDENTIALS:Bachelor's degree in Computer Science, Computer Engineering, Electrical Engineering, or a related technical field preferred; advanced degree desired.
+
+This role is not eligible for visa sponsorship.
+
+#LI-CB1
+
+Benefits offered are described: AMD benefits at a glance.
+
+AMD does not accept unsolicited resumes from headhunters, recruitment agencies, or fee-based recruitment services. AMD and its subsidiaries are equal opportunity, inclusive employers and will consider all applicants without regard to age, ancestry, color, marital status, medical condition, mental or physical disability, national origin, race, religion, political and/or third-party affiliation, sex, pregnancy, sexual orientation, gender identity, military or veteran status, or any other characteristic protected by law. We encourage applications from all qualified candidates and will accommodate applicants’ needs under the respective laws throughout all stages of the recruitment and selection process.
+
+AMD may use Artificial Intelligence to help screen, assess or select applicants for this position. AMD’s “Responsible AI Policy” is available here.
+
+This posting is for an existing vacancy.

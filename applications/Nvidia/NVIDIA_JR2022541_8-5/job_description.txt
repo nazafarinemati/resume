@@ -1,0 +1,35 @@
+Senior Deep Learning Algorithm Engineer
+Apply
+locations
+US, CA, Santa Clara
+US, CA, Remote
+time type
+Full time
+posted on
+Posted 13 Days Ago
+job requisition id
+JR2022541
+NVIDIA is seeking a Senior Deep Learning Algorithms Engineer to advance Dynamo, our open-source distributed inference platform for large-scale, low-latency AI services. You’ll lead architecture and performance work across Dynamo and open source frameworks. You’ll collaborate across research, software, systems, and hardware teams to make AI inference faster, more efficient, and easier to deploy. You’ll engage with the broader ecosystem, including vLLM, SGLang, and TensorRT-LLM as well as with external partners to build the best operating system for AI. If you’re excited by deep learning, performance engineering, and distributed systems, we’d love to hear from you.
+
+What you'll be doing:
+Design, build, and maintain Dynamo integrations for open source frameworks vLLM, SGLang, TRTLLM.
+Partner with open source communities to land measurable gains in latency, throughput, reliability, and efficiency.
+Showcase NVIDIA token/watt leadership by pushing the pareto frontier on public/private benchmarks
+Find and remove bottlenecks across runtimes, kernels, networking, routing, and orchestration.
+Develop inference optimizations for scheduling, disaggregation, KV caching, and autoscaling.
+
+What we need to see:
+BS, MS, PhD in Computer Science, Electrical Engineering, Computer Engineering, or a related field (or equivalent experience).
+3+ years building, profiling, and debugging performance-critical distributed or ML systems.
+Strong programming skills in Python and/or Rust, C++.
+Understanding of modern ML architectures and inference techniques
+
+Ways to stand out from the crowd:
+High agency and a track record of leading ambiguous work end to end.
+Experience with AI Accelerators
+Open-source contributions / leadership
+Research in ML inference or distributed systems.
+
+NVIDIA is widely considered to be one of the technology world’s most desirable employers. We have some of the most forward-thinking and hardworking people in the world working for us. If you're creative and autonomous, we want to hear from you!
+
+#LI-Hybrid

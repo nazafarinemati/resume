@@ -1,0 +1,163 @@
+
+
+\RequirePackage{fix-cm}
+\documentclass[letterpaper,13pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage[absolute,overlay]{textpos}
+\usepackage{xcolor}
+\input{glyphtounicode}
+
+
+\pagestyle{fancy}
+\fancyhf{} 
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.35in}
+\addtolength{\textheight}{1.15in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+\titleformat{\section}{
+  \vspace{0pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-2pt}]
+
+\pdfgentounicode=1
+
+
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \enspace $|$ \enspace \textit{\small #4} \\
+      {\fontsize{10pt}{11pt}\selectfont\textit{#3}} & \\
+    \end{tabular*}\vspace{-1pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-4pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}[leftmargin=0.22in, itemsep=2pt, parsep=0pt, topsep=1pt, partopsep=0pt]}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-2pt}}
+
+\begin{document}
+
+\begin{center}
+    \textbf{\LARGE \scshape Mohammadreza Nemati} \\ \vspace{1pt}
+    \small  Santa Clara, CA 95054 $|$ 
+    \small Mobile: 567-204-7520 $|$ 
+    \href{mailto:mrnemati747@gmail.com}{mrnemati747@gmail.com} $|$
+    \small \href{https://www.linkedin.com/in/mnemati/}{\textcolor{blue}{\underline{www.linkedin.com/in/mnemati}}}
+\end{center}
+
+\section{Summary}
+\small{AI Engineer and Computer Science PhD specializing in CUDA deep-learning systems, distributed training, model compression, and inference optimization. Experienced prototyping attention kernels, profiling TensorRT-LLM and vLLM workloads, and developing scalable PyTorch pipelines for multimodal models.}
+\vspace{0.05cm}
+
+\section{Experience}
+\vspace{0.05cm}
+\resumeSubHeadingListStart
+
+\resumeSubheading
+  {AI Engineer}{2025 - Present}
+  {Volkswagen}{Belmont, CA}
+  \resumeItemListStart
+    \resumeItem{\textbf{Model Compression:} Compressed Qwen2.5-VL from 3.75B to 1.4B parameters using structured depth pruning, knowledge distillation from a 7B teacher, and quantization-aware training, reducing compute and memory requirements for efficient multimodal inference.}
+    \resumeItem{\textbf{Distributed Model Training:} Built distributed PyTorch/DDP pipelines for multimodal foundation models, supporting scalable multi-GPU training, task-specific evaluation, and performance validation.}
+    \resumeItem{\textbf{Inference Optimization:} Optimized Qwen3.5 inference up to 35B across TensorRT-LLM and vLLM, using NVIDIA Nsight Systems/Compute to isolate memory- and compute-bound bottlenecks and improve serving latency and throughput.}
+    \resumeItem{\textbf{CUDA Kernel Development:} Prototyped CUDA kernels for FlashAttention-style attention, analyzing memory-access patterns, tiling strategies, and GPU parallelism for low-latency inference.}
+  \resumeItemListEnd
+  \vspace{0.04cm}
+
+\resumeSubheading
+  {Artificial Intelligence Research Assistant}{2022 - 2025}
+  {Case Western Reserve University}{Cleveland, Ohio}
+  \resumeItemListStart
+    \resumeItem{\textbf{LLM Inference Optimization:} Analyzed KV-cache key/value norm imbalance to optimize LLM inference memory, achieving 2$\times$ memory reduction with $>$94\% accuracy retention across foundation models up to 70B parameters.}
+    \resumeItem{\textbf{Model Development:} Developed LIT-LVM, a latent-variable method for structured interaction modeling that outperformed elastic net, hierarchical lasso, and factorization-machine baselines across simulated and real-world datasets.}
+    \resumeItem{\textbf{Model Development:} Developed DEASurv, a multimodal time-to-event survival prediction model combining entity-specific embeddings, attention, and contrastive learning for large-scale medical datasets.}
+  \resumeItemListEnd
+  \vspace{0.02cm}
+
+\resumeSubheading
+  {Software Engineer - AI/ML Intern}{2024}
+  {Sherwin-Williams}{Cleveland, Ohio}
+  \resumeItemListStart
+    \resumeItem{\textbf{Model Deployment:} Designed and deployed real-time vision-transformer inference pipeline for SAM, tuning latency and improving segmentation quality by 7\% IoU through inference evaluation and pipeline optimization.}
+    \resumeItem{\textbf{Multimodal Grounding:} Built a VLM-based grounded-perception system integrating LLaVA and vision transformers for natural-language object grounding and segmentation.}
+  \resumeItemListEnd
+  \vspace{0.02cm}
+
+\resumeSubheading
+  {Data Science Research Intern}{2023}
+  {Beyond AI}{Glendale, California}
+  \resumeItemListStart
+    \resumeItem{\textbf{Distributed Model Training:} Fine-tuned Llama-2 on refinery-domain text using PyTorch FSDP/DDP for scalable multi-GPU training and quantized deployment.}
+    \resumeItem{\textbf{Graph Model Development:} Trained GCN, GAT, and GraphSAGE models using PyTorch Geometric for water-pressure prediction in water-grid systems.}
+  \resumeItemListEnd
+  \vspace{0.02cm}
+
+\resumeSubheading
+  {Software Intern}{2020}
+  {Nexteer Automotive}{Auburn Hills, Michigan}
+  \resumeItemListStart
+    \resumeItem{\textbf{ADAS Data Engineering:} Developed a data pipeline for electric power-steering test data, enabling structured analysis and validation of steering-system responses for ADAS applications.}
+  \resumeItemListEnd
+\resumeSubHeadingListEnd
+
+\section{Skills}
+\vspace{0.02cm}
+\begin{itemize}[leftmargin=0.15in, label={}, itemsep=2pt, topsep=1pt]
+  \item \textbf{Programming / Systems}: C++, Python, CUDA, Docker, Git
+  \item \textbf{Performance}: NVIDIA Nsight, FlashAttention, Latency/Throughput Optimization
+  \item \textbf{Machine Learning}: PyTorch, TensorFlow, Transformers, Reinforcement Learning, Graph Neural Networks
+  \item \textbf{Model Optimization}: Structured Pruning, Knowledge Distillation, Quantization
+\end{itemize}
+\vspace{0.02cm}
+
+\section{Education}
+\resumeSubHeadingListStart
+  \resumeProjectHeading{\textbf{Case Western Reserve University} -- PhD, Computer Science}{Cleveland, OH $|$ 2025}
+\resumeSubHeadingListEnd
+\end{document}

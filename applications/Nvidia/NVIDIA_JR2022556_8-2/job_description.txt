@@ -1,0 +1,35 @@
+Senior Software Engineer, Agentic AI
+Apply
+locations
+US, WA, Redmond
+US, CA, Santa Clara
+time type
+Full time
+posted on
+Posted 16 Days Ago
+job requisition id
+JR2022556
+
+
+We are now looking for a Senior Software Engineer, Agentic AI! NVIDIA has been transforming computer graphics, PC gaming, and accelerated computing for more than 25 years. It’s a unique legacy of innovation that’s fueled by great technology—and amazing people. Today, we’re tapping into the unlimited potential of AI to define the next era of computing. An era in which our GPU acts as the brain of computers, robots, and self-driving cars that can understand the world. Doing what’s never been done before takes vision, innovation, and the world’s best talent. As an NVIDIAN, you’ll be immersed in a diverse, supportive environment where everyone is inspired to do their best work. Come join the team and see how you can make a lasting impact on the world.
+NVIDIA is seeking a Senior Software Engineer to join our Agentic AI High-Performance Code Generation team. In this role, you will be at the heart of building autonomous systems that don't just suggest code—they engineer it at the highest levels of performance. We are seeking talented engineers with a robust background in agent design, AI evaluation, and distributed systems to help us redefine the software development lifecycle using NVIDIA’s world-class accelerated computing stack.
+What you’ll be doing:
+Architect Agentic Systems: Lead the design and implementation of sophisticated coding agents and agentic platforms capable of multi-step reasoning, self-correction, and autonomous code generation.
+Scale Distributed Systems: Build and maintain high-performance, large-scale production systems that handle the compute-intensive nature of agentic workflows and AI evaluation.
+Develop Evaluation Frameworks: Create and implement rigorous AI evaluation methodologies to measure the accuracy, safety, and efficiency of generated code and agentic logic.
+Optimize for Performance: Collaborate with hardware and software teams to ensure agent-generated code and the underlying platforms are optimized for the latest NVIDIA GPU architectures.
+Establish Engineering Standards: Drive best practices for code quality, testing, and deployment within the agentic AI ecosystem to ensure reliable, production-grade output.
+
+
+What we need to see:
+A MS in Computer Science, Computer Engineering, or a related field (or equivalent experience).
+4+ years of experience building and maintaining large-scale production systems.
+Proven experience in building coding agents or developing comprehensive agent platforms.
+Direct experience developing skills and workflows using state-of-the-art coding agents and IDEs (e.g., Claude Code, Cursor, or Codex).
+Proficient in Python and at least one systems programming language (C++ or Rust).
+Strong background in AI evaluation and the ability to design benchmarks for complex, non-deterministic agentic behaviors.
+Experience with distributed systems and orchestration to manage high-throughput AI workloads.
+Ways to stand out from the crowd:
+Low-Level Mastery: Experience writing CUDA kernels and deep-dive profiling using Nsight Compute and Nsight Systems.
+Framework Optimization: Hands-on experience optimizing and deploying with TRT-LLM, SGLang, vLLM, or Transformer Engine.
+Agentic Innovation: Demonstrated leadership in building and scaling agentic AI applications in production environments.

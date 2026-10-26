@@ -1,0 +1,53 @@
+# AMD
+
+## GPU Runtime and System Software Engineer - Fellow
+
+| Field | Details |
+|---|---|
+| Job ID | 91572 |
+| Location | San Jose, California, United States |
+| Work arrangement | Not stated in posting |
+| Department | Not stated in posting |
+| Employment type | Full-time |
+| Posting date | September 2, 2026 |
+| Valid through | September 2, 2027 |
+| Retrieved | October 26, 2026 |
+| Compensation | \$224,000-\$320,000 and \$256,000-\$384,000 USD/year (ranges shown in official posting) |
+| Source | [Official AMD posting](https://careers.amd.com/careers-home/jobs/91572?lang=en-us) |
+
+ADVANCE YOUR CAREER. ADVANCE THE WORLD. 
+At AMD, we believe technology has the power to solve the world’s most important challenges. From advancing healthcare and scientific discovery to powering AI and the technologies people rely on every day, innovation at AMD is shaping the future. 
+
+Whether you’re designing next-gen processors, enabling AI breakthroughs, or bringing leading edge products to market, every role at AMD contributes to something bigger — technology that moves the world forward. Join us and, together, we’ll advance your career.
+
+## THE ROLE:
+We are looking for a Fellow to design, develop, and optimize GPU runtime and system software, identifying and evaluating new technologies, driving innovation, and collaborating across AMD teams and with customers from early GPU product architecture definition to production. 
+
+## THE PERSON:
+We are looking for a talented and motivated GPU software architect with broad and deep experience in compute and machine learning software development on GPU. The ideal candidate is a technical powerhouse with a proven track record of solving complex GPU runtime and system problems, especially in modern data centers with large scale deployments of GPUs for AI/ML and HPC workloads. 
+
+## KEY RESPONSIBILITIES:
+Provide deep technical leadership and guidance for GPU runtime and system features and technologies, optimizing across the entire AI software stack.
+Collaborate with hardware and software architects from early architecture concept to product deployment.
+Partner with top customers and hyperscalers to understand their unique workload requirements and deliver tailored architectural wins and software optimizations.
+Engage with executives and key stakeholders to provide insight into industry trends and recommend strategic initiatives. Act as a subject matter expert and drive “state of the art” technologies to advance AMD machine learning products
+## PREFERRED EXPERIENCE:
+Strong background and hands-on experience in GPU runtime and system software from low-level device drivers and OS internals up through applications and AI/ML frameworks with strong written and verbal communication skills
+Deep expertise with kernel, driver and system level development in C/C++ and GPU software development and parallel programing
+Deep expertise with modern concurrent programming and threading APIs
+​Proven history of communication software thought leadership, backed with patents, publications, and participation in industry standards bodies
+## PREFERRED ACADEMIC CREDENTIALS:
+Bachelor’s or Master's or PhD degree in Computer Science, Computer Engineering, or equivalent.
+LOCATION: San Jose, CA 
+
+#LI-G11
+
+This role is not eligible for visa sponsorship.
+
+Benefits offered are described: AMD benefits at a glance.
+
+AMD does not accept unsolicited resumes from headhunters, recruitment agencies, or fee-based recruitment services. AMD and its subsidiaries are equal opportunity, inclusive employers and will consider all applicants without regard to age, ancestry, color, marital status, medical condition, mental or physical disability, national origin, race, religion, political and/or third-party affiliation, sex, pregnancy, sexual orientation, gender identity, military or veteran status, or any other characteristic protected by law. We encourage applications from all qualified candidates and will accommodate applicants’ needs under the respective laws throughout all stages of the recruitment and selection process.
+
+AMD may use Artificial Intelligence to help screen, assess or select applicants for this position. AMD’s “Responsible AI Policy” is available here.
+
+This posting is for an existing vacancy.

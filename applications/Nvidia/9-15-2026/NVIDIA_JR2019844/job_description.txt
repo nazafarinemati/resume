@@ -1,0 +1,75 @@
+Company: NVIDIA
+Exact position title: Senior Deep Learning Compiler Engineer - HW-SW Codesign
+Job ID: JR2019844
+Internal posting ID: 16aa33411c2610336f3d0ea8de7a0000
+Locations: US, CA, Santa Clara; US, TX, Austin; US, TX, Remote; US, WA, Remote; US, CA, Remote; US, WA, Redmond
+Work arrangement: Remote locations in CA, TX, and WA listed; onsite/hybrid schedules not specified
+Department / team: XLA team; formal department not specified
+Employment type: Full time
+Posting date: 2026-09-15 (Posted Today; API startDate 2026-09-15)
+Retrieval date: 2026-09-15
+Hiring organization: 2100 NVIDIA USA
+Source URL: https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Deep-Learning-Compiler-Engineer---XLA_JR2019844
+Title note: The supplied URL contains XLA; the live posting title is Senior Deep Learning Compiler Engineer - HW-SW Codesign.
+
+NVIDIA's invention of the GPU 1999 sparked the growth of the PC gaming market, redefined modern computer graphics, and revolutionized parallel computing. More recently, GPU deep learning ignited modern AI — the next era of computing — with the GPU acting as the brain of computers, robots, and self-driving cars that can perceive and understand the world. Today, we are increasingly known as “the AI computing company”.
+
+We are looking for versatile software engineers for our XLA team. NVIDIA is at the center for the AI revolution that's transforming how people live, work, and interact with technology. Come join us to build high-performance, production-grade software that's at the core of next-generation AI systems.
+
+What you will be doing:
+
+In this role, develop compiler optimization algorithms for deep learning workloads. You will optimize inference and training performance for the JAX framework and the OpenXLA compiler on NVIDIA GPUs at scale. You’ll collaborate with our partners in deep learning framework teams and our hardware architecture teams to accelerate the next generation of deep learning software. The scope of these efforts include:
+
+- Crafting and implementing compiler optimization techniques for deep learning network graphs.
+
+- Designing novel graph partitioning and tensor sharding techniques for distributed training and inference.
+
+- Performance tuning and analysis.
+
+- Code-generation for NVIDIA GPU backends using open-source compilers such as MLIR, LLVM and OpenAI Triton.
+
+- Designing user facing features in JAX and related libraries and other general software engineering work.
+
+- Working closely with GPU hardware engineering teams to design AI compiler software features for next-generation GPUs.
+
+What we need to see:
+
+- Bachelors, Masters or Ph.D. in Computer Science, Computer Engineering, related field (or equivalent experience).
+
+- 4+ years of relevant work or research experience in performance analysis and compiler optimizations.
+
+- Ability to work independently, define project goals and scope, and lead your own development effort adopting clean software engineering and testing practices.
+
+- Excellent C/C++ programming and software design skills, including debugging, performance analysis, and test design.
+
+- Strong foundation in architecture of CPU, GPUs or other high performance hardware accelerators. Knowledge of high-performance computing and distributed programming.
+
+- CUDA or OpenCL programming experience is desired but not required.
+
+- Experience with the following technologies is a huge plus: XLA, TVM, MLIR, LLVM, OpenAI Triton, deep learning models and algorithms, and deep learning framework design.
+
+- Strong interpersonal skills are required along with the ability to work in a dynamic product-oriented team. A history of mentoring junior engineers and interns is a bonus.
+
+Ways to stand out from the crowd:
+
+- Experience working deep learning frameworks such as JAX, PyTorch or TensorFlow.
+
+- Extensive experience with CUDA or with GPUs in general.
+
+- Experience with open-source compilers such as XLA, LLVM, MLIR or TVM.
+
+With competitive salaries and a generous benefits package, we are widely considered to be one of the technology world’s most desirable employers. We have some of the most forward-thinking and hardworking people in the world working for us and, due to unprecedented growth, our exclusive engineering teams are rapidly growing. If you're a creative and autonomous engineer with a real passion for technology, we want to hear from you.
+
+Your base salary will be determined based on your location, experience, and the pay of employees in similar positions. The base salary range is 152,000 USD - 241,500 USD for Level 3, and 184,000 USD - 287,500 USD for Level 4.
+
+You will also be eligible for equity and benefits.
+
+Applications for this job will be accepted at least until September 19, 2026.
+
+This posting is for an existing vacancy. 
+
+NVIDIA uses AI tools in its recruiting processes.
+
+NVIDIA is committed to fostering an inclusive work environment and proud to be an equal opportunity employer. As we highly value diversity in our current and future employees, we do not discriminate (including in our hiring and promotion practices) on the basis of race, religion, color, national origin, gender, gender expression, sexual orientation, age, marital status, veteran status, disability status or any other characteristic protected by law.
+
+#deeplearning

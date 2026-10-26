@@ -1,0 +1,34 @@
+Senior Solutions Architect, Financial Services Banking
+Apply
+locations
+US, NY, Remote
+US, NJ, Remote
+US, CA, Santa Clara
+time type
+Full time
+posted on
+Posted Yesterday
+job requisition id
+JR2023237
+The Financial Services Solutions Architect team is looking for an extraordinary person to join an experienced team of Quants and Data Scientists, engaging the finance industry with compelling examples of full-stack accelerated computing. Solutions Architects work with top minds in Financial Services - Banking, Consumer Finance - to accelerate High-Performance Computing and AI workloads across various use cases. We’re seeking an inquisitive, hard-working, and creative individual passionate about helping tackle challenges. Join us in this endeavor!
+What You’ll Be Doing:
+Partner with NVIDIA Engineering, Product, and Sales teams to secure design wins at customers. Enable development and growth of NVIDIA product features through customer feedback and proof-of-concept evaluations.
+Perform proof-of-concepts working side by side with clients, engineers, and other architects on in-depth analysis, profiling and optimization of machine learning/deep learning models to ensure the best performance on current- and next-generation GPU architectures.
+Work directly with client ML researchers and developers/engineers on business-impacting workflows, projects, and issues to drive success using NVIDIA technology.
+Facilitate rapid resolution of customer issues and promote the highest levels of customer satisfaction.
+Build collateral (notebooks/ blogs) applied to Finance industry use-cases such as ML/DL, recommender systems, GNN, monte-carlo simulations, Quantitative Finance, etc. by working closely with customers.
+What We Need To See:
+BS/MS/PhD in Computer Science, Electrical/Computer Engineering, Physics, Mathematics, or other Engineering fields (or equivalent experience)
+8+ years experience as an ML/Software Engineer with a proven track record in writing code in Python, C++
+Experience with ML/DL algorithms with frameworks such as TensorFlow, Jax, PyTorch, Spark, Dask
+Ability to communicate ideas and share code clearly through blog posts, GitHub
+Enjoy working with multiple levels and teams across organizations (engineering/research, product, sales, and marketing teams)
+Effective verbal/written communication and technical presentation skills
+Self-starter with a passion for growth, a real enthusiasm for continuous learning, and sharing findings across the team
+Ways To Stand Out From The Crowd:
+Experience building and deploying Banking and Payments modeling techniques, such as: Time-series, Transformers, GraphNNs, XGBoost, Recommender Systems, etc
+Familiarity with NLP Generative and Agentic AI models, frameworks, and applications
+Skilled in deploying ML/DL models at scale on on-prem or public cloud computing clusters in production
+Development experience with NVIDIA software libraries and GPUs
+Knowledge of MLOps technologies such as Docker/containers, Kubernetes, data center deployments etc. Experience working with enterprise developers building AI, HPC, or data analytics applications
+NVIDIA is widely considered to be one of the technology world’s most desirable employers. We have some of the most forward-thinking and hardworking people in the world working for us
